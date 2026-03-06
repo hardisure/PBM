@@ -1,0 +1,705 @@
+# 📖 MANUAL BOOK
+# Organizational Engineering Engine (OrgEngine) v2.0
+
+**PT Mitra Karya Prima**  
+Dokumen Panduan Penggunaan Aplikasi
+
+---
+
+## Daftar Isi
+
+1. [Pendahuluan](#bab-1--pendahuluan)
+2. [Dashboard (Decision Cockpit)](#bab-2--dashboard-decision-cockpit)
+3. [Modul 1 — Process Analysis](#bab-3--modul-1--process-analysis)
+4. [Modul 2 — Job Evaluation](#bab-4--modul-2--job-evaluation)
+5. [Pedoman Penilaian Scoring Matrix](#bab-5--pedoman-penilaian-scoring-matrix)
+6. [Modul 3 — Workload Analysis](#bab-6--modul-3--workload-analysis)
+7. [Modul 4 — Org Simulator](#bab-7--modul-4--org-simulator)
+8. [Risk Severity Index](#bab-8--risk-severity-index)
+9. [Panduan Ekspor Data](#bab-9--panduan-ekspor-data)
+10. [Glossarium & Rumus](#bab-10--glossarium--rumus)
+
+---
+
+## Bab 1 — Pendahuluan
+
+### 1.1 Latar Belakang
+
+Organizational Engineering Engine (OrgEngine) adalah **analytical engine** untuk perancangan organisasi berbasis proses bisnis. Engine ini menggunakan kerangka **APQC Process Classification Framework (PCF)** sebagai basis pemetaan proses L1–L3 dan mengintegrasikan pendekatan **Hay Method** untuk evaluasi jabatan.
+
+Tujuan utama engine ini adalah menyediakan **evidence-based decision support** bagi tingkat Direksi untuk:
+- Memetakan kepemilikan proses bisnis secara transparan (RACI)
+- Mengevaluasi bobot jabatan berdasarkan eksposur sistemik
+- Menganalisis beban kerja dan mendeteksi ketimpangan
+- Mensimulasikan skenario reorganisasi sebelum implementasi
+
+### 1.2 Arsitektur Sistem
+
+Engine terdiri dari **4 modul utama** yang saling terintegrasi:
+
+| Modul | Nama | Fungsi |
+|-------|------|--------|
+| **M1** | Process Analysis | Pemetaan proses bisnis L3 ke struktur organisasi menggunakan RACI |
+| **M2** | Job Evaluation | Evaluasi bobot jabatan menggunakan model multiplikatif kausal v2.0 |
+| **M3** | Workload Analysis | Analisis beban kerja relatif dan absolut, deteksi ketimpangan |
+| **M4** | Org Simulator | Simulasi what-if untuk reorganisasi proses bisnis |
+
+Selain itu terdapat **Dashboard** (halaman utama) dan **Manual Book** (halaman panduan ini di dalam aplikasi).
+
+### 1.3 Alur Kerja
+
+```
+1. Input Data Proses → 2. Assign RACI → 3. Scoring 12 Dimensi → 4. Input Workload → 5. Analisis & Simulasi
+```
+
+### 1.4 Teknologi & Data
+
+- **Frontend**: Vanilla JavaScript + Vite (build tool)
+- **Penyimpanan**: localStorage + Firebase Realtime Database (cloud sync)
+- **Visualisasi**: Chart.js (grafik interaktif)
+- **Ekspor**: PDF, XLSX (Excel), JSON
+
+### 1.5 Navigasi Aplikasi
+
+Aplikasi memiliki **sidebar** di sisi kiri yang berisi:
+- **Menu navigasi** ke setiap modul (Dashboard, M1, M2, M3, M4, Manual Book)
+- **Tombol ekspor** di bagian bawah sidebar: PDF, Ownership XLSX, Scoring XLSX, Import/Export JSON
+- **Toggle tema** (Dark Mode / Light Mode)
+- **Reset to Defaults** — mengembalikan semua data ke kondisi awal (seed data)
+- **Cloud Sync Status** — menunjukkan status sinkronisasi data ke Firebase
+
+---
+
+## Bab 2 — Dashboard (Decision Cockpit)
+
+Dashboard adalah halaman utama yang menyajikan **ringkasan eksekutif** untuk pengambilan keputusan tingkat Direksi. Indikator dibagi menjadi dua kategori:
+
+### 2.1 Governance Risk Indicators (Prioritas Tinggi)
+
+Indikator yang memerlukan perhatian segera jika tidak berwarna hijau:
+
+| Indikator | Definisi | Threshold |
+|-----------|----------|-----------|
+| **Orphan Processes** | Jumlah proses L3 yang belum memiliki penanggung jawab (Accountable) | Target: **0** |
+| **ACI (Accountability Concentration Index)** | Persentase proses yang dimiliki subdit terbesar terhadap total proses. Mengukur konsentrasi tanggung jawab. | 🟢 <20% \| 🟡 20-25% \| 🔴 >25% |
+| **Workload Gini Coefficient** | Ukuran ketimpangan distribusi beban kerja antar subdit (0 = sempurna merata, 1 = timpang total). | 🟢 <0.3 \| 🟡 0.3-0.5 \| 🔴 >0.5 |
+
+### 2.2 Structural Metrics (Informasional)
+
+| Metrik | Definisi |
+|--------|----------|
+| **L3 Coverage** | Persentase proses L3 yang sudah ter-assign ke subdit |
+| **Avg Job Size** | Rata-rata Job Size Index seluruh subdit |
+| **Total Subdits** | Jumlah subdit yang aktif dalam organisasi |
+
+### 2.3 Visualisasi Dashboard
+
+Dashboard menyajikan beberapa visualisasi utama:
+1. **ACI Gauge** — Speedometer yang menunjukkan level konsentrasi akuntabilitas dengan zona threshold berwarna
+2. **Scatter Plot** — Diagram pencar Job Size vs Workload dengan garis rata-rata dan deteksi outlier per kuadran
+3. **Capacity Utilization Heatmap** — Peta panas utilisasi kapasitas per subdit
+4. **Weighted L3 Distribution** — Grafik distribusi proses L3 tertimbang per subdit
+5. **Risk Severity Table** — Tabel risiko per subdit dengan status severity
+
+### 2.4 Snapshot Comparison
+
+Dashboard menyimpan **snapshot data sebelumnya** untuk membandingkan perubahan (delta %). Setiap kali data berubah, sistem menyimpan snapshot sebagai baseline perbandingan. Badge delta (▲/▼) ditampilkan di setiap KPI.
+
+### 2.5 Executive Mode
+
+Tersedia tombol **Executive Mode** yang menyajikan ringkasan naratif otomatis berisi:
+- Executive Summary tertulis
+- Rekomendasi tindakan berdasarkan kondisi data
+- Panel risiko struktural
+
+---
+
+## Bab 3 — Modul 1 — Process Analysis
+
+### 3.1 Konsep RACI
+
+Setiap proses L3 harus memiliki penugasan RACI:
+
+| Peran | Definisi | Aturan |
+|-------|----------|--------|
+| **Accountable (A)** | Pemilik akuntabilitas utama atas proses. Bertanggung jawab atas hasil akhir. | Hanya **1 subdit per proses** |
+| **Responsible (R)** | Pelaksana operasional yang mengerjakan proses. | Bisa lebih dari 1 |
+| **Consulted (C)** | Pihak yang dimintai pendapat/masukan sebelum keputusan. | Opsional |
+| **Informed (I)** | Pihak yang perlu diberitahu setelah keputusan/eksekusi. | Opsional |
+
+### 3.2 Hirarki Proses (L1 → L2 → L3)
+
+Proses bisnis disusun dalam 3 level berdasarkan APQC PCF:
+- **L1 (Category)**: Kelompok besar proses (misal: "1.0 Perencanaan Strategis")
+- **L2 (Group)**: Sub-kategori (misal: "1.1 Merumuskan RJPP")
+- **L3 (Activity)**: Aktivitas spesifik yang dikelola (misal: "Analisa Kondisi Eksternal dan Internal")
+
+### 3.3 ACI (Accountability Concentration Index)
+
+**Rumus:**
+```
+ACI = (Jumlah L3 di subdit terbesar / Total L3) × 100%
+```
+ACI mengukur apakah ada subdit yang menguasai terlalu banyak proses. ACI tinggi menandakan risiko konsentrasi — jika subdit tersebut gagal, dampaknya akan sangat luas.
+
+### 3.4 Tab-Tab di Modul 1
+
+| Tab | Fungsi |
+|-----|--------|
+| **Ownership Matrix** | Matriks RACI: assign Accountable/Responsible/Consulted/Informed per proses L3 per subdit |
+| **Process Registry** | Daftar lengkap proses L3, edit kategori L1/L2, dan tambah/hapus proses |
+| **Org Structure** | Kelola struktur organisasi (Direktorat → Subdit) |
+| **Distribution** | Grafik distribusi L3 per subdit + validasi anomali |
+
+### 3.5 Cara Menggunakan
+
+1. **Buka tab Process Registry** → Review daftar proses L3 yang sudah ter-seed
+2. **Tambah proses baru** → Klik tombol "+ Add Process", isi L1/L2/L3
+3. **Buka tab Org Structure** → Review/edit direktorat dan subdit
+4. **Buka tab Ownership Matrix** → Klik cell pada matriks untuk assign peran RACI
+5. **Perhatikan badge warning** → Sistem akan menandai orphan process (proses tanpa Accountable) atau duplikat
+
+---
+
+## Bab 4 — Modul 2 — Job Evaluation
+
+### 4.1 Filosofi Model v2.0
+
+> *"Job Size adalah ukuran eksposur sistemik dan kapasitas transformasional yang diemban oleh suatu peran terhadap kelangsungan dan nilai organisasi."*
+
+Job Size **bukan** ukuran posisi struktural, bukan ukuran jumlah bawahan, dan bukan ukuran volume kerja operasional. Model v2.0 menggunakan pendekatan **intensity-dominant normalization** — skor didasarkan pada *kualitas dan intensitas*, bukan jumlah proses.
+
+### 4.2 Model Multiplikatif Kausal
+
+```
+Job Size = KH^α × PS_eff^β × AC^γ
+```
+- **α = 0.35** (weight Know-How)
+- **β = 0.35** (weight Problem Solving)
+- **γ = 0.30** (weight Accountability)
+
+### 4.3 Tiga Stage Perhitungan
+
+#### Stage 1 — Capital Formation (Know-How)
+```
+KH = AVG(Domain Count + Reg. Intensity + Specialization) per L3
+```
+Mengukur akumulasi modal pengetahuan — berapa banyak domain, kedalaman regulasi, dan tingkat spesialisasi yang dibutuhkan. Menggunakan AVG agar tidak bias terhadap jumlah proses.
+
+#### Stage 2 — Cognitive Transformation (Problem Solving)
+```
+PS = AVG(Complexity) × AVG(Interdependency) × √n
+```
+Mengukur intensitas transformasi kognitif — seberapa kompleks masalah yang harus dipecahkan dan seberapa saling terkait prosesnya. √n memberikan bonus skala moderat.
+
+#### Stage 3 — Delegated Risk Exposure (Accountability)
+```
+AC = AVG(FtA × Strategic × Risk × SysExp) × log₂(n+1)
+```
+Mengukur eksposur risiko — seberapa besar dampak strategis, paparan risiko, dan otonomi keputusan. log₂(n+1) mencegah dominasi volume.
+
+### 4.4 Scoring Matrix — 12 Dimensi
+
+Setiap proses L3 dinilai pada 12 dimensi:
+
+| Kode | Nama | Skala | Stage |
+|------|------|-------|-------|
+| Dom. | Domain Count | 1–20 | Stage 1 |
+| Reg.I | Regulatory Intensity | 1–5 | Stage 1 |
+| Spec. | Specialization Level | 1–5 | Stage 1 |
+| Cmplx | Complexity Score | 1–5 | Stage 2 |
+| Inter. | Interdependency Count | 0–20 | Stage 2 |
+| Strat. | Strategic Impact | 1–5 | Stage 3 |
+| Risk | Risk Exposure | 1–5 | Stage 3 |
+| Fin.S | Financial Sensitivity | 0.0–1.0 | Stage 3 |
+| FtA | Freedom to Act | 1–5 | SysExp |
+| Reg.E | Regulatory Exposure | 1–5 | SysExp |
+| Rep.R | Reputational Risk | 1–5 | SysExp |
+| ESG | ESG Impact | 1–5 | SysExp |
+
+### 4.5 Robustness Tests
+
+Engine menjalankan 4 uji ketahanan untuk memastikan model tidak bias:
+
+| Test | Mengukur | Threshold |
+|------|----------|-----------|
+| **Sensitivity Test** | Apakah ±10% perubahan input mengubah ranking secara drastis? | Rank changes ≤ 2 |
+| **Extreme Scenario** | Apakah subdit kecil bisa menyaingi subdit besar hanya karena volume? | Top-3 tidak berubah |
+| **Correlation Test** | Apakah Job Size didominasi oleh jumlah L3? (r² dengan L3 count) | r² < 0.7 |
+| **Distribution Test** | Apakah skor terdistribusi normal (tidak terlalu terkonsentrasi)? | CV > 0.15 |
+
+### 4.6 Tab-Tab di Modul 2
+
+| Tab | Fungsi |
+|-----|--------|
+| **Ranking** | Tabel ranking Job Size per subdit, termasuk tombol unduh PDF Uraian Jabatan per subdit |
+| **Scoring Matrix** | Input/edit skor 12 dimensi per proses L3, filter per subdit |
+| **Charts** | Radar chart (profil 3 stage per subdit) dan Scatter chart (Job Size vs L3 Count) |
+| **Robustness** | Hasil 4 uji ketahanan model: Sensitivity, Extreme, Correlation, Distribution |
+
+### 4.7 Cara Menggunakan
+
+1. **Buka tab Scoring Matrix** → Pilih subdit dari filter dropdown
+2. **Isi skor 12 dimensi** untuk setiap proses L3 yang dimiliki subdit tersebut
+3. **Periksa tab Ranking** → Lihat hasil perhitungan Job Size Index per subdit
+4. **Periksa tab Robustness** → Pastikan semua 4 test berstatus PASS
+5. **Unduh PDF Uraian Jabatan** → Klik tombol "📄 PDF" di baris subdit pada tab Ranking
+6. **Konfigurasi bobot** → Ubah α, β, γ jika diperlukan (default: 0.35/0.35/0.30)
+
+---
+
+## Bab 5 — Pedoman Penilaian Scoring Matrix
+
+### ⚠️ Kode Etik Sidang Kalibrasi
+
+1. **Hukum Pembuktian Terbalik:** Klaim skor tinggi (Level 4–5) otomatis gugur jika tidak disertai bukti dokumen resmi (SOP, RACI, Risk Register, Klausul UU).
+2. **Larangan Horse-Trading:** Evaluator dilarang melakukan kompromi politis (tukar guling nilai antar divisi).
+3. **Anti-Anomali:** Penilaian berdasarkan kondisi operasional normal, BUKAN worst-case scenario langka.
+
+### 📋 Prasyarat Dokumen Pelaksanaan
+
+Sebelum scoring dapat dimulai, unit kerja wajib menyetorkan:
+- Daftar Proses Bisnis L3 yang sudah disahkan
+- Matriks RACI / SIPOC yang menunjukkan interdependensi lintas unit
+- Dokumen SOP/IK yang paling mutakhir
+- Risk Register yang terkalibrasi dengan Matriks Risiko Korporat
+- Peta KPI Cascading untuk memvalidasi dampak strategis
+
+---
+
+### STAGE 1 — CAPITAL FORMATION (Know-How)
+
+#### 1. Domain Count (Dom.) — Skala 1–20
+
+*Mengukur "Lebar Keahlian" — berapa banyak disiplin ilmu/fungsi berbeda yang wajib dikuasai agar proses ini selesai end-to-end.*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1–2 | Single Discipline | Proses self-contained, satu keahlian spesifik + administrasi umum. | Mempersiapkan Rencana Pekerjaan Rutin, Perekapan Data Kinerja Unit. |
+| 3–5 | Bounded Multi-Discipline | Perpaduan 3–5 disiplin tata kelola yang masih berdekatan. | Identifikasi Risiko Departemen, Penyusunan RKA Unit. |
+| 6–10 | Interdisciplinary | Memaksa sintesis antara strategi, compliance, dan analitik data. | Analisis SWOT/PESTLE, Evaluasi Kesiapan Audit. |
+| 11–15 | Cross-Enterprise | Orkestrasi 11+ fungsi lintas direktorat sampai audit/hukum internasional. | Audit Lingkungan Hidup Terintegrasi, Negosiasi Kontrak PPA. |
+| 16–20 | Enterprise Architect | Hanya untuk proses yang melibatkan seluruh fungsi enterprise. | Integrasi Post-Merger (PMI), Transformasi Digital End-to-End. |
+
+> ⛔ **Anti-Bias:** Dilarang memecah tugas administratif dasar menjadi banyak domain. Hitung domain riil, bukan daftar tugas.
+
+---
+
+#### 2. Regulatory Intensity (Reg.I) — Skala 1–5
+
+*Mengukur "Kekakuan Aturan" — seberapa ketat proses ini didikte oleh aturan di luar kendali pembuat proses.*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | Self-Governed | Diatur sepenuhnya oleh SOP internal, bisa diubah sendiri. | Penyusunan Format Laporan Rapat. |
+| 2 | Lightly Regulated | Ada kebijakan internal yang mengikat dari level Direksi/Dewan Komisaris. | Pelaksanaan Program CSR sesuai RJPP. |
+| 3 | Moderately Regulated | Tunduk pada regulasi menteri atau aturan asosiasi industri. | Pengelolaan Limbah B3 sesuai PP. |
+| 4 | Heavily Regulated | Diawasi ketat oleh lembaga negara (BPK, OJK, KLHK) dengan audit rutin. | Penyusunan Laporan Keuangan Audited. |
+| 5 | Critically Regulated | Kegagalan berpotensi sanksi hukum pidana atau pencabutan izin operasi. | Kepatuhan terhadap UU Ketenagakerjaan/K3 Berat. |
+
+> ⛔ **Anti-Bias:** Bedakan antara aturan yang bisa diubah sendiri (SOP internal) vs aturan dari luar (UU, PP, Regulasi Sektoral).
+
+---
+
+#### 3. Specialization Level (Spec.) — Skala 1–5
+
+*Mengukur "Kedalaman Keahlian & Barrier to Entry" — jika pemegang proses resign, seberapa sulit mencari pengganti?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | General Staff | Bisa diisi oleh lulusan baru setelah pelatihan on-the-job 1–3 bulan. | Administrasi Surat Masuk/Keluar. |
+| 2 | Trained Professional | Butuh pelatihan formal 6–12 bulan atau sertifikasi internal. | Operator SCADA/DCS, Analis Data Junior. |
+| 3 | Domain Expert | Butuh pengalaman 3+ tahun + sertifikasi profesional yang diakui. | Internal Auditor Bersertifikasi, Spesialis Pajak. |
+| 4 | Master Practitioner | Hanya 2–5 orang di perusahaan yang memenuhi kualifikasi ini. | Insinyur Turbine Expert, Lead Corporate Strategist. |
+| 5 | Irreplaceable Authority | Monopolis pengetahuan di level nasional/industri. Replacement time > 2 tahun. | Chief Metallurgist untuk Bahan Khusus. |
+
+> ⛔ **Anti-Bias:** Evaluasi kebutuhan prosesnya, BUKAN gelar/senioritas orang yang menjabat saat ini.
+
+---
+
+### STAGE 2 — COGNITIVE TRANSFORMATION (Problem Solving)
+
+#### 4. Complexity Score (Cmplx) — Skala 1–5
+
+*Mengukur "Ambiguitas Analitis" — apakah proses bisa diselesaikan dengan rumus pasti (algoritmik) atau butuh pemikiran abstrak?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | Routine/Algorithmic | SOP sudah 100% mendikte langkah. Tidak ada diskresi analitis. | Rekap daftar hadir, input data absensi. |
+| 2 | Structured Problem | Ada variabel terbatas yang perlu dipertimbangkan, tapi kerangka analisisnya jelas. | Analisis Varians Anggaran Bulanan. |
+| 3 | Adaptive Analysis | Kerangka ada tapi harus disesuaikan case by case. Butuh judgment professional. | Evaluasi Kelayakan Vendor, Risk Assessment Tingkat Departemen. |
+| 4 | Heuristic/Multi-variable | Tidak ada SOP yang cukup. Butuh sintesis dari berbagai sumber + pengalaman. | Negosiasi Kontrak Multi-Tahun Bernilai Tinggi. |
+| 5 | Creative/Uncharted | Belum ada preseden di perusahaan. Membutuhkan inovasi dan thought leadership. | Desain Model Bisnis Baru, Peta Jalan Net Zero Emission. |
+
+> ⛔ **Anti-Bias:** Volume kerja/kelelahan fisik BUKAN kompleksitas mental. Mengerjakan 100 invoice identik = Skor 1, bukan 5.
+
+---
+
+#### 5. Interdependency Count (Inter.) — Skala 0–20
+
+*Mengukur "Orkestrasi Lintas Fungsi" — berapa banyak departemen lain yang mutually dependent?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 0 | Standalone | Proses sepenuhnya intra-departemen, tidak butuh input/output dari unit lain. | Perekapan Absensi Internal. |
+| 1–3 | Low Dependency | Berinteraksi rutin dengan 1–3 unit, tapi bersifat satu arah atau eskalasi. | Permintaan Anggaran ke Keuangan. |
+| 4–7 | Moderate Dependency | Membutuhkan koordinasi dua arah (mutual) dengan 4–7 unit. | Proses Pengadaan Barang (Teknik + Legal + Finance + Gudang). |
+| 8–12 | High Orchestration | Menjadi hub koordinasi bagi 8–12 unit, sering kali cross-directorate. | Penyusunan RKAP, Integrasi Sistem Manajemen. |
+| 13–20 | Enterprise Hub | Proses ini adalah nexus (simpul pusat) yang mengikat hampir seluruh organisasi. | Audit Korporat Terintegrasi, PMI Merger. |
+
+> ⛔ **Anti-Bias:** Sekadar menembuskan email/CC TIDAK dihitung sebagai interdependensi. Hanya hitung dependensi mutual (saling bergantung aktif).
+
+---
+
+### STAGE 3 — DELEGATED RISK EXPOSURE (Accountability)
+
+#### 6. Strategic Impact (Strat.) — Skala 1–5
+
+*Mengukur "Jarak ke Visi Korporat" — apakah proses ini Run the Business atau Change the Business?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | Core Operational Support | Proses pendukung harian yang esensial tapi tidak langsung menggerakkan KPI strategis. | Administrasi Surat, Pemeliharaan Kebersihan Kantor. |
+| 2 | Functional Efficiency | Meningkatkan efisiensi operasional unit tertentu, berdampak pada KPI operasional. | Optimasi Jadwal Shift, Digitalisasi Arsip. |
+| 3 | Business Unit Impact | Secara langsung mempengaruhi kinerja atau target unit bisnis. | Negosiasi Harga Jual Energi, Penyusunan RKA Unit. |
+| 4 | Corporate Strategic | Tertulis eksplisit di RKAP/RJPP sebagai inisiatif strategis korporat. | Eksekusi Proyek Pembangkit Baru, Akuisisi Lahan Strategis. |
+| 5 | Transformational | Mengubah arah fundamental perusahaan atau model bisnis secara radikal. | Merger & Akuisisi, Transisi Brown to Green Energy. |
+
+> ⛔ **Anti-Bias:** Tolak argumen efek domino. Jika proses ini gagal dan dampaknya baru terasa setelah 3 langkah kausal, maka skor strategisnya tidak akan 5.
+
+---
+
+#### 7. Risk Exposure (Risk) — Skala 1–5
+
+*Mengukur "Risiko Fisik & Operasional Murni" — jika proses gagal, seberapa parah kerusakan aset/downtime/ancaman K3?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | Negligible Risk | Kegagalan hanya berdampak pada keterlambatan administratif internal. | Kesalahan Format Laporan Internal. |
+| 2 | Minor Disruption | Gangguan operasional terbatas di satu unit, bisa diperbaiki dalam hitungan jam. | Kerusakan Printer Kantor, Gangguan Jaringan LAN Lokal. |
+| 3 | Moderate Operational | Downtime signifikan (jam–hari), mempengaruhi beberapa unit. Potensi P3K. | Kerusakan Conveyor, Kebocoran Pipa Non-Tekanan. |
+| 4 | Major Disruption | Downtime panjang (hari–minggu), risiko cedera serius, atau kerugian aset besar. | Kegagalan Boiler/Turbine, Kecelakaan Kerja Berat. |
+| 5 | Catastrophic/Systemic | Risiko fatal (kematian), kerusakan aset masif, atau blackout area luas. | Ledakan Fasilitas, Blackout Grid Regional. |
+
+> ⛔ **Anti-Bias:** Risiko reputasi, regulasi, dan ESG BUKAN bagian dari indikator ini. Ini murni risiko fisik dan operasional.
+
+---
+
+#### 8. Financial Sensitivity (Fin.S) — Skala 0.0–1.0
+
+*Mengukur "Otoritas Uang" — seberapa besar kewenangan persetujuan Opex/Capex atau dampak kerugian P&L langsung?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 0.0–0.2 | No Direct Authority | Tidak ada kewenangan keuangan. Proses administratif murni. | Penyusunan Notulen Rapat. |
+| 0.3–0.4 | Operational Budget | Mengelola anggaran operasional terbatas (< 1% revenue). | Pengadaan ATK, Pemeliharaan Ringan. |
+| 0.5–0.6 | Departmental Budget | Mengelola anggaran departemen signifikan (1–5% revenue). | Pengadaan Spare Part Utama. |
+| 0.7–0.8 | Strategic Investment | Terlibat dalam keputusan investasi besar (5–15% revenue). | Keputusan Capex Proyek Baru, Kontrak Jangka Panjang. |
+| 0.9–1.0 | Enterprise Financial | Menentukan alokasi keuangan level korporat (>15% revenue). | Keputusan M&A, Penerbitan Obligasi, Dividen Policy. |
+
+> ⛔ **Anti-Bias:** Menjaga aset mahal BUKAN sama dengan mengambil keputusan finansial. Operator mesin Rp 500M ≠ Skor 0.9.
+
+---
+
+### SYSTEMIC EXPOSURE SCALE (4 Dimensi Kalibrator)
+
+#### 9. Freedom to Act (FtA) — Skala 1–5
+
+*Mengukur "Otonomi Nyata" — seberapa sering pemegang proses bisa eksekusi keputusan tanpa izin dari atas?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | Fully Supervised | Setiap langkah butuh persetujuan atasan langsung. Nol diskresi. | Staf Kasir yang setiap transaksi di-approve supervisor. |
+| 2 | Proceduralised | Bisa eksekusi selama mengikuti SOP persis. Deviasi apapun butuh approval. | Operator DCS yang mengikuti manual operasi. |
+| 3 | Guided Autonomy | Bebas dalam koridor kebijakan. Boleh improvisasi tapi ada batas atas. | Supervisor yang bisa menyetujui lembur sampai batas tertentu. |
+| 4 | Strategic Discretion | Membuat keputusan lintas fungsi yang mengikat tanpa eskalasi ke Direksi. | Manajer Departemen, Kepala Unit yang punya DOA sendiri. |
+| 5 | Full Mandate | Pemegang otoritas final yang langsung bertanggung jawab ke Dewan/RUPS. | Direksi, Kepala Satuan Audit Internal. |
+
+> ⛔ **Anti-Bias:** Uji Pembatalan: jika keputusan seseorang sering direvisi/override oleh atasan, maka skor otonomi rendah, bukan tinggi.
+
+---
+
+#### 10. Regulatory Exposure (Reg.E) — Skala 1–5
+
+*Mengukur "Risiko Hukum Eksternal" — jika gagal, UU mana yang dilanggar dan apa sanksinya?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | Internal Only | Tidak ada exposure regulasi eksternal. Risiko hanya internal (teguran/SP). | Kesalahan format laporan internal. |
+| 2 | Minor Compliance | Pelanggaran berdampak surat teguran dari instansi, denda administratif kecil. | Keterlambatan pelaporan SPT Masa. |
+| 3 | Moderate Regulatory | Diawasi oleh lembaga sektoral, potensi denda signifikan atau suspensi lisensi parsial. | Pelanggaran AMDAL, Keterlambatan laporan ke BPK. |
+| 4 | High Regulatory | Potensi sanksi berat: denda masif, pencabutan izin parsial, atau investigasi formal. | Pelanggaran K3 berat, Pelanggaran regulasi OJK/BI. |
+| 5 | Existential Regulatory | Potensi sanksi pidana direksi, pencabutan izin operasi total, atau likuidasi paksa. | Fraud laporan keuangan, Pelanggaran UU Cipta Kerja fatal. |
+
+> ⛔ **Anti-Bias:** Bedakan antara risiko regulasi (Reg.E) dan intensitas regulasi (Reg.I). Reg.I = seberapa ketat aturannya, Reg.E = seberapa parah konsekuensi pelanggarannya.
+
+---
+
+#### 11. Reputational Risk (Rep.R) — Skala 1–5
+
+*Mengukur "Radius Opini Publik" — seberapa jauh gema kegagalan terdengar?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | Internal Only | Kegagalan hanya diketahui oleh tim/departemen internal. | Kesalahan format presentasi internal. |
+| 2 | Intra-Company | Diketahui seluruh karyawan, menjadi bahan pembicaraan di internal. | Sistem penggajian error sebulan. |
+| 3 | B2B / Stakeholder | Diketahui klien, vendor, atau mitra bisnis. Mempengaruhi hubungan komersial. | Kegagalan pemenuhan kontrak penjualan energi. |
+| 4 | Local Public | Diketahui masyarakat sekitar/Ring 1, didemo warga, atau masuk media lokal. | Polusi udara/air yang mengganggu permukiman, kecelakaan K3 publik. |
+| 5 | National/Global Public | Masuk media nasional/internasional, viral di publik, atau krisis PR level Menteri. | Blackout listrik nasional, investigasi fatalitas ganda. |
+
+> ⛔ **Anti-Bias:** Uji "Siapa yang Marah?": Rekan kerja → 1–2, Klien Eksternal → 3, Warga Ring 1 → 4, Netizen se-Indonesia/Menteri → 5.
+
+---
+
+#### 12. ESG Impact (ESG) — Skala 1–5
+
+*Mengukur "Nilai Keberlanjutan" — apakah proses ini menurunkan jejak emisi, memberdayakan masyarakat, atau menegakkan tata kelola makro?*
+
+| Skor | Label | Kriteria | Contoh L3 |
+|------|-------|----------|-----------|
+| 1 | Negligible | Tidak bersinggungan dengan isu ESG. Jejak karbon sebatas penggunaan listrik komputer. | Penyusunan Format Laporan Rapat, Pembaruan Data Cuti. |
+| 2 | Office Sustainability | Kontribusi kecil: pengurangan kertas, penghematan listrik, kesejahteraan dasar karyawan. | Digitalisasi Arsip (Paperless), MCU Karyawan. |
+| 3 | Operational ESG | Bersinggungan dengan emisi/limbah industri, kelola vendor K3/HAM, atau komunitas Ring 1. | Pemantauan Kualitas Effluent, Due Diligence Vendor K3. |
+| 4 | Core Business Sustainability | Driver pencapaian target ESG strategis: Scope 1/2 reduction, CSV, SMAP/ISO 37001. | Modifikasi Peralatan untuk Efisiensi Energi, Program Desa Binaan. |
+| 5 | Systemic Pivot | Menentukan survival perusahaan di era transisi energi. Mengubah model bisnis secara radikal. | Peta Jalan Net Zero Emission, Early Retirement PLTU, Carbon Trading. |
+
+> ⛔ **Anti-Bias:** Compliance ≠ Value Creation. Jika hanya mematuhi batas aturan, ESG mentok Skor 3. Skor 4–5 hanya untuk Beyond Compliance.
+
+---
+
+## Bab 6 — Modul 3 — Workload Analysis
+
+### 6.1 Dual-Level Measurement
+
+Workload diukur dalam dua level:
+
+#### Level 1 — Load Index (Relatif)
+```
+Load Index = Σ (Structural Weight × Volume Category)
+```
+- **Structural Weight (1–5)**: Kompleksitas struktural proses
+- **Volume Category (1–5)**: Frekuensi/volume pelaksanaan proses
+- Menghasilkan indeks relatif untuk perbandingan antar subdit.
+
+#### Level 2 — Load Hours (Absolut)
+```
+Load Hours = Σ (Standard Time × Volume per Month)
+```
+- **Standard Time (jam)**: Waktu standar per satu kali eksekusi proses
+- **Volume/Month**: Frekuensi eksekusi per bulan
+- Menghasilkan estimasi jam kerja per bulan per subdit.
+
+### 6.2 Gini Coefficient
+
+Mengukur ketimpangan distribusi beban kerja menggunakan koefisien Gini (0–1):
+
+| Gini | Label | Interpretasi |
+|------|-------|-------------|
+| < 0.2 | 🟢 Equitable | Distribusi sangat merata |
+| 0.2–0.35 | 🟢 Moderate | Cukup merata, normal |
+| 0.35–0.5 | 🟡 Imbalanced | Ada ketimpangan signifikan |
+| > 0.5 | 🔴 Severe | Ketimpangan parah, perlu reorganisasi |
+
+### 6.3 Deteksi Overload/Underload
+
+Sistem otomatis mendeteksi subdit dengan beban berlebih atau terlalu rendah:
+- **🔴 Overloaded**: Load Index > 150% dari rata-rata
+- **🔵 Underloaded**: Load Index < 50% dari rata-rata
+
+### 6.4 Tab-Tab di Modul 3
+
+| Tab | Fungsi |
+|-----|--------|
+| **Load Table** | Tabel Load Index dan Load Hours per subdit, termasuk status overload/underload |
+| **Heatmap** | Peta panas visual beban kerja per subdit |
+| **Workload Input** | Input/edit Structural Weight, Volume Category, Standard Time, dan Volume/Month per proses L3 |
+
+### 6.5 Cara Menggunakan
+
+1. **Buka tab Workload Input** → Pilih subdit dari filter dropdown
+2. **Isi 4 parameter** untuk setiap proses L3:
+   - Structural Weight (1–5)
+   - Volume Category (1–5)
+   - Standard Time (jam per eksekusi)
+   - Volume/Month (frekuensi per bulan)
+3. **Cek tab Load Table** → Lihat ringkasan Load Index dan Load Hours per subdit
+4. **Cek tab Heatmap** → Identifikasi subdit yang overloaded atau underloaded secara visual
+
+---
+
+## Bab 7 — Modul 4 — Org Simulator
+
+### 7.1 Tujuan Simulasi
+
+Org Simulator memungkinkan pengguna untuk mensimulasikan skenario reorganisasi **sebelum implementasi nyata**. Fitur ini menjawab pertanyaan "What If":
+- Apa yang terjadi jika kita memindahkan proses X dari Subdit A ke Subdit B?
+- Bagaimana dampaknya terhadap beban kerja dan Job Size?
+- Apakah ketimpangan Gini membaik atau memburuk?
+
+### 7.2 Fitur Simulasi
+
+| Aksi | Fungsi |
+|------|--------|
+| **Drag & Drop** | Pindahkan proses L3 antar subdit secara visual |
+| **Split Subdit** | Pecah satu subdit menjadi dua dengan memilih proses yang dipindahkan |
+| **Merge Subdit** | Gabungkan dua subdit menjadi satu |
+| **Add Subdit** | Tambah subdit baru di bawah direktorat tertentu |
+
+### 7.3 Cara Menggunakan
+
+1. Buka Modul 4 (Org Simulator)
+2. Pilih proses L3 yang ingin dipindahkan (drag & drop dari kotak subdit)
+3. Atau gunakan tombol aksi: Split / Merge / Add Subdit
+4. Lihat **tabel Before vs After** yang muncul otomatis
+5. Bandingkan metrik Before vs After
+6. Jika hasilnya memuaskan, klik **"Apply"** untuk menerapkan perubahan ke data utama
+
+### 7.4 Metrik yang Dibandingkan
+
+Simulator membandingkan kondisi sebelum dan sesudah untuk:
+- Distribusi L3 per subdit
+- Job Size Index (Hay Method)
+- Load Index per subdit
+- Gini Coefficient
+
+### 7.5 Cara Membaca Tabel Before vs After
+
+| Kolom | Penjelasan |
+|-------|-----------|
+| **Subdit** | Nama unit kerja (subdivisi) dalam struktur organisasi |
+| **Status** | *Existing* = sudah ada, *New* = baru dibuat, *Removed* = dihapus |
+| **L3 Before / After** | Jumlah proses Level 3 yang di-*accountable*-kan ke Subdit |
+| **Job Size Before / After** | Indeks ukuran jabatan menggunakan Hay Method |
+| **Δ% (Job Size)** | Persentase perubahan Job Size akibat simulasi |
+| **Load Before / After** | Load Index = beban kerja relatif |
+| **Δ% (Load)** | Persentase perubahan beban kerja akibat simulasi |
+
+### 7.6 Interpretasi Delta (Δ%)
+
+- **0** — Netral: tidak ada perubahan
+- **▲ +X%** — Naik: Job Size↑ = jabatan makin berat; Load↑ = beban kerja bertambah
+- **▼ -X%** — Turun: Job Size↓ = jabatan makin ringan; Load↓ = beban kerja berkurang
+
+> ⚠️ Delta bukan selalu berarti "baik" atau "buruk". Mengurangi beban Subdit yang overloaded positif, tetapi menambah beban ke Subdit yang sudah overloaded negatif.
+
+### 7.7 Threshold & Risk Flags
+
+| Kondisi | Threshold | Level | Makna |
+|---------|-----------|-------|-------|
+| **ACI > 25%** | ACI melebihi 25% | 🔴 Kritis | Satu Subdit menguasai >25% proses — bottleneck akuntabilitas |
+| **Orphan ↑** | Orphan processes bertambah | 🔴 Kritis | Ada proses L3 tanpa pemilik — risiko akuntabilitas vacuum |
+| **Gini ↑ > 0.05** | Gini naik lebih dari 0.05 | ⚡ Peringatan | Distribusi beban kerja makin tidak merata |
+| **Load Δ > 50%** | Load Index naik >50% | ⚡ Peringatan | Subdit mengalami lonjakan beban — risiko burnout |
+
+### 7.8 Rekomendasi Tindakan
+
+- **Jika Δ Job Size terlalu tinggi:** Split Subdit untuk distribusi proses kompleks; pindahkan proses scoring tinggi ke Subdit lain; pertimbangkan Subdit baru.
+- **Jika Load Δ > 50%:** Distribusikan proses volume tinggi ke Subdit underloaded; periksa akurasi Workload Data (Module 3); pertimbangkan otomasi.
+- **Jika Gini meningkat:** Pindahkan proses dari heavy-loaded ke light-loaded; gunakan Heatmap (Module 3); target Gini < 0.30.
+- **Jika ACI > 25%:** Identifikasi Subdit konsentrasi tertinggi; split menjadi dua unit fokus; pastikan tidak ada single point of failure.
+
+---
+
+## Bab 8 — Risk Severity Index
+
+### 8.1 Konsep
+
+Risk Severity Index menggabungkan dua dimensi untuk mengidentifikasi subdit yang paling kritis:
+
+```
+Severity = Probability × Impact × 100
+```
+
+### 8.2 Komponen
+
+| Komponen | Sumber Data | Rumus |
+|----------|-------------|-------|
+| **Probability** | M3 — Workload Analysis | (Load Index / Max Load) × 100% |
+| **Impact** | M2 — Job Evaluation | (Job Size Index / Max Job Size) × 100% |
+| **Severity** | Kalkulasi Dashboard | P × I × 100 |
+
+### 8.3 Status Threshold
+
+| Severity | Status | Tindakan |
+|----------|--------|----------|
+| ≥ 60 | 🔴 **Critical** | Perlu intervensi segera — redistribusi proses atau penambahan kapasitas |
+| 40–59 | 🟠 **High** | Monitor ketat — evaluasi apakah beban bisa didelegasikan |
+| 20–39 | 🟡 **Medium** | Perlu perhatian — pantau tren perubahan |
+| < 20 | 🟢 **Low** | Terkendali — lanjutkan monitoring rutin |
+
+### 8.4 Interpretasi
+
+- **Probability tinggi + Impact tinggi** → Subdit paling kritis, risiko sistemik tertinggi
+- **Probability tinggi + Impact rendah** → Sibuk tapi dampak terbatas, optimalkan efisiensi
+- **Probability rendah + Impact tinggi** → Strategis tapi tidak overload, perlu proteksi kualitas
+- **Probability rendah + Impact rendah** → Operasional stabil, monitoring rutin
+
+---
+
+## Bab 9 — Panduan Ekspor Data
+
+### 9.1 Format Ekspor yang Tersedia
+
+Semua tombol ekspor terletak di **bagian bawah sidebar** (panel kiri).
+
+| Tombol | Format | Isi |
+|--------|--------|-----|
+| **📄 PDF** | PDF | Laporan ringkasan eksekutif: governance, job evaluation, workload, chart |
+| **📋 Ownership** | XLSX | Process Ownership Matrix: L3 ID, L1→L2→L3 hierarchy, RACI roles, Direktorat, Status |
+| **📝 Scoring** | XLSX | Scoring Matrix per Subdit: summary sheet + 1 sheet per subdit dengan 12 dimensi skor |
+| **📤 Export JSON** | JSON | Seluruh data mentah (proses, scoring, ownership, workload, weights) — untuk backup/restore |
+| **📥 Import JSON** | JSON | Memuat kembali data dari file JSON yang diekspor sebelumnya |
+
+### 9.2 PDF Uraian Jabatan
+
+Di Modul 2 (tab Ranking), setiap subdit memiliki tombol **"📄 PDF"** untuk mengunduh Uraian Jabatan lengkap berisi:
+- Identitas Jabatan (nama, subdit, direktorat, atasan langsung)
+- Daftar L3 Process dengan kode dan peran (A/R/C/I)
+- Ruang Lingkup Akuntabilitas dan batas otoritas
+- Eksposur Dampak (finansial, risiko, ESG)
+- Indikator Kompleksitas (domain, interdependensi, regulasi)
+- Driver Beban Kerja (volume, SLA)
+
+### 9.3 Cara Import Data
+
+1. Klik tombol **📥 Import JSON** di sidebar
+2. Pilih file [.json](file:///Users/hardisur/Downloads/PROJECT%20ANTIGRAVITY/Processownershipengine/package.json) yang sebelumnya diekspor
+3. Data akan otomatis dimuat dan menggantikan data saat ini
+4. Semua modul akan di-refresh otomatis
+
+### 9.4 Cloud Sync (Firebase)
+
+Jika Firebase dikonfigurasi, data akan otomatis disinkronisasi ke cloud:
+- **☁️ Cloud Synced** — Data tersimpan di cloud, aman dari kehilangan data lokal
+- **⚠️ Offline** — Tidak ada koneksi internet, data tersimpan lokal
+- **💾 Local Only** — Firebase belum dikonfigurasi, data hanya tersimpan di browser
+
+---
+
+## Bab 10 — Glossarium & Rumus
+
+| Istilah | Definisi |
+|---------|----------|
+| **APQC PCF** | American Productivity & Quality Center — Process Classification Framework. Standar internasional untuk taksonomi proses bisnis. |
+| **L1 / L2 / L3** | Level hirarki proses: L1 = Category, L2 = Process Group, L3 = Activity (unit terkecil yang dikelola). |
+| **RACI** | Responsible, Accountable, Consulted, Informed — matriks penugasan tanggung jawab proses. |
+| **ACI** | Accountability Concentration Index — persentase proses L3 yang terkonsentrasi di satu subdit. |
+| **Hay Method** | Metode evaluasi jabatan dari Hay Group yang menilai Know-How, Problem Solving, dan Accountability. |
+| **Job Size Index** | Skor akhir evaluasi jabatan: KH^α × PS_eff^β × AC^γ |
+| **Know-How (KH)** | Modal pengetahuan: AVG(Domain Count + Reg. Intensity + Specialization) per L3 |
+| **Problem Solving (PS)** | Transformasi kognitif: AVG(Complexity) × AVG(Interdependency) × √n |
+| **Accountability (AC)** | Eksposur risiko: AVG(FtA × Strategic × Risk × SysExp) × log₂(n+1) |
+| **Systemic Exposure** | 4 dimensi tambahan: Freedom to Act, Reg. Exposure, Rep. Risk, ESG Impact |
+| **Load Index** | Indeks beban kerja relatif: Σ(Structural Weight × Volume Category) per subdit |
+| **Load Hours** | Estimasi jam kerja absolut: Σ(Standard Time × Volume/Month) per subdit |
+| **Gini Coefficient** | Ukuran ketimpangan distribusi (0 = sempurna merata, 1 = timpang total) |
+| **Severity** | Risk Severity Index: Probability × Impact × 100 |
+| **Probability** | (Load Index / Max Load) × 100% — seberapa besar tekanan kerja |
+| **Impact** | (Job Size / Max Job Size) × 100% — seberapa besar dampak jika gagal |
+| **CV** | Coefficient of Variation — rasio standar deviasi terhadap rata-rata |
+| **r²** | Coefficient of Determination — korelasi kuadrat, seberapa besar variabel X menjelaskan variabel Y |
+
+---
+
+> 📖 **Manual Book — Organizational Engineering Engine v2.0**  
+> PT Mitra Karya Prima | Dokumen ini dibuat berdasarkan source code aplikasi OrgEngine
