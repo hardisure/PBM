@@ -1,0 +1,60 @@
+/* ===== DESIGN TOKENS — LIGHT THEME (High Contrast for Presentations) ===== */
+:root {
+    /* Innovation Theme (Section A) */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f7fa;
+    --bg-tertiary: #eef1f6;
+    --bg-card: rgba(255, 255, 255, 0.95);
+    --bg-card-solid: #ffffff;
+    --border: rgba(0, 60, 120, 0.1);
+    --border-hover: rgba(0, 100, 180, 0.25);
+
+    /* Product Theme (Section B) */
+    --bg-product: #f0f4f8;
+    --bg-product-alt: #e8ecf4;
+    --accent-product: #0066cc;
+
+    /* Accent Colors — deeper, more saturated for light mode contrast */
+    --accent: #0077b6;
+    --accent2: #00a896;
+    --accent-glow: rgba(0, 119, 182, 0.08);
+    --accent-hot: #d63031;
+    --accent-warm: #e17055;
+    --accent-blue: #0984e3;
+
+    /* Text — high contrast for bright rooms */
+    --text-primary: #1a1a2e;
+    --text-secondary: #2d3436;
+    --text-dim: #555e68;
+    --text-muted: #8395a7;
+
+    /* Typography */
+    --font-body: 'Inter', -apple-system, sans-serif;
+    --font-display: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Spacing */
+    --nav-h: 72px;
+    --section-px: clamp(16px, 4vw, 48px);
+    --container-max: 1200px;
+
+    /* Radii */
+    --radius: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+
+    /* Transitions */
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Gradients */
+    --gradient-accent: linear-gradient(135deg, #0077b6, #00a896);
+    --gradient-hot: linear-gradient(135deg, #d63031, #e17055);
+    --gradient-bg: linear-gradient(180deg, #ffffff 0%, #f5f7fa 100%);
+
+    /* Shadows for depth in light mode */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.12);
+}

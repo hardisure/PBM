@@ -1,0 +1,35 @@
+.section-wrapper {
+    position: relative;
+}
+
+.section-dark {
+    background: var(--bg-primary);
+}
+
+.section-darker {
+    background: var(--bg-secondary);
+}
+
+.section-highlight {
+    background: linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-tertiary) 50%, var(--bg-primary) 100%);
+}
+
+.section-product {
+    background: var(--bg-product);
+}
+
+.section-product-alt {
+    background: var(--bg-product-alt);
+}
+
+/* Reveal animation — always fully visible, subtle slide-in enhancement */
+.reveal-wrapper {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-wrapper.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,0 +1,141 @@
+.cascade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.cascade-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 24px;
+    background: var(--bg-card);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    transition: all 0.6s ease;
+    opacity: 0;
+    transform: translateX(-20px);
+    box-shadow: var(--shadow-sm);
+}
+
+.step.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.step-warn {
+    border-color: rgba(225, 112, 85, 0.3);
+    background: rgba(225, 112, 85, 0.03);
+}
+
+.step-danger {
+    border-color: rgba(214, 48, 49, 0.25);
+    background: rgba(214, 48, 49, 0.03);
+}
+
+.step-critical {
+    border-color: rgba(214, 48, 49, 0.4);
+    background: rgba(214, 48, 49, 0.05);
+    box-shadow: 0 0 20px rgba(214, 48, 49, 0.08);
+}
+
+.step-icon {
+    font-size: 1.3rem;
+}
+
+.step-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.arrow {
+    color: var(--accent-hot);
+    font-size: 1.2rem;
+    padding: 0 6px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.arrow.visible {
+    opacity: 1;
+}
+
+.glow-line {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-hot), transparent);
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.glow-line.visible {
+    opacity: 1;
+    animation: glowPulse 2s infinite;
+}
+
+@keyframes glowPulse {
+
+    0%,
+    100% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Stats bar */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+    padding: 32px;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: var(--font-display);
+}
+
+.stat-suffix {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.stat-number,
+.stat-suffix {
+    color: var(--accent-hot);
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+    .stats {
+        grid-template-columns: 1fr;
+    }
+}
