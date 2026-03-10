@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import SectionWrapper from '../../layouts/SectionWrapper'
+import { useTranslation } from '../../i18n/LanguageContext'
 
 // ──────────────────────────────────────────
 // DATA
@@ -121,6 +122,7 @@ const isDarkCell = (bg) => bg === '#e53935' || bg === '#ff5722'
 // ──────────────────────────────────────────
 
 export default function RiskMatrix() {
+    const { t } = useTranslation()
     const [selectedCategory, setSelectedCategory] = useState(null)
     const [hoveredRisk, setHoveredRisk] = useState(null)
     const [expandedRisk, setExpandedRisk] = useState(null)
@@ -131,9 +133,9 @@ export default function RiskMatrix() {
     return (
         <SectionWrapper id="risk" variant="darker">
             <div className="section-header">
-                <span className="section-tag">Risk Assessment</span>
-                <h2 className="section-title">Innovation <span className="gradient-text">Risk Matrix</span></h2>
-                <p className="section-subtitle">Penilaian risiko menggunakan matriks 5×5: Probabilitas (A–E) × Dampak (1–5).</p>
+                <span className="section-tag">{t('risk.tag')}</span>
+                <h2 className="section-title">{t('risk.title1')}<span className="gradient-text">{t('risk.titleAccent')}</span></h2>
+                <p className="section-subtitle">{t('risk.subtitle')}</p>
             </div>
 
             <div className="container">
@@ -148,7 +150,7 @@ export default function RiskMatrix() {
                             fontWeight: 800, fontSize: '0.8rem', color: 'var(--text-primary)',
                             letterSpacing: 2, textTransform: 'uppercase', flexShrink: 0,
                         }}>
-                            PROBABILITAS
+                            {t('risk.probability')}
                         </div>
 
                         {/* Row labels */}
@@ -280,7 +282,7 @@ export default function RiskMatrix() {
                         fontWeight: 800, fontSize: '0.8rem', color: 'var(--text-primary)',
                         letterSpacing: 2, textTransform: 'uppercase',
                     }}>
-                        DAMPAK
+                        {t('risk.impact')}
                     </div>
                 </div>
 
@@ -329,7 +331,7 @@ export default function RiskMatrix() {
                     textAlign: 'center', fontSize: '1.3rem', fontWeight: 800,
                     color: 'var(--text-primary)', marginBottom: 24,
                 }}>
-                    Daftar Risiko Inovasi
+                    {t('risk.riskRegister')}
                 </h3>
 
                 {/* Risk cards — only 9 heatmap risks */}
@@ -394,7 +396,7 @@ export default function RiskMatrix() {
                                                     borderRadius: 8, borderLeft: '3px solid var(--accent)',
                                                 }}>
                                                     <div style={{ fontSize: '0.68rem', fontWeight: 700, color: 'var(--accent)', textTransform: 'uppercase', letterSpacing: 1, marginBottom: 6 }}>
-                                                        Mitigasi
+                                                        {t('risk.mitigation')}
                                                     </div>
                                                     {risk.mitigations.map((m, mi) => (
                                                         <div key={mi} style={{

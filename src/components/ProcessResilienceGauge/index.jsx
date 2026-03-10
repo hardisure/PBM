@@ -1,17 +1,19 @@
 import { useEffect, useRef, useState } from 'react'
 import SectionWrapper from '../../layouts/SectionWrapper'
-
-const segments = [
-    { label: 'Process Stability', color: 'var(--accent)' },
-    { label: 'Role Clarity', color: 'var(--accent2)' },
-    { label: 'Governance Alignment', color: 'var(--accent-blue)' },
-    { label: 'Doc Simplicity', color: 'var(--accent-warm)' },
-]
+import { useTranslation } from '../../i18n/LanguageContext'
 
 export default function ProcessResilienceGauge() {
+    const { t } = useTranslation()
     const [score, setScore] = useState(42)
     const [animated, setAnimated] = useState(false)
     const ref = useRef(null)
+
+    const segments = [
+        { label: t('resilience.seg1'), color: 'var(--accent)' },
+        { label: t('resilience.seg2'), color: 'var(--accent2)' },
+        { label: t('resilience.seg3'), color: 'var(--accent-blue)' },
+        { label: t('resilience.seg4'), color: 'var(--accent-warm)' },
+    ]
 
     useEffect(() => {
         const el = ref.current
@@ -36,18 +38,18 @@ export default function ProcessResilienceGauge() {
     const arcLen = 251 * pct
 
     const getLabel = (s) => {
-        if (s < 40) return 'Critical'
-        if (s < 60) return 'Needs Improvement'
-        if (s < 75) return 'Good'
-        return 'Excellent'
+        if (s < 40) return t('resilience.critical')
+        if (s < 60) return t('resilience.needsImprovement')
+        if (s < 75) return t('resilience.good')
+        return t('resilience.excellent')
     }
 
     return (
         <SectionWrapper id="resilience" variant="darker">
             <div className="section-header">
-                <span className="section-tag">Process Resilience</span>
-                <h2 className="section-title">Governance <span className="gradient-text">Resilience Score</span></h2>
-                <p className="section-subtitle">Measuring organizational governance maturity across 4 dimensions.</p>
+                <span className="section-tag">{t('resilience.tag')}</span>
+                <h2 className="section-title">{t('resilience.title1')}<span className="gradient-text">{t('resilience.titleAccent')}</span></h2>
+                <p className="section-subtitle">{t('resilience.subtitle')}</p>
             </div>
 
             <div ref={ref} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 32 }}>

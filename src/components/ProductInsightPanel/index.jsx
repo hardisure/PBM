@@ -1,4 +1,8 @@
+import { useTranslation } from '../../i18n/LanguageContext'
+
 export default function ProductInsightPanel() {
+    const { t } = useTranslation()
+
     const cardStyle = {
         padding: '18px 16px',
         background: 'rgba(255,255,255,0.78)',
@@ -19,11 +23,29 @@ export default function ProductInsightPanel() {
     }
 
     const layers = [
-        { icon: '🎯', name: 'Strategy Layer', desc: 'Business strategy & governance objectives' },
-        { icon: '🗺️', name: 'Process Landscape', desc: 'Enterprise process classification (APQC)' },
-        { icon: '⚙️', name: 'Process Architecture', desc: 'Function-Based BPMN — stable process logic' },
-        { icon: '🔗', name: 'Governance Layer', desc: 'Role Mapping Matrix — functions to roles' },
-        { icon: '📊', name: 'Monitoring Layer', desc: 'Dashboard for performance & compliance' },
+        { icon: '🎯', name: t('insightPanel.layer1'), desc: t('insightPanel.layer1Desc') },
+        { icon: '🗺️', name: t('insightPanel.layer2'), desc: t('insightPanel.layer2Desc') },
+        { icon: '⚙️', name: t('insightPanel.layer3'), desc: t('insightPanel.layer3Desc') },
+        { icon: '🔗', name: t('insightPanel.layer4'), desc: t('insightPanel.layer4Desc') },
+        { icon: '📊', name: t('insightPanel.layer5'), desc: t('insightPanel.layer5Desc') },
+    ]
+
+    const coreBullets = [
+        t('insightPanel.coreBullet1'),
+        t('insightPanel.coreBullet2'),
+        t('insightPanel.coreBullet3'),
+    ]
+
+    const diagramItems = [
+        { label: t('insightPanel.diagramBS'), bg: 'rgba(0,119,182,0.08)' },
+        null,
+        { label: t('insightPanel.diagramPL'), bg: 'rgba(0,119,182,0.08)' },
+        null,
+        { label: t('insightPanel.diagramFB'), bg: 'rgba(0,119,182,0.12)', accent: true },
+        'decouple',
+        { label: t('insightPanel.diagramRM'), bg: 'rgba(0,119,182,0.08)' },
+        null,
+        { label: t('insightPanel.diagramOS'), bg: 'rgba(0,119,182,0.06)' },
     ]
 
     return (
@@ -47,23 +69,23 @@ export default function ProductInsightPanel() {
                     fontSize: '0.6rem', fontWeight: 800, textTransform: 'uppercase',
                     letterSpacing: 2, color: 'var(--accent)', marginBottom: 4,
                 }}>
-                    Governance Architecture
+                    {t('insightPanel.brandLabel')}
                 </div>
                 <div style={{ width: 20, height: 2, background: 'var(--accent)', borderRadius: 2, marginBottom: 10 }} />
                 <div style={{ fontSize: '0.78rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: 6, lineHeight: 1.3 }}>
-                    Governance Architecture Platform
+                    {t('insightPanel.productTitle')}
                 </div>
                 <p style={{ fontSize: '0.62rem', color: 'var(--text-dim)', lineHeight: 1.55, margin: '0 0 10px' }}>
-                    Enterprise governance framework designed to keep business processes stable during organizational restructuring.
+                    {t('insightPanel.productDesc1')}
                 </p>
                 <p style={{ fontSize: '0.6rem', color: 'var(--text-muted)', lineHeight: 1.55, margin: 0 }}>
-                    This platform separates process logic from organizational structure, enabling consistent process architecture even when roles or departments change.
+                    {t('insightPanel.productDesc2')}
                 </p>
             </div>
 
             {/* ── Card 2: Architecture Layers ── */}
             <div style={cardStyle}>
-                <div style={labelStyle}>Architecture Layers</div>
+                <div style={labelStyle}>{t('insightPanel.layersLabel')}</div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
                     {layers.map((l, i) => (
                         <div key={i}>
@@ -95,24 +117,24 @@ export default function ProductInsightPanel() {
 
             {/* ── Card 3: Core Innovation + Mini Diagram ── */}
             <div style={cardStyle}>
-                <div style={labelStyle}>Core Innovation</div>
+                <div style={labelStyle}>{t('insightPanel.coreLabel')}</div>
                 <div style={{
                     fontSize: '0.68rem', fontWeight: 700, color: 'var(--accent)',
                     marginBottom: 6, lineHeight: 1.3,
                 }}>
-                    Function-Based BPMN Architecture
+                    {t('insightPanel.coreTitle')}
                 </div>
                 <p style={{ fontSize: '0.6rem', color: 'var(--text-dim)', lineHeight: 1.55, margin: '0 0 8px' }}>
-                    Traditional process design binds logic to job positions. This innovation introduces a <strong style={{ color: 'var(--text-primary)' }}>decoupling layer</strong> where:
+                    {t('insightPanel.coreDesc')}
                 </p>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 3, marginBottom: 14 }}>
-                    {['Business processes remain stable', 'Organizational roles can change', 'Only role mapping is updated'].map((t, i) => (
+                    {coreBullets.map((bullet, i) => (
                         <div key={i} style={{
                             display: 'flex', alignItems: 'flex-start', gap: 6,
                             fontSize: '0.58rem', color: 'var(--text-secondary)', lineHeight: 1.4,
                         }}>
                             <span style={{ color: 'var(--accent)', fontWeight: 700, flexShrink: 0 }}>•</span>
-                            {t}
+                            {bullet}
                         </div>
                     ))}
                 </div>
@@ -124,17 +146,7 @@ export default function ProductInsightPanel() {
                     border: '1px solid rgba(0,119,182,0.1)',
                     borderRadius: 10,
                 }}>
-                    {[
-                        { label: 'Business Strategy', bg: 'rgba(0,119,182,0.08)' },
-                        null,
-                        { label: 'Process Landscape', bg: 'rgba(0,119,182,0.08)' },
-                        null,
-                        { label: 'Function-Based BPMN', bg: 'rgba(0,119,182,0.12)', accent: true },
-                        'decouple',
-                        { label: 'Role Mapping Matrix', bg: 'rgba(0,119,182,0.08)' },
-                        null,
-                        { label: 'Organization Structure', bg: 'rgba(0,119,182,0.06)' },
-                    ].map((item, i) => {
+                    {diagramItems.map((item, i) => {
                         if (item === null) {
                             return (
                                 <div key={i} style={{ textAlign: 'center', lineHeight: 1, padding: '1px 0' }}>
@@ -149,7 +161,7 @@ export default function ProductInsightPanel() {
                                     fontSize: '0.48rem', fontWeight: 800, color: '#e17055',
                                     textTransform: 'uppercase', letterSpacing: 1.5,
                                 }}>
-                                    ─── decoupling layer ───
+                                    ─── {t('insightPanel.diagramDecouple')} ───
                                 </div>
                             )
                         }

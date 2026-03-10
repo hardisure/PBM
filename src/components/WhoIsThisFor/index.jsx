@@ -1,35 +1,22 @@
 import SectionWrapper from '../../layouts/SectionWrapper'
-
-const audiences = [
-    {
-        icon: '🔄',
-        title: 'Frequent Restructuring',
-        desc: 'Organizations that regularly change their organizational structure, reporting lines, or departmental setup.',
-    },
-    {
-        icon: '🏢',
-        title: 'Multi-Subsidiary Groups',
-        desc: 'Holding companies and conglomerates managing multiple subsidiaries with complex governance layers.',
-    },
-    {
-        icon: '📋',
-        title: 'Large SOP Libraries',
-        desc: 'Organizations maintaining extensive process documentation that must be updated after every structural change.',
-    },
-    {
-        icon: '🔍',
-        title: 'Compliance-Driven',
-        desc: 'Entities requiring strong compliance visibility, audit readiness, and governance accountability.',
-    },
-]
+import { useTranslation } from '../../i18n/LanguageContext'
 
 export default function WhoIsThisFor() {
+    const { t } = useTranslation()
+
+    const audiences = [
+        { icon: '🔄', title: t('whoIsThisFor.aud1Title'), desc: t('whoIsThisFor.aud1Desc') },
+        { icon: '🏢', title: t('whoIsThisFor.aud2Title'), desc: t('whoIsThisFor.aud2Desc') },
+        { icon: '📋', title: t('whoIsThisFor.aud3Title'), desc: t('whoIsThisFor.aud3Desc') },
+        { icon: '🔍', title: t('whoIsThisFor.aud4Title'), desc: t('whoIsThisFor.aud4Desc') },
+    ]
+
     return (
         <SectionWrapper id="who" variant="product">
             <div className="section-header">
-                <span className="section-tag" style={{ background: 'rgba(0,119,182,0.08)', color: 'var(--accent)' }}>Target Audience</span>
-                <h2 className="section-title">Who Is This <span className="gradient-text">For</span></h2>
-                <p className="section-subtitle">This solution is designed for organizations that face these challenges.</p>
+                <span className="section-tag" style={{ background: 'rgba(0,119,182,0.08)', color: 'var(--accent)' }}>{t('whoIsThisFor.tag')}</span>
+                <h2 className="section-title">{t('whoIsThisFor.title1')}<span className="gradient-text">{t('whoIsThisFor.titleAccent')}</span></h2>
+                <p className="section-subtitle">{t('whoIsThisFor.subtitle')}</p>
             </div>
 
             <div style={{

@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
+import { useTranslation } from './i18n/LanguageContext'
 import MainLayout from './layouts/MainLayout'
 import HeroAnimation from './components/HeroAnimation'
 import InnovationStory from './sections/InnovationStory'
@@ -13,6 +14,7 @@ function getPageFromHash() {
 }
 
 export default function App() {
+    const { t } = useTranslation()
     const [page, setPage] = useState(getPageFromHash)
 
     const handleHashChange = useCallback(() => {
@@ -80,7 +82,7 @@ export default function App() {
                                 color: '#0077b6',
                                 marginBottom: 24,
                             }}>
-                                Section B — Product Story
+                                {t('productHero.tag')}
                             </div>
                             <h1 style={{
                                 fontSize: 'clamp(3rem, 6vw, 5rem)',
@@ -90,11 +92,11 @@ export default function App() {
                                 lineHeight: 1.1,
                                 letterSpacing: '-0.03em',
                             }}>
-                                Product <span style={{
+                                {t('productHero.title1')} <span style={{
                                     background: 'linear-gradient(135deg, #0077b6, #00b4d8)',
                                     WebkitBackgroundClip: 'text',
                                     WebkitTextFillColor: 'transparent',
-                                }}>Story</span>
+                                }}>{t('productHero.title2')}</span>
                             </h1>
                             <p style={{
                                 fontSize: '1.3rem',
@@ -104,7 +106,7 @@ export default function App() {
                                 lineHeight: 1.7,
                                 fontWeight: 500,
                             }}>
-                                This innovation is no longer just a concept.
+                                {t('productHero.desc1')}
                             </p>
                             <p style={{
                                 fontSize: '1.15rem',
@@ -113,7 +115,7 @@ export default function App() {
                                 margin: '0 auto 44px',
                                 lineHeight: 1.7,
                             }}>
-                                It has evolved into a <strong style={{ color: '#0077b6' }}>governance solution toolkit</strong> designed to stabilize business processes and reduce restructuring cost.
+                                {t('productHero.desc2a')}<strong style={{ color: '#0077b6' }}>{t('productHero.desc2b')}</strong>{t('productHero.desc2c')}
                             </p>
                             <p style={{
                                 fontSize: '0.95rem',
@@ -121,7 +123,7 @@ export default function App() {
                                 letterSpacing: 1.5,
                                 marginBottom: 36,
                             }}>
-                                Scroll down to see what your organization actually gets.
+                                {t('productHero.scroll')}
                             </p>
 
                             {/* Scroll indicator */}
@@ -153,7 +155,7 @@ export default function App() {
                                     textTransform: 'uppercase',
                                     letterSpacing: 2,
                                 }}>
-                                    Explore the Solution
+                                    {t('productHero.cta')}
                                 </span>
                             </div>
                         </div>
@@ -181,19 +183,19 @@ export default function App() {
                                 maxWidth: 520, margin: '0 auto 8px', lineHeight: 1.6,
                                 fontStyle: 'italic',
                             }}>
-                                Organizations will always change.
+                                {t('innovationClosing.hook1')}
                             </p>
                             <p style={{
                                 fontSize: '1.3rem', fontWeight: 700, color: 'var(--text-primary)',
                                 maxWidth: 520, margin: '0 auto 24px', lineHeight: 1.6,
                             }}>
-                                Your processes do not have to break.
+                                {t('app.processNeverBreak')}
                             </p>
                             <p style={{
                                 fontSize: '0.9rem', color: 'var(--text-dim)', maxWidth: 500,
                                 margin: '0 auto 40px', lineHeight: 1.7,
                             }}>
-                                Function-Based BPMN protects business process architecture from organizational restructuring.
+                                {t('app.ctaDesc1')}
                             </p>
 
                             <div style={{
@@ -202,14 +204,14 @@ export default function App() {
                             }} />
 
                             <h2 style={{ fontSize: '2rem', fontWeight: 900, color: 'var(--text-primary)', marginBottom: 16 }}>
-                                Ready to <span className="gradient-text">Transform</span> Your Governance?
+                                {t('app.ctaTitle1')} <span className="gradient-text">{t('app.ctaAccent')}</span> {t('app.ctaTitle2')}
                             </h2>
                             <p style={{ color: 'var(--text-dim)', maxWidth: 500, margin: '0 auto 32px', fontSize: '1rem' }}>
-                                Let's discuss how Function-Based BPMN can protect your organization from restructuring chaos.
+                                {t('app.ctaDesc2')}
                             </p>
                             <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-                                <button className="btn btn-primary btn-lg">📧 Contact Us</button>
-                                <button className="btn btn-outline btn-lg">📄 Download Whitepaper</button>
+                                <button className="btn btn-primary btn-lg">📧 {t('app.contact')}</button>
+                                <button className="btn btn-outline btn-lg">📄 {t('app.whitepaper')}</button>
                             </div>
                             <div style={{ marginTop: 24 }}>
                                 <button
@@ -220,11 +222,11 @@ export default function App() {
                                         fontFamily: 'inherit',
                                     }}
                                 >
-                                    ← Kembali ke Innovation Story
+                                    ← {t('app.backToInnovation')}
                                 </button>
                             </div>
                             <div style={{ marginTop: 40, fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-                                © 2024 PT Mitra Karya Prima (PLN Group) · Governance Architecture Framework
+                                {t('innovationClosing.copyright')}
                             </div>
                         </div>
                     </section>

@@ -1,68 +1,45 @@
 import SectionWrapper from '../../layouts/SectionWrapper'
-
-const tiers = [
-    {
-        name: 'Ala Carte',
-        price: 'Rp 50 Jt',
-        unit: '/ kategori proses',
-        desc: 'Audit per Kategori Proses',
-        features: [
-            'Audit arsitektur proses per kategori',
-            'Pemetaan ketergantungan posisi',
-            'Rekomendasi perbaikan proses',
-            'GCI (Governance Complexity Index) score',
-        ],
-        cta: 'Request Audit',
-        highlight: false,
-    },
-    {
-        name: 'All-In',
-        price: 'Rp 450 Jt',
-        unit: '/ organisasi',
-        desc: 'Full Process Redesign',
-        features: [
-            'Audit arsitektur proses menyeluruh',
-            'Function-based BPMN redesign (APQC L1–L4)',
-            'Role Mapping Matrix build',
-            'Toolkits tata kelola (template & kamus fungsi)',
-            'Implementasi Decoupling Layer',
-            'Pelatihan & sertifikasi internal',
-            'Governance dashboard setup',
-        ],
-        cta: 'Start Transformation',
-        highlight: true,
-    },
-    {
-        name: 'Custom',
-        price: 'Rp 600 Jt',
-        unit: '/ proyek',
-        desc: 'Multi-Entity Deployment',
-        features: [
-            'Seluruh layanan All-In',
-            'Multi-subsidiary rollout',
-            'Integrasi dengan platform BPM (Camunda/Bizagi/Signavio)',
-            'Harmonisasi proses lintas entitas',
-            'Dukungan governance berkelanjutan',
-            'Strategic advisory',
-        ],
-        cta: 'Contact Us',
-        highlight: false,
-    },
-]
-
-const marketNote = {
-    som: 'Rp 800 Jt / Tahun (2 klien awal)',
-    sam: 'Rp 16 Miliar (40 organisasi)',
-    tam: 'Rp 88,8 Miliar (310+ entitas)',
-}
+import { useTranslation } from '../../i18n/LanguageContext'
 
 export default function Pricing() {
+    const { t } = useTranslation()
+
+    const tiers = [
+        {
+            name: t('pricing.tier1Name'),
+            price: t('pricing.tier1Price'),
+            unit: t('pricing.tier1Unit'),
+            desc: t('pricing.tier1Desc'),
+            features: [t('pricing.tier1f1'), t('pricing.tier1f2'), t('pricing.tier1f3'), t('pricing.tier1f4')],
+            cta: t('pricing.tier1Cta'),
+            highlight: false,
+        },
+        {
+            name: t('pricing.tier2Name'),
+            price: t('pricing.tier2Price'),
+            unit: t('pricing.tier2Unit'),
+            desc: t('pricing.tier2Desc'),
+            features: [t('pricing.tier2f1'), t('pricing.tier2f2'), t('pricing.tier2f3'), t('pricing.tier2f4'), t('pricing.tier2f5'), t('pricing.tier2f6'), t('pricing.tier2f7')],
+            cta: t('pricing.tier2Cta'),
+            highlight: true,
+        },
+        {
+            name: t('pricing.tier3Name'),
+            price: t('pricing.tier3Price'),
+            unit: t('pricing.tier3Unit'),
+            desc: t('pricing.tier3Desc'),
+            features: [t('pricing.tier3f1'), t('pricing.tier3f2'), t('pricing.tier3f3'), t('pricing.tier3f4'), t('pricing.tier3f5'), t('pricing.tier3f6')],
+            cta: t('pricing.tier3Cta'),
+            highlight: false,
+        },
+    ]
+
     return (
         <SectionWrapper id="pricing" variant="product-alt">
             <div className="section-header">
-                <span className="section-tag">Pricing</span>
-                <h2 className="section-title">Investment <span className="gradient-text">Tiers</span></h2>
-                <p className="section-subtitle">ROI-driven pricing — payback guaranteed within 12 months.</p>
+                <span className="section-tag">{t('pricing.tag')}</span>
+                <h2 className="section-title">{t('pricing.title')} <span className="gradient-text">{t('pricing.titleAccent')}</span></h2>
+                <p className="section-subtitle">{t('pricing.subtitle')}</p>
             </div>
 
             {/* Financial Outcome Box */}
@@ -75,7 +52,7 @@ export default function Pricing() {
                     background: 'rgba(16,185,129,0.04)', border: '1px solid rgba(16,185,129,0.12)',
                     borderRadius: 12,
                 }}>
-                    <div style={{ fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: '#059669', marginBottom: 6 }}>Avg. Governance Cost Reduction</div>
+                    <div style={{ fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: '#059669', marginBottom: 6 }}>{t('pricing.costReduction')}</div>
                     <div style={{ fontSize: '1.8rem', fontWeight: 900, color: '#059669' }}>30–60%</div>
                 </div>
                 <div style={{
@@ -83,8 +60,8 @@ export default function Pricing() {
                     background: 'rgba(0,119,182,0.04)', border: '1px solid rgba(0,119,182,0.12)',
                     borderRadius: 12,
                 }}>
-                    <div style={{ fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: 'var(--accent)', marginBottom: 6 }}>Typical Payback Period</div>
-                    <div style={{ fontSize: '1.8rem', fontWeight: 900, color: 'var(--accent)' }}>&lt; 12 Months</div>
+                    <div style={{ fontSize: '0.65rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: 'var(--accent)', marginBottom: 6 }}>{t('pricing.paybackPeriod')}</div>
+                    <div style={{ fontSize: '1.8rem', fontWeight: 900, color: 'var(--accent)' }}>{t('pricing.paybackVal')}</div>
                 </div>
             </div>
 
@@ -95,14 +72,12 @@ export default function Pricing() {
                         background: tier.highlight ? 'rgba(0,119,182,0.04)' : 'var(--bg-card)',
                         borderRadius: 'var(--radius-lg)',
                         border: `1.5px solid ${tier.highlight ? 'var(--accent)' : 'var(--border)'}`,
-                        display: 'flex',
-                        flexDirection: 'column',
-                        position: 'relative',
+                        display: 'flex', flexDirection: 'column', position: 'relative',
                         ...(tier.highlight ? { transform: 'scale(1.04)', boxShadow: '0 8px 40px rgba(0,119,182,0.1)' } : {}),
                     }}>
                         {tier.highlight && (
                             <div style={{ position: 'absolute', top: -12, left: '50%', transform: 'translateX(-50%)', background: 'var(--accent)', color: '#fff', padding: '4px 16px', borderRadius: 12, fontSize: '0.7rem', fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase' }}>
-                                Recommended
+                                {t('pricing.recommended')}
                             </div>
                         )}
                         <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, color: 'var(--accent)', marginBottom: 8 }}>{tier.name}</div>
@@ -123,24 +98,20 @@ export default function Pricing() {
                 ))}
             </div>
 
-            {/* Rata-rata proyek note */}
+            {/* Average project value note */}
             <div style={{
-                maxWidth: 640,
-                margin: '48px auto 0',
-                textAlign: 'center',
-                padding: '20px 24px',
-                background: 'rgba(0,119,182,0.04)',
-                borderRadius: 'var(--radius-lg)',
-                border: '1px solid rgba(0,119,182,0.1)',
+                maxWidth: 640, margin: '48px auto 0', textAlign: 'center',
+                padding: '20px 24px', background: 'rgba(0,119,182,0.04)',
+                borderRadius: 'var(--radius-lg)', border: '1px solid rgba(0,119,182,0.1)',
             }}>
                 <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1.5, color: 'var(--accent)', marginBottom: 8 }}>
-                    Rata-Rata Nilai Proyek
+                    {t('pricing.avgProjectValue')}
                 </div>
                 <div style={{ fontSize: '1.4rem', fontWeight: 900, color: 'var(--text-primary)' }}>
-                    Rp 400 Juta
+                    {t('pricing.avgProjectAmount')}
                 </div>
                 <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: 4, marginBottom: 0 }}>
-                    Estimasi konservatif berdasarkan bauran paket layanan (Rp 50 Jt – Rp 600 Jt)
+                    {t('pricing.avgProjectNote')}
                 </p>
             </div>
         </SectionWrapper>

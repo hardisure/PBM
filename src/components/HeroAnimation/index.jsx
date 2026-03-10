@@ -1,5 +1,6 @@
 import { useEffect, useRef, useMemo } from 'react'
 import styles from './styles.module.css'
+import { useTranslation } from '../../i18n/LanguageContext'
 
 function Particles() {
     const particles = useMemo(() =>
@@ -58,7 +59,6 @@ function NetworkCanvas() {
         function draw() {
             ctx.clearRect(0, 0, canvas.offsetWidth, canvas.offsetHeight)
 
-            // Draw connections
             for (let i = 0; i < nodes.length; i++) {
                 for (let j = i + 1; j < nodes.length; j++) {
                     const dx = nodes[i].x - nodes[j].x
@@ -75,7 +75,6 @@ function NetworkCanvas() {
                 }
             }
 
-            // Draw & move nodes
             nodes.forEach(n => {
                 ctx.beginPath()
                 ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2)
@@ -101,6 +100,8 @@ function NetworkCanvas() {
 }
 
 export default function HeroAnimation() {
+    const { t } = useTranslation()
+
     return (
         <section id="hero" className={styles.hero}>
             <div className={styles['hero-bg']}>
@@ -109,35 +110,35 @@ export default function HeroAnimation() {
             <Particles />
 
             <div className={styles['hero-content']}>
-                <div className={styles['hero-tag']}>PT Mitra Karya Prima · PLN Group</div>
+                <div className={styles['hero-tag']}>{t('hero.tag')}</div>
                 <h1 className={styles['hero-title']}>
-                    Governance<br />
-                    <span className="gradient-text">Architecture</span>{' '}
-                    Framework
+                    {t('hero.title1')}<br />
+                    <span className="gradient-text">{t('hero.title2')}</span>{' '}
+                    {t('hero.title3')}
                 </h1>
                 <p className={styles['hero-subtitle']}>
-                    Building Business Process Architecture That Survives Organizational Restructuring
+                    {t('hero.subtitle')}
                 </p>
                 <p className={styles['hero-context']}>
-                    A Function-Based BPMN approach that decouples business processes from organizational structure.
+                    {t('hero.context')}
                 </p>
 
                 <div className={styles['hero-diagram']}>
                     <div className={styles['diagram-flow']}>
                         <div className={`${styles['diagram-node']} ${styles['node-danger']}`}>
-                            <span>📋</span> <span>Position-Based<br />Process</span>
+                            <span>📋</span> <span>{t('hero.diagramNode1')}<br />{t('hero.diagramNode1b')}</span>
                         </div>
                         <div className={styles['diagram-arrow']}>→</div>
                         <div className={`${styles['diagram-node']} ${styles['node-warning']}`}>
-                            <span>🔄</span> <span>Restructuring<br />Occurs</span>
+                            <span>🔄</span> <span>{t('hero.diagramNode2')}<br />{t('hero.diagramNode2b')}</span>
                         </div>
                         <div className={styles['diagram-arrow']}>→</div>
                         <div className={`${styles['diagram-node']} ${styles['node-danger']}`}>
-                            <span>💥</span> <span>Process<br />Collapse</span>
+                            <span>💥</span> <span>{t('hero.diagramNode3')}<br />{t('hero.diagramNode3b')}</span>
                         </div>
                         <div className={`${styles['diagram-arrow']} ${styles['diagram-arrow-transform']}`}>⚡</div>
                         <div className={`${styles['diagram-node']} ${styles['node-success']}`}>
-                            <span>🛡️</span> <span>Function-Based<br />Architecture</span>
+                            <span>🛡️</span> <span>{t('hero.diagramNode4')}<br />{t('hero.diagramNode4b')}</span>
                         </div>
                     </div>
                 </div>
@@ -145,7 +146,7 @@ export default function HeroAnimation() {
 
             <div className={styles['hero-scroll']}>
                 <div className={styles['scroll-line']} />
-                <span>Scroll to discover</span>
+                <span>{t('hero.scroll')}</span>
             </div>
         </section>
     )

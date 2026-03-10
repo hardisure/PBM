@@ -1,26 +1,28 @@
 import SectionWrapper from '../../layouts/SectionWrapper'
-
-const painPoints = [
-    { icon: '🔄', text: 'Process redesign across affected departments' },
-    { icon: '📄', text: 'Document rewrite for SOPs, work instructions, and governance artifacts' },
-    { icon: '✅', text: 'Governance revalidation of compliance, audit trails, and role assignments' },
-]
+import { useTranslation } from '../../i18n/LanguageContext'
 
 export default function ProblemReminder() {
+    const { t } = useTranslation()
+
+    const painPoints = [
+        { icon: '🔄', text: t('problemReminder.pain1') },
+        { icon: '📄', text: t('problemReminder.pain2') },
+        { icon: '✅', text: t('problemReminder.pain3') },
+    ]
+
     return (
         <SectionWrapper id="problem-reminder" variant="product-alt">
             <div style={{ maxWidth: 720, margin: '0 auto', textAlign: 'center' }}>
-                <span className="section-tag" style={{ background: 'rgba(214,48,49,0.08)', color: '#c0392b' }}>The Challenge</span>
+                <span className="section-tag" style={{ background: 'rgba(214,48,49,0.08)', color: '#c0392b' }}>{t('problemReminder.tag')}</span>
                 <h2 className="section-title" style={{ marginTop: 16 }}>
-                    Why Organizations Struggle With{' '}
-                    <span style={{ color: 'var(--accent-hot, #e63946)' }}>Process Stability</span>
+                    {t('problemReminder.title1')}
+                    <span style={{ color: 'var(--accent-hot, #e63946)' }}>{t('problemReminder.title2')}</span>
                 </h2>
                 <p style={{
                     fontSize: '1.05rem', color: 'var(--text-dim)', lineHeight: 1.8,
                     maxWidth: 600, margin: '0 auto 32px',
                 }}>
-                    Most organizations redesign their processes every time organizational structures change.
-                    Each restructuring can trigger:
+                    {t('problemReminder.desc')}
                 </p>
 
                 <div style={{
@@ -53,8 +55,7 @@ export default function ProblemReminder() {
                     maxWidth: 560, margin: '0 auto',
                 }}>
                     <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.7, margin: 0, fontWeight: 500 }}>
-                        These activities create <strong style={{ color: 'var(--text-primary)' }}>hidden governance costs</strong> and operational disruption.
-                        The <strong style={{ color: 'var(--accent)' }}>Governance Architecture toolkit</strong> is designed to eliminate this structural dependency.
+                        {t('problemReminder.closingText1')}<strong style={{ color: 'var(--text-primary)' }}>{t('problemReminder.closing1')}</strong>{t('problemReminder.closingText2')}<strong style={{ color: 'var(--accent)' }}>{t('problemReminder.closing2')}</strong>{t('problemReminder.closingText3')}
                     </p>
                 </div>
             </div>

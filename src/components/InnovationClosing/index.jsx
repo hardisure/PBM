@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { useTranslation } from '../../i18n/LanguageContext'
 
 const revealObserver = (entries) => {
     entries.forEach(entry => {
@@ -9,6 +10,7 @@ const revealObserver = (entries) => {
 }
 
 export default function InnovationClosing({ onNavigateProduct }) {
+    const { t } = useTranslation()
     const containerRef = useRef(null)
 
     useEffect(() => {
@@ -43,7 +45,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         lineHeight: 1.15,
                         letterSpacing: '-0.02em',
                     }}>
-                        Organizations Will Always Change.
+                        {t('innovationClosing.hook1')}
                     </h2>
                 </div>
 
@@ -61,7 +63,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent',
                     }}>
-                        Processes Should Not Break.
+                        {t('innovationClosing.hook2')}
                     </h2>
                 </div>
             </div>
@@ -79,9 +81,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         fontSize: '1.05rem', lineHeight: 1.85,
                         color: '#4a5568', textAlign: 'center',
                     }}>
-                        For decades, business processes have been tightly bound to organizational structures.
-                        Every restructuring forced organizations to redesign workflows, rewrite documentation,
-                        and rebuild governance mechanisms from the ground up.
+                        {t('innovationClosing.narrative1')}
                     </p>
                 </div>
 
@@ -95,7 +95,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         color: '#1a2332', textAlign: 'center',
                         fontWeight: 600, fontStyle: 'italic',
                     }}>
-                        This innovation challenges that paradigm.
+                        {t('innovationClosing.narrative2')}
                     </p>
                 </div>
 
@@ -108,10 +108,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         fontSize: '1.05rem', lineHeight: 1.85,
                         color: '#4a5568', textAlign: 'center',
                     }}>
-                        Through the <strong style={{ color: '#0077b6' }}>Function-Based BPMN Governance Architecture</strong>,
-                        business processes are designed to remain stable — even when organizational structures evolve.
-                        Processes become resilient, governance becomes sustainable,
-                        and operational continuity is preserved.
+                        {t('innovationClosing.narrative3a')}<strong style={{ color: '#0077b6' }}>{t('innovationClosing.narrative3accent')}</strong>{t('innovationClosing.narrative3b')}
                     </p>
                 </div>
             </div>
@@ -132,7 +129,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         fontSize: '1.05rem', lineHeight: 1.85,
                         color: 'rgba(255,255,255,0.6)', textAlign: 'center',
                     }}>
-                        What started as an internal innovation has now matured into something more.
+                        {t('innovationClosing.commercial1')}
                     </p>
                 </div>
 
@@ -145,8 +142,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         fontSize: '1.1rem', lineHeight: 1.8,
                         color: 'rgba(255,255,255,0.85)', textAlign: 'center',
                     }}>
-                        A <strong style={{ color: '#00b4d8' }}>structured governance architecture framework</strong>,
-                        supported by clear methodology, measurable impact, and scalable implementation.
+                        {t('innovationClosing.commercial2a')}<strong style={{ color: '#00b4d8' }}>{t('innovationClosing.commercial2accent')}</strong>{t('innovationClosing.commercial2b')}
                     </p>
                 </div>
 
@@ -159,14 +155,14 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         fontSize: '1rem', lineHeight: 1.7,
                         color: 'rgba(255,255,255,0.45)', textAlign: 'center',
                     }}>
-                        Not just an improvement.
+                        {t('innovationClosing.commercial3a')}
                     </p>
                     <p style={{
                         fontSize: '1.3rem', lineHeight: 1.5,
                         color: '#fff', textAlign: 'center',
                         fontWeight: 700, marginTop: 8,
                     }}>
-                        A solution ready for broader adoption.
+                        {t('innovationClosing.commercial3b')}
                     </p>
                 </div>
             </div>
@@ -190,10 +186,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         color: 'rgba(255,255,255,0.55)', textAlign: 'left',
                         fontStyle: 'italic',
                     }}>
-                        As organizations become more dynamic, the need for <span style={{ color: 'rgba(255,255,255,0.9)' }}>process resilience</span> will only grow.
-                        This framework offers a new way forward — one where business processes are no longer fragile artifacts
-                        of organizational charts, but <span style={{ color: '#00b4d8' }}>enduring systems</span> that support
-                        long-term operational stability.
+                        {t('innovationClosing.vision')}
                     </p>
                 </div>
 
@@ -207,9 +200,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         color: 'rgba(255,255,255,0.35)', textAlign: 'center',
                         maxWidth: 500, margin: '0 auto',
                     }}>
-                        With validated implementation, documented methodology, and measurable economic benefits —
-                        the framework is positioned not only as an innovation, but as a governance solution
-                        ready to be implemented, adopted, and commercialized across industries.
+                        {t('innovationClosing.visionFinal')}
                     </p>
                 </div>
             </div>
@@ -234,7 +225,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         fontWeight: 600,
                         marginBottom: 24,
                     }}>
-                        The Journey
+                        {t('innovationClosing.journeyLabel')}
                     </p>
                     <h2 style={{
                         fontSize: 'clamp(2.2rem, 5vw, 3.5rem)',
@@ -243,7 +234,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         lineHeight: 1.15,
                         letterSpacing: '-0.02em',
                     }}>
-                        From Innovation
+                        {t('innovationClosing.journeyFrom')}
                     </h2>
                     <h2 style={{
                         fontSize: 'clamp(2.2rem, 5vw, 3.5rem)',
@@ -255,7 +246,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent',
                     }}>
-                        to Governance Architecture Product.
+                        {t('innovationClosing.journeyTo')}
                     </h2>
                 </div>
             </div>
@@ -301,7 +292,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                                 e.target.style.boxShadow = '0 4px 24px rgba(0,119,182,0.3)'
                             }}
                         >
-                            🚀 Explore the Product Story
+                            {t('innovationClosing.ctaProduct')}
                         </button>
 
                         <button
@@ -333,7 +324,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                                 e.target.style.color = 'rgba(255,255,255,0.7)'
                             }}
                         >
-                            📊 Run the ROI Simulator
+                            {t('innovationClosing.ctaROI')}
                         </button>
                     </div>
 
@@ -343,7 +334,7 @@ export default function InnovationClosing({ onNavigateProduct }) {
                         color: 'rgba(255,255,255,0.2)',
                         letterSpacing: 1,
                     }}>
-                        © 2024 PT Mitra Karya Prima (PLN Group) · Governance Architecture Framework
+                        {t('innovationClosing.copyright')}
                     </p>
                 </div>
             </div>

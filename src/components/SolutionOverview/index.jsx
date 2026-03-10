@@ -1,29 +1,32 @@
 import SectionWrapper from '../../layouts/SectionWrapper'
-
-const features = [
-    { icon: '🔓', title: 'Process Decoupling Engine', desc: 'Automatically separate process logic from organizational structure using function-based BPMN architecture.' },
-    { icon: '🗺️', title: 'Role Mapping Matrix', desc: 'Dynamic RACI matrix connecting functional roles to positions. Only the mapping changes — never the processes.' },
-    { icon: '📊', title: 'Governance Dashboard', desc: 'Real-time visibility into process health, compliance status, and governance metrics across the organization.' },
-    { icon: '⚡', title: 'Restructuring Simulator', desc: 'Model organizational changes and instantly see their impact on process architecture — before implementation.' },
-]
-
-const steps = [
-    { num: '1', title: 'Assess', desc: 'Audit current process architecture and identify position-based dependencies.' },
-    { num: '2', title: 'Transform', desc: 'Re-architect processes using function-based BPMN methodology.' },
-    { num: '3', title: 'Map', desc: 'Build Role Mapping Matrix connecting functions to current org structure.' },
-    { num: '4', title: 'Monitor', desc: 'Deploy governance dashboard and continuous improvement cycle.' },
-]
+import { useTranslation } from '../../i18n/LanguageContext'
 
 export default function SolutionOverview() {
+    const { t } = useTranslation()
+
+    const features = [
+        { icon: '🔓', title: t('solutionOverview.feat1Title'), desc: t('solutionOverview.feat1Desc') },
+        { icon: '🗺️', title: t('solutionOverview.feat2Title'), desc: t('solutionOverview.feat2Desc') },
+        { icon: '📊', title: t('solutionOverview.feat3Title'), desc: t('solutionOverview.feat3Desc') },
+        { icon: '⚡', title: t('solutionOverview.feat4Title'), desc: t('solutionOverview.feat4Desc') },
+    ]
+
+    const steps = [
+        { num: '1', title: t('solutionOverview.step1'), desc: t('solutionOverview.step1Desc') },
+        { num: '2', title: t('solutionOverview.step2'), desc: t('solutionOverview.step2Desc') },
+        { num: '3', title: t('solutionOverview.step3'), desc: t('solutionOverview.step3Desc') },
+        { num: '4', title: t('solutionOverview.step4'), desc: t('solutionOverview.step4Desc') },
+    ]
+
     return (
         <SectionWrapper id="solution" variant="product">
             <div className="section-header">
-                <span className="section-tag" style={{ background: 'rgba(0,119,182,0.1)', color: 'var(--accent)' }}>Platform</span>
-                <h2 className="section-title">Governance Architecture <span className="gradient-text">Platform</span></h2>
-                <p className="section-subtitle">A modular governance system designed to keep business processes stable during organizational change.</p>
+                <span className="section-tag" style={{ background: 'rgba(0,119,182,0.1)', color: 'var(--accent)' }}>{t('solutionOverview.tag')}</span>
+                <h2 className="section-title">{t('solutionOverview.title')} <span className="gradient-text">{t('solutionOverview.titleAccent')}</span></h2>
+                <p className="section-subtitle">{t('solutionOverview.subtitle')}</p>
             </div>
 
-            <h3 style={{ textAlign: 'center', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 2, color: 'var(--text-muted)', marginBottom: 24 }}>Core Modules</h3>
+            <h3 style={{ textAlign: 'center', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 2, color: 'var(--text-muted)', marginBottom: 24 }}>{t('solutionOverview.coreModules')}</h3>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 24, maxWidth: 800, margin: '0 auto 48px' }}>
                 {features.map((f, i) => (
@@ -46,7 +49,7 @@ export default function SolutionOverview() {
             </div>
 
             {/* How it works */}
-            <h3 style={{ textAlign: 'center', fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: 32 }}>How It <span className="gradient-text">Works</span></h3>
+            <h3 style={{ textAlign: 'center', fontSize: '1.5rem', fontWeight: 800, color: 'var(--text-primary)', marginBottom: 32 }}>{t('solutionOverview.howTitle')} <span className="gradient-text">{t('solutionOverview.howAccent')}</span></h3>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 24, maxWidth: 900, margin: '0 auto' }}>
                 {steps.map((st, i) => (
                     <div key={i} style={{ textAlign: 'center' }}>

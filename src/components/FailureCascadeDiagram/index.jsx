@@ -1,14 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import SectionWrapper from '../../layouts/SectionWrapper'
 import styles from './styles.module.css'
-
-const cascadeSteps = [
-    { icon: '🔄', label: 'Restructuring', className: '' },
-    { icon: '💔', label: 'Process Break', className: 'step-warn' },
-    { icon: '📝', label: 'Document Rework', className: 'step-warn' },
-    { icon: '⏱️', label: 'Operational Delay', className: 'step-danger' },
-    { icon: '🚨', label: 'Audit Findings', className: 'step-critical' },
-]
+import { useTranslation } from '../../i18n/LanguageContext'
 
 function Counter({ target, suffix = '' }) {
     const [value, setValue] = useState(0)
@@ -19,7 +12,6 @@ function Counter({ target, suffix = '' }) {
         if (!el) return
         const observer = new IntersectionObserver(([e]) => {
             if (e.isIntersecting) {
-                let start = 0
                 const duration = 2000
                 const startTime = performance.now()
                 function tick(now) {
@@ -40,8 +32,17 @@ function Counter({ target, suffix = '' }) {
 }
 
 export default function FailureCascadeDiagram() {
+    const { t } = useTranslation()
     const [visibleSteps, setVisibleSteps] = useState(0)
     const sectionRef = useRef(null)
+
+    const cascadeSteps = [
+        { icon: '🔄', label: t('failureCascade.step1'), className: '' },
+        { icon: '💔', label: t('failureCascade.step2'), className: 'step-warn' },
+        { icon: '📝', label: t('failureCascade.step3'), className: 'step-warn' },
+        { icon: '⏱️', label: t('failureCascade.step4'), className: 'step-danger' },
+        { icon: '🚨', label: t('failureCascade.step5'), className: 'step-critical' },
+    ]
 
     useEffect(() => {
         const el = sectionRef.current
@@ -64,9 +65,9 @@ export default function FailureCascadeDiagram() {
     return (
         <SectionWrapper id="problem" variant="dark">
             <div className="section-header">
-                <span className="section-tag">The Real Problem</span>
-                <h2 className="section-title">Governance <span className="gradient-text-hot">Rework Crisis</span></h2>
-                <p className="section-subtitle">Every organizational restructuring triggers a cascade of governance failure — costing up to <strong>Rp975 Juta per cycle</strong>.</p>
+                <span className="section-tag">{t('failureCascade.tag')}</span>
+                <h2 className="section-title">{t('failureCascade.title1')}<span className="gradient-text-hot">{t('failureCascade.titleAccent')}</span></h2>
+                <p className="section-subtitle">{t('failureCascade.subtitle1')}<strong>{t('failureCascade.subtitleBold')}</strong>{t('failureCascade.subtitle2')}</p>
             </div>
 
             <div ref={sectionRef} className={styles.cascade}>
@@ -92,15 +93,15 @@ export default function FailureCascadeDiagram() {
             <div className={styles.stats}>
                 <div className={styles.stat}>
                     <div><span className={styles['stat-number']}><Counter target={80} /></span><span className={styles['stat-suffix']}>%</span></div>
-                    <div className={styles['stat-label']}>SOPs don't reflect actual operations</div>
+                    <div className={styles['stat-label']}>{t('failureCascade.stat1')}</div>
                 </div>
                 <div className={styles.stat}>
                     <div><span className={styles['stat-number']}><Counter target={70} /></span><span className={styles['stat-suffix']}>%</span></div>
-                    <div className={styles['stat-label']}>Organizations redesign processes after restructuring</div>
+                    <div className={styles['stat-label']}>{t('failureCascade.stat2')}</div>
                 </div>
                 <div className={styles.stat}>
                     <div><span className={styles['stat-number']}><Counter target={975} /></span><span className={styles['stat-suffix']}> Jt</span></div>
-                    <div className={styles['stat-label']}>Governance rework cost per cycle</div>
+                    <div className={styles['stat-label']}>{t('failureCascade.stat3')}</div>
                 </div>
             </div>
         </SectionWrapper>
