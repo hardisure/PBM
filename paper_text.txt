@@ -1,0 +1,3155 @@
+REDESIGNING FUNCTION-
+BASED BPMN: THE 
+SIMPLIFICATION OF 6-
+PROCESS-LEVEL TO 4 
+KODE INOVASI 102425MKP
+BIDANG BUSINESS DEVELOPMENT
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+IDENTITAS TIM
+2
+MEET OUR
+TEAM
+Hardi Surya Pratama
+Kabid Kinerja, Risiko dan kepatuhan
+Sultanunnadif
+Staf Kinerja, Risiko dan kepatuhan
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+PENDAHULUAN
+3
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+PEMBAHASAN
+4
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+MANFAAT
+5
+From internal to Market Opportunity
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+KESIMPULAN DAN SARAN
+6
+Kesimpulan
+Inovasi
+REDESIGNING
+FUNCTION-BASED
+BPMN:
+THE
+SIMPLIFICATION
+OF
+6-PROCESS-LEVEL
+TO
+4
+berhasil
+menjawab
+permasalahan mendasar dalam pengelolaan proses bisnis PT Mitra Karya Prima, yaitu ketidakstabilan proses akibat desain yang terlalu
+bergantung pada struktur dan jabatan organisasi. Melalui perancangan ulang arsitektur proses pada level konseptual dan operasional,
+inovasi ini menggeser paradigma proses bisnis dari sekadar dokumen administratif menjadi sistem kerja yang stabil, konsisten, dan adaptif
+terhadap perubahan organisasi.
+Saran
+Sebagai saran, inovasi ini perlu dijaga keberlanjutannya melalui penetapan standar proses bisnis korporat, penguatan peran fungsi
+pengelola proses, serta internalisasi berkelanjutan kepada seluruh unit kerja. Model Function-Based BPMN ini juga memiliki potensi besar
+untuk di Komersialisasi, baik di lingkungan grup perusahaan maupun utilitas industry lainnya. Dengan demikian, inovasi ini tidak hanya
+menjadi solusi jangka pendek, tetapi juga arah strategis pengelolaan proses bisnis yang berkelanjutan dan siap menghadapi dinamika
+organisasi di masa depan.
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+7
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+PENDAHULUAN
+8
+Dalam pedoman lama, proses bisnis pada umumnya
+disusun berdasarkan hirarki Level 1 hingga Level 5, 
+lalu diturunkan lagi menjadi SOP (Level 6) bahkan
+langsung ke level paling bawah atau Instruksi Kerja
+(Level 7). Tanpa ada kejelasan background masing-
+masing pekerjaan
+1.
+Mengurangi kompleksitas arsitektur proses bisnis
+2.
+Mengurangi ketergantungan proses bisnis
+terhadap perubahan jabatan
+3.
+Meningkatkan fleksibilitas dan adaptabilitas
+proses bisnis terhadap dinamika perubahan
+organisasi
+4.
+Meningkatkan efektivitas tata kelola proses bisnis
+5.
+Meningkatkan efisiensi pengelolaan proses bisnis
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+PENDAHULUAN
+9
+proses bisnis yang masih berbasis jabatan dan 
+struktur proses panjang dapat menyebabkan setiap
+perubahan organisasi berdampak langsung pada 
+relevansi dokumen proses bisnis dan Jabatan yang 
+Terikat, meskipun substansi pekerjaan tidak
+mengalami perubahan signifikan
+Pendekatan analisis akar masalah (Root Cause
+Failure Analysis) dan kerangka perbaikan proses
+yang sejalan dengan tahapan DMAIC digunakan
+sebagai dasar metodologis dalam merumuskan
+solusi inovasi.
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+PENDAHULUAN
+10
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+PEMBAHASAN
+11
+No
+Sebelum Penerapan Ide Inovasi
+Setelah Penerapan Ide Inovasi
+1
+Levelisasi proses 6–7 level
+Levelisasi dipangkas menjadi 4 level
+2
+Model aktor berbasis jabatan
+Model aktor berbasis fungsi
+3
+Hand-off proses tinggi Rata-rata 8,2
+Hand-off berkurang Rata-rata 4,7
+4
+Cycle time ±15 hari
+Cycle time lebih stabil ±10 hari
+5
+Error operasional relatif tinggi
+Error operasional menurun signifikan
+6
+Biaya waktu kerja lebih besar
+Biaya waktu kerja lebih efisien
+7
+Kontrol audit tidak konsisten
+Kontrol audit lebih konsisten
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+PEMBAHASAN
+12
+7. Pengembangan dan Pengelolaan SDM
+7.1 Menentukan 
+Kebijakan dan Strategi 
+Human Capital
+7.2 Mengelola Proses 
+Seleksi dan Rekrutmen
+7.3 Mengelola 
+Penempatan dan 
+Pengembangan 
+Karyawan
+7.4 Hubungan 
+Industrial
+7.5 Mengelola 
+Kompensasi dan 
+Manfaat
+7.6 Mengelola 
+Informasi Data 
+Karyawan
+3.2 Mengelola 
+Pemasaran
+5.1 Mengelola 
+Sumber Daya
+1.2 Menyusun RKAP
+2 Pengembangan 
+Produk
+1.1 Menyusun RJPP
+3.3 Mengelola 
+Penjualan
+M-D Base
+C
+C
+C
+2 Pengembangan
+Produk
+12 Pengelolaan
+Stakeholder
+9.4 Mengelola Proses
+Penggajian
+9.5 Mengelola Hutang 
+dan Reimburse 
+9.1 Perencanaan Keuangan 
+dan Manajemen Akuntansi
+10.2 Mengelola Fasilitas Kerja 
+dan Mobilisasi personel 
+M-Recruit
+6.2 Mengelola 
+Kepuasan Pelanggan
+D
+B
+D
+D
+5.2 Persiapan 
+Penyampaian Produk
+1.2 Menyusun RKAP
+1.3 Mengelola 
+Strategi Perusahaan
+D
+3.3 Mengelola 
+Penjualan
+B
+A
+A
+A
+6.3 Mengelola 
+Keluhan Pelanggan
+Hubungan Karyawan
+B
+5.1 Mengelola 
+Sumber Daya
+E
+E
+MPP
+HC Roadmap 
+HPP
+Level 1
+Level 2
+7.6 Mengelola Informasi Data Karyawan
+7.6.1 Mengelola 
+Informasi Data 
+Karyawan
+7.5 Mengelola 
+Kompensasi dan Manfaat
+7.6.2 Mengelola Sistem 
+Presensi
+7.6.3 Mengelola Sistem 
+Pengukuran Kepuasan 
+dan Keterikatan 
+Karyawan
+2 Pengembangan 
+Produk
+7.2.3 Melaksanakan 
+Seleksi Pelamar
+7.3.2 Mengelola Penilaian 
+Kinerja Karyawan
+7.4.2 Kelola Keluhan dan 
+Pengaduan Karyawan
+3.2.3 Penyusunan 
+SIH
+10.2 Mengelola Fasilitas Kerja 
+dan Mobilisasi personel 
+7.2.3 Melaksanakan 
+Seleksi Pelamar
+7.3.2 Mengelola Penilaian 
+Kinerja Karyawan
+7.3.3 Mengelola Penilaian 
+Kinerja Karyawan
+9.4.1 Mengelola Perhitungan Jam Kerja 
+dan Penghasilan Tambahan
+7.3.1 Mengelola Orientasi 
+Karyawan
+Level 2
+Level 3
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+PEMBAHASAN
+13
+Semua Entitas
+Manajer Administrasi 
+Sumber Daya Manusia
+Fungsi Administrasi 
+Sumber Daya Manusia
+Fungsi Verifikasi 
+Administratif
+Admin Unit
+Aplikasi
+Kegiatan
+Output
+Keterangan
+Diagram Alur Proses
+7.6.2 Mengelola Sistem Presensi
+2 Mengonfigurasi Work 
+Location
+Sesuai ?
+Target
+4 Mengumpulkan dan 
+Koreksi Data Presensi 
+Harian Unit
+6 Review Data Sistem 
+Presensi
+Tidak
+Iya
+7 Menyediakan Laporan 
+Kehadiran
+1 Mengkonfigurasi 
+Jadwal Kerja
+5 Mengumpulkan dan 
+Koreksi Data Presensi 
+Harian Kantor Pusat
+3 Mendaftar Device 
+Presensi
+Jadwal Kerja
+Shift & Daily
+Koordinat
+Presensi
+Device Presensi
+Teregistrasi
+Draf Data Presensi
+Harian
+Data Laporan
+Presensi
+1 Hari
+1 Hari
+2 Hari
+2 Hari
+1 Hari
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+R.3.5 Untuk unit kerja yang 
+tidak memiliki Admin proses 
+dilakukan oleh kantor pusat
+R.1 Untuk unit kerja yang tidak 
+memiliki Admin proses 
+dilakukan oleh kantor pusat
+Level 3
+Level 4
+Penerapan Fungsi pada Actor merupakan salah satu mitigasi untuk tidak membuat proses 
+bergantung pada jabatan/role di PT Mitra Karya Prima. Tidak hanya profitable di Mitra Karya
+Primas sendiri, inovasi ini bertujuan untuk meningkatkan kinerja dan output sehingga Customer 
+secara tidak langsung mendapat hasil yang memuaskan
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+MANFAAT
+14
+84,000,000
+86,000,000
+88,000,000
+90,000,000
+92,000,000
+94,000,000
+96,000,000
+98,000,000
+100,000,000
+102,000,000
+104,000,000
+106,000,000
+1
+2
+3
+4
+5
+Project Cash Flow
+Komponen
+Nilai
+Keterangan
+Jasa Konsultasi Proses 
+Bisnis (PCF APQC)
+75.000.000
+Mapping & validasi, 
+Biaya Supporting & 
+Implementasi
+13.800.000
+Workshop, 
+Dokumentasi
+Total Investasi
+88.800.000
+No
+Manfaat
+NIlai
+1
+Man-Hours Saving akibat
+Reduksi Revisi Dokumen
+Proses
+24.000.000
+2
+Productivity Gain dari Kejelasan 
+Alur dan Peran Fungsional
+297.000.000
+Total Manfaat pertahun
+321.000.000
+Financial
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+MANFAAT
+15
+Non-Financial
+
+Stabilitas Proses Bisnis
+Proses tidak lagi bergantung pada struktur jabatan, sehingga tetap relevan meskipun terjadi
+perubahan organisasi, rotasi personel, atau penyesuaian kebijakan.
+
+Peningkatan Tata Kelola dan Kesiapan Audit
+Proses yang lebih ringkas dan terstandar memudahkan audit internal, mengurangi kebutuhan
+klarifikasi, serta meningkatkan konsistensi antara dokumen dan praktik di lapangan.
+
+Penguatan Kontrol Risiko Strategis
+Proses bisnis berfungsi lebih efektif sebagai alat mitigasi risiko operasional dan strategis, sejalan
+dengan prinsip ISO 31000 dan kerangka APQC.
+
+Kejelasan Peran dan Koordinasi Lintas Fungsi
+Pendekatan berbasis fungsi memperjelas tanggung jawab antar aktivitas, mengurangi potensi
+dispute process, dan meningkatkan kolaborasi lintas unit kerja.
+
+Kesiapan Transformasi dan Digitalisasi Proses
+Desain proses yang jelas dan terstruktur menjadi fondasi yang kuat untuk pengembangan sistem
+informasi dan inisiatif digitalisasi di masa depan.
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+ANALISA RISIKO
+16
+No
+Nama Risiko
+Penyebab
+Dampak
+Level Risiko
+1
+Resistensi terhadap 
+perubahan proses
+Perubahan cara kerja dari 
+SOP naratif ke BPMN 
+berbasis fungsi
+Lambatnya
+pemahaman dan 
+penerimaan proses 
+baru
+19
+2
+Keterbatasan pemahaman 
+BPMN di internal
+Belum semua pegawai 
+terbiasa membaca diagram 
+proses
+Risiko salah tafsir 
+proses dan 
+ketergantungan pada 
+individu tertentu
+18
+3
+Inkonsistensi penerapan 
+antar unit
+Perbedaan kesiapan dan 
+prioritas masing-masing unit
+Perbedaan kualitas 
+dan kedalaman proses 
+antar Bidang
+18
+No
+Nama Risiko
+Program Mitigasi
+Level
+Risiko
+1
+Resistensi terhadap perubahan proses
+1.
+Sosialisasi proses bisnis melalui forum internal (sharing singkat per bidang)
+2.
+Penyediaan contoh (campaign) diagram BPMN yang relevan dengan pekerjaan sehari-hari 
+ditempat-tempat strategis
+11
+2
+Keterbatasan pemahaman BPMN di 
+internal
+1.
+Pelatihan dasar BPMN untuk tim terkait
+2.
+Pembuatan panduan singkat cara membaca proses disetiap 6dokumen PBM
+3.
+Pendampingan awal oleh tim pengelola proses bisnis
+6
+3
+Inkonsistensi penerapan antar unit
+1.
+Penetapan standar proses bisnis korporat melalui Keputusan Direksi
+2.
+Pelaksanaan Review Proses bulanan oleh bidang KRK
+6
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+LAMPIRAN
+17
+Sebelum & Sesudah
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+LAMPIRAN
+18
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+LAMPIRAN
+19
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+LAMPIRAN
+20
+
+---PAGE BREAK---
+www.pln-npservices.com             |
+LAMPIRAN
+21
+
+---PAGE BREAK---
+ 
+ 
+ 
+ 
+MAKALAH  
+BUSINESS DEVELOPMENT 
+Redesigning Function-Based BPMN: The 
+Simplification of 6-Process-Level to 4. 
+ 
+FUTURE INNOVATION SUMMITION (FISSION) 
+PLN NUSANTARA POWER SERVICES TAHUN 2026 
+km.pln-npservices.com 
+102425MKP 
+
+---PAGE BREAK---
+ 
+i 
+ 
+JUDUL IDE INOVASI 
+REDESIGNING FUNGTION-BASED BPMN: THE 
+SIMPLIFICATION OF 6-PROCESS-LEVEL TO 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIDANG BUSINESS DEVELOPMENT 
+ 
+ 
+ 
+Disusun Oleh: 
+ 
+1. Hardi Surya Pratama (9315328KP) 
+2. Sultanunnadif (9725069WPS) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PLN NUSANTARA POWER SERVICES 
+UNIT KERJA PT MITRA KARYA PRIMA (KANTOR PUSAT) 
+
+---PAGE BREAK---
+ 
+ii 
+ 
+PERNYATAAN PERSETUJUAN 
+ 
+ 
+ 
+ 
+Dengan ini menyatakan bahwa Ide bisnis yang berjudul : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Redesigning Function-Based BPMN: The Simplification of 6-Process-Levels to 4 
+ 
+ 
+ 
+ 
+ 
+ 
+Disusun Oleh:  
+ 
+ 
+1. Hardi Surya Pratama (9315328KP) 
+2. Sultanunnadif (9725069WPS) 
+ 
+ 
+ 
+ 
+Disetujui untuk mengikuti 
+Fission PLN Nusantara Power Services Tahun 2026 
+Bidang Business Development 
+ 
+ 
+ 
+Surabaya, 23-02-2026 
+ 
+ 
+DIREKTUR SDM & KEUANGAN 
+PLN NUSANTARA POWER SERVICES  
+PT MITRA KARYA PRIMA (KANTOR PUSAT) 
+ 
+ROCHJANTO HERY SETYAWAN 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+iii 
+ 
+PERNYATAAN ORIGINALITAS 
+ 
+Yang bertanda tangan dibawah ini : 
+ 
+1. Nama 
+: Hardi Surya Pratama 
+Tanda Tangan : 
+ 
+ 
+ 
+……………………. 
+ 
+NID 
+: 9315328KP 
+ 
+Jabatan : Kepala Bidang Kinerja Risiko dan Kepatuhan 
+ 
+Unit 
+: PT Mitra Karya Prima (Kantor Pusat) 
+ 
+No Tlp 
+: 08111193656 
+ 
+Email 
+: Hardi@mitrakaryaprima.com 
+ 
+ 
+ 
+2. Nama 
+: Sultanunnadif 
+Tanda Tangan : 
+ 
+ 
+……………………. 
+ 
+NID 
+: 9725069WPS 
+ 
+Jabatan : Staf Bidang Kinerja Risiko dan Kepatuhan 
+ 
+Unit 
+: MKP Kantor Pusat 
+ 
+No Tlp 
+: 
+082132117786 
+ 
+Email 
+: Sultanunnadif@gmail.com 
+ 
+ 
+ 
+ 
+Dengan ini menyatakan bahwa Ide Inovasi kami yang berjudul “Redesigning Function-Based 
+BPMN: The Simplification of 6-Process-Levels to 4” merupakan ide bisnis Baru yang original 
+dan belum pernah dibuat sebelumnya baik di Unit kami, Unit PLN Nusantara Power Services lain, 
+Unit PT PLN Nusantara Power, Unit PLN dan anak Perusahaan PLN. 
+ 
+Apabila dikemudian hari ada tuntutan/klaim mengenai ide bisnis yang dibuat maka kami siap 
+mempertanggungjawabkan segala konsekuensinya. 
+ 
+Demikian pernyataan ini dibuat dengan sebenarnya dan dapat dipergunakan sebagaimana 
+mestinya. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mengetahui,  
+ 
+PT Mitra Karya Prima, 23, Februari 2026 
+ 
+Direktur SDM & Keuangan 
+ 
+ 
+ 
+ROCHJANTO HERY SETYAWAN 
+
+---PAGE BREAK---
+ 
+iv 
+ 
+ 
+KLAIM 
+Redesigning Function-Based BPMN: The Simplification of 6-Process-Level to 4 
+ 
+ 
+Inovasi Function-Based BPMN Redesign lahir dari kebutuhan internal PT Mitra Karya 
+Prima untuk memperbaiki proses bisnis yang sebelumnya terlalu kompleks, tidak efisien, dan 
+sangat bergantung pada struktur jabatan. Saat perusahaan melakukan pembenahan arsitektur 
+proses secara menyeluruh, ditemukan berbagai kendala seperti tingginya hand-off, banyaknya 
+level proses (6–7 level), inkonsistensi dokumen, serta cycle time yang panjang. Tantangan-
+tantangan tersebut mendorong terciptanya pendekatan function-based actor serta 
+penyederhanaan struktur proses menjadi 4 level yang lebih ringkas, stabil, dan adaptif. Selama 
+penerapan internal, perusahaan menemukan bahwa pendekatan ini tidak hanya 
+menyelesaikan permasalahan operasional MKP, tetapi juga menghasilkan dampak efisiensi 
+yang terukur dan peningkatan kualitas tata kelola proses. Temuan tersebut membuka peluang 
+baru: solusi ini ternyata relevan bagi banyak organisasi yang menghadapi tantangan serupa, 
+mulai dari anak perusahaan BUMN, perusahaan swasta, hingga organisasi yang sedang 
+menjalani merger atau restrukturisasi. Karena efektivitasnya yang terbukti dan kesesuaiannya 
+dengan kebutuhan pasar yang lebih luas, inovasi ini berkembang dari sekadar solusi internal 
+menjadi produk jasa komersial yang dapat menawarkan nilai ekonomi tinggi bagi perusahaan. 
+Dengan desain proses yang lebih sederhana, lebih adaptif, dan lebih siap terhadap perubahan 
+organisasi, metodologi ini memberikan fondasi yang kuat untuk peningkatan efisiensi, 
+penguatan tata kelola, dan percepatan transformasi bisnis di berbagai industri.
+ 
+Gambar 1 Business Process Re-Engineering 
+
+---PAGE BREAK---
+ 
+v 
+ 
+Direktori Inovasi PLN NPS 
+ 
+Direktori Inovasi PLN AMIO. 
+Direktori Inovasi PLN AMIO: PLN AMIO 
+ 
+Gambar 2 AMIO & Direktori 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+vi 
+ 
+Google Patent. 
+ 
+Gambar 3 Patent Implementasi BPMN 
+Redesigning Function-based BPMN the simplification of 6 process to 4 ini memiliki kelebihan 
+dibanding dengan process business pada umumnya yaitu: 
+No 
+Sebelum Penerapan Ide Inovasi 
+Setelah Penerapan Ide Inovasi 
+1 
+Levelisasi proses 6–7 level 
+Levelisasi dipangkas menjadi 4 level 
+2 
+Model aktor berbasis jabatan 
+Model aktor berbasis fungsi 
+3 
+Hand-off proses tinggi Rata-rata 8,2 
+Hand-off berkurang Rata-rata 4,7 
+4 
+Cycle time ±15 hari 
+Cycle time lebih stabil ±10 hari 
+5 
+Error operasional relatif tinggi 
+Error operasional menurun signifikan 
+6 
+Biaya waktu kerja lebih besar 
+Biaya waktu kerja lebih efisien 
+7 
+Kontrol audit tidak konsisten 
+Kontrol audit lebih konsisten 
+Tabel 1 Perbandingan setelah Penerapan secara umum 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+vii 
+ 
+ 
+KATA PENGANTAR 
+ 
+ 
+Puji syukur penulis panjatkan ke hadirat Tuhan Yang Maha Esa, karena atas rahmat dan 
+karunia-Nya 
+makalah 
+yang 
+berjudul 
+Redesigning 
+Function-Based 
+BPMN: 
+The 
+Simplification of 6-Process-Levels to 4 dapat disusun dan diselesaikan dengan baik.  
+ 
+Makalah ini disusun sebagai bentuk analisis dan pengembangan ide inovasi dalam 
+pengelolaan proses bisnis perusahaan. Fokus utama pembahasan adalah pada perancangan 
+ulang proses bisnis dari pendekatan berbasis jabatan (position-based) menuju pendekatan 
+berbasis fungsi (function-based), dengan tujuan untuk meningkatkan efisiensi operasional, 
+mengurangi kompleksitas proses, serta memperkuat ketahanan organisasi terhadap 
+perubahan struktur dan lingkungan bisnis. Dalam penyusunan makalah ini, penulis menyadari 
+bahwa masih terdapat keterbatasan dan kekurangan, baik dari sisi pembahasan maupun 
+penyajian.  
+ 
+Oleh karena itu, penulis mengharapkan kritik dan saran yang konstruktif sebagai bahan 
+perbaikan di masa mendatang. Akhir kata, penulis berharap makalah ini dapat memberikan 
+manfaat, baik sebagai referensi konseptual maupun sebagai gambaran praktis dalam 
+pengembangan dan perbaikan proses bisnis di lingkungan korporasi.PT Mitra Karya Prima 
+dan sejajaran PT PLN Group. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+viii 
+ 
+DAFTAR ISI 
+PERNYATAAN PERSETUJUAN ..................................................................................................... ii 
+PERNYATAAN ORIGINALITAS ...................................................................................................... iii 
+KLAIM ............................................................................................................................................ iv 
+KATA PENGANTAR ...................................................................................................................... vii 
+DAFTAR ISI .................................................................................................................................. viii 
+DAFTAR TABEL ............................................................................................................................. x 
+DAFTAR GAMBAR ........................................................................................................................ xi 
+ABSTRAK ...................................................................................................................................... xii 
+BAB I  PENDAHULUAN .................................................................................................................. 1 
+1.1 
+Latar Belakang.................................................................................................................. 1 
+1.2 
+Maksud dan Tujuan .......................................................................................................... 2 
+1.3 
+Ruang Lingkup.................................................................................................................. 3 
+1.4 
+Metodologi ........................................................................................................................ 3 
+BAB II  KAJIAN LITERATUR........................................................................................................... 6 
+2.1. 
+Konsep Proses Bisnis dalam Organisasi ........................................................................... 6 
+2.2. 
+Standar APQC Process Classification Framework (PCF) ................................................. 6 
+2.3. 
+Notasi BPMN 2.0 (Business Process Model and Notation) ............................................... 7 
+2.4. 
+Pendekatan Perbaikan Proses Bisnis ............................................................................... 7 
+2.5. 
+Konsep Desain Proses Berbasis Fungsi (Function-Based Process) ................................. 8 
+2.6. 
+Relevansi Kajian Literatur terhadap Karya Inovasi ............................................................ 8 
+BAB III  PEMBAHASAN INOVASI ................................................................................................... 9 
+3.1 
+Identifikasi Masalah .......................................................................................................... 9 
+3.2 
+Mengumpulkan Referensi ............................................................................................... 12 
+3.3 
+Potensi Pasar ................................................................................................................. 13 
+3.4 
+Pestle Analysis ............................................................................................................... 18 
+3.5 
+Porters 5 Force Analysis ................................................................................................. 19 
+3.6 
+Business Canvas ............................................................................................................ 20 
+ .................................................................................................................................................. 20 
+3.7 
+Analisa SWOT ................................................................................................................ 21 
+3.9 
+Implementasi .................................................................................................................. 23 
+3.10 
+Go To Market Strategy .................................................................................................... 29 
+BAB IV  MANFAAT INOVASI ........................................................................................................ 30 
+4.1 
+Manfaat Inovasi Terhadap Korporat (PT Mitra Karya Prima) ........................................... 30 
+BAB V  KESIMPULAN DAN SARAN ............................................................................................. 38 
+5.1 
+Kesimpulan ..................................................................................................................... 38 
+5.2 
+Saran .............................................................................................................................. 38 
+
+---PAGE BREAK---
+ 
+ix 
+ 
+DAFTAR PUSTAKA ...................................................................................................................... 40 
+BIODATA ...................................................................................................................................... 46 
+LAMPIRAN ................................................................................................................................... 47 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+x 
+ 
+DAFTAR TABEL 
+ 
+ 
+Tabel 1 Perbandingan setelah Penerapan secara umum ............................................................... vi 
+Tabel 2 Metodologi Pengembangan Produk ................................................................................... 5 
+Tabel 3 Teknis dan Dampak ......................................................................................................... 11 
+Tabel 4 Daftar perkiraan perusahaan BUMN ................................................................................ 15 
+Tabel 5 Daftar Perkiraan Perusahaan Swasta .............................................................................. 15 
+Tabel 6 Daftar Perkiraan Perusahaan Merge ................................................................................ 16 
+Tabel 7 Kondisi Sebelum dan Sesudah Penerapan Redisigning BPMN ........................................ 28 
+Tabel 8 Struktur Biaya .................................................................................................................. 32 
+Tabel 9 Dampak Finansial Ide....................................................................................................... 34 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+xi 
+ 
+DAFTAR GAMBAR 
+ 
+Gambar 1 Business Process Re-Engineering ................................................................................ iv 
+Gambar 2 AMIO & Direktori ............................................................................................................ v 
+Gambar 3 Patent Implementasi BPMN .......................................................................................... vi 
+Gambar 4 Flow-Chart Process Business Improvement ................................................................... 5 
+Gambar 5 RCA & DMAIC ................................................................................................................ 9 
+Gambar 6 Model Process Jabatan-Based ..................................................................................... 10 
+Gambar 7 APQC Process Architecture ......................................................................................... 13 
+Gambar 8 Tam Sam Som ............................................................................................................. 14 
+Gambar 9 Pestle Analysis ............................................................................................................. 19 
+Gambar 10 Business Model Canvas ............................................................................................. 20 
+Gambar 11 SWOT & TO-WS ........................................................................................................ 23 
+Gambar 12 Level 1 ke 2 Process Business ................................................................................... 24 
+Gambar 13 Level 2 ke 3 Process Business ................................................................................... 25 
+Gambar 14 Level 3 ke 4 Process Business ................................................................................... 26 
+Gambar 15 Fungsi Based Actor .................................................................................................... 26 
+Gambar 16 Chart Before after Improvement ................................................................................. 27 
+Gambar 17 Visualisasi Rencana Proses Business sebagai peluang bisnis ................................... 32 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+xii 
+ 
+ 
+ABSTRAK 
+ 
+Gelombang restrukturisasi BUMN, integrasi holding–subholding, serta percepatan digitalisasi 
+tata kelola telah menciptakan kebutuhan mendesak akan arsitektur proses bisnis yang stabil, 
+adaptif, dan tidak bergantung pada struktur jabatan. Praktik desain proses konvensional yang 
+berbasis posisi (position-based process) terbukti menimbulkan biaya rework dokumentasi 
+yang tinggi setiap kali terjadi perubahan organisasi, memperpanjang cycle time, serta 
+melemahkan fungsi proses sebagai instrumen pengendalian risiko. Menjawab tantangan 
+tersebut, PT Mitra Karya Prima (MKP) mengembangkan dan memvalidasi Function-Based 
+BPMN Redesign, sebuah kerangka kerja Governance Architecture berbasis standar APQC 
+dan BPMN 2.0 yang mengintegrasikan konsep decoupling melalui Role Mapping Matrix. 
+Inovasi ini menyederhanakan struktur dokumentasi dari enam–tujuh level menjadi empat level 
+inti, memisahkan logika proses dari struktur organisasi, serta mengintegrasikan atribut 
+operasional dan kontrol risiko langsung ke dalam model proses (embedded attributes). 
+Implementasi internal di MKP menunjukkan penurunan signifikan beban pemeliharaan 
+dokumen, pengurangan hand-off proses, stabilisasi cycle time, serta efisiensi biaya 
+administratif dengan estimasi manfaat finansial tahunan sebesar ±Rp321 juta. Berdasarkan 
+simulasi biaya restrukturisasi dan penghematan rework governance, model ini menghasilkan 
+estimasi Return on Investment (ROI) kurang dari 12 bulan. 
+Keberhasilan tersebut kemudian diproduktisasi menjadi lini usaha baru dalam bentuk 
+Governance Architecture Consulting, yang menawarkan layanan audit arsitektur proses, 
+redesign berbasis fungsi, implementasi decoupling layer, serta pelatihan kapabilitas internal. 
+Analisis pasar menunjukkan potensi Serviceable Addressable Market (SAM) sebesar ±Rp16 
+miliar dengan peluang penetrasi awal melalui segmen BUMN restrukturisasi, perusahaan 
+merger, dan organisasi dengan kompleksitas proses tinggi. Dengan pendekatan yang 
+menggabungkan validasi empiris internal, monetisasi layanan konsultasi, serta model replikasi 
+yang scalable, inovasi ini tidak hanya menyelesaikan problem tata kelola internal, tetapi juga 
+membuka sumber pendapatan baru berbasis knowledge-driven governance services dengan 
+positioning sebagai spesialis Process Resiliency for Organizational Restructuring. 
+Kata kunci: governance architecture, function-based BPMN, decoupling layer, role mapping 
+matrix, process resiliency, business development, ROI, APQC, restrukturisasi organisasi, 
+governance consulting. 
+
+---PAGE BREAK---
+ 
+1 
+ 
+BAB I  
+PENDAHULUAN 
+ 
+1.1 
+Latar Belakang 
+Implementasi redesign proses bisnis di PT MKP telah memberikan peningkatan kinerja 
+yang signifikan pada operasional perusahaan. Dari keberhasilan tersebut, terlihat bahwa 
+kebutuhan terhadap proses bisnis yang lebih ramping, fungsional, dan adaptif juga sangat 
+tinggi di banyak organisasi lain. Dengan demikian, MKP memiliki peluang strategis untuk 
+mengkomersialkan keahliannya melalui penyediaan layanan perbaikan dan perancangan 
+proses bisnis, sehingga manfaat transformasi internal dapat diperluas sekaligus menjadi 
+sumber pendapatan baru bagi perusahaan. 
+Lanskap bisnis global pada periode 2024-2025 ditandai oleh volatilitas yang ekstrim, di 
+mana organisasi tidak hanya dituntut untuk menjadi efisien, tetapi juga harus memiliki tingkat 
+adaptabilitas yang sangat tinggi terhadap perubahan struktural yang cepat. Tren manajemen 
+proses bisnis (Business Process Management/BPM) telah bergeser dari sekadar optimasi alur 
+kerja menuju penciptaan kelincahan organisasi (organizational agility). Berdasarkan riset 
+pasar, sekitar 85% organisasi melaporkan telah mengintegrasikan solusi BPM ke dalam 
+strategi digital mereka guna mendorong peningkatan proses dan fleksibilitas operasional.1 
+Namun, terdapat kesenjangan yang signifikan antara adopsi teknologi BPM dengan realitas 
+implementasi di lapangan. Banyak organisasi terjebak dalam desain proses konvensional 
+yang bersifat kaku dan sangat bergantung pada struktur jabatan tertentu (position-based). 
+Kegagalan BPM konvensional sering kali muncul ketika organisasi menghadapi 
+restrukturisasi atau perubahan nomenklatur jabatan. Dalam model tradisional, alur kerja 
+didefinisikan secara eksplisit menggunakan jabatan struktural (seperti "Manajer Akuntansi" 
+atau "Kepala Divisi Logistik") sebagai aktor utama dalam diagram proses. Ketika terjadi 
+penggabungan unit kerja, perubahan struktur hierarki, atau rotasi peran strategis—fenomena 
+yang sangat lazim di lingkungan korporasi besar dan Badan Usaha Milik Negara (BUMN) 
+Indonesia saat ini—seluruh dokumen proses bisnis, Standar Operasional Prosedur (SOP), 
+hingga Instruksi Kerja (IK) menjadi usang secara instan.2 Hal ini menciptakan fenomena yang 
+dikenal sebagai "zombie processes", di mana dokumentasi formal masih ada namun tidak lagi 
+mencerminkan realitas cara kerja organisasi, sehingga melemahkan fungsi proses sebagai 
+alat tata kelola dan kontrol risiko.2 
+PT Mitra Karya Prima (MKP), sebagai entitas yang beroperasi di sektor jasa outsourcing 
+dan manajemen layanan operasional yang dinamis, mengalami tantangan ini secara langsung. 
+Data historis perusahaan menunjukkan frekuensi perubahan struktur organisasi yang sangat 
+
+---PAGE BREAK---
+ 
+2 
+ 
+tinggi, yakni pada tahun 2017, 2021, 2023, 2024, dan 2025.2 Setiap kali restrukturisasi terjadi, 
+beban administratif untuk merevisi ribuan halaman dokumen proses bisnis menjadi sangat 
+masif. Selain menyerap waktu produktif karyawan, kondisi ini memicu risiko ketidaksinkronan 
+antara kebijakan pusat dengan pelaksanaan di lapangan, yang berujung pada potensi temuan 
+audit dan inefisiensi sistemik.2 
+Menanggapi tantangan tersebut, MKP mengembangkan sebuah karya inovasi internal 
+berjudul "Function-Based BPMN Redesign". Inovasi ini secara radikal mengubah paradigma 
+desain proses dari berbasis jabatan menjadi berbasis fungsi (function-based). Dengan 
+menggunakan teknik decoupling (pemisahan) antara logika proses dan struktur organisasi 
+melalui Role Mapping Matrix, serta menyederhanakan dokumentasi dari 7 level menjadi 4 level 
+inti berbasis standar APQC, MKP berhasil menciptakan arsitektur proses yang stabil dan 
+tangguh terhadap perubahan.2 Keberhasilan internal ini, yang dibuktikan dengan 
+penghematan biaya jam kerja administratif sebesar Rp321 juta per tahun, kini siap 
+ditransformasikan menjadi produk komersial berupa jasa konsultasi dan perangkat tata kelola 
+1.2 
+Maksud dan Tujuan 
+Maksud dari penyusunan Business Case & Product Development Plan ini adalah 
+menyediakan peta jalan strategis bagi PT Mitra Karya Prima untuk mengomersialkan 
+metodologi Function-Based BPMN Redesign sebagai solusi profesional yang kompetitif di 
+pasar konsultasi manajemen Indonesia. Inisiatif ini bertujuan mengubah inovasi yang awalnya 
+dikembangkan untuk kebutuhan internal menjadi produk jasa bernilai tinggi yang siap 
+dipasarkan, memiliki daya saing komersial, serta memenuhi standar praktik terbaik 
+industri.Adapun tujuan dari inisiatif komersialisasi ini adalah: 
+1. 
+Visi Komersial: Membangun unit bisnis baru bagi MKP yang berfokus pada penyediaan 
+solusi manajemen proses adaptif, sekaligus memperkuat brand equity perusahaan 
+sebagai pionir dalam transformasi tata kelola organisasi di Indonesia. 
+2. 
+Validasi Proposisi Nilai: Menggunakan data empiris dari implementasi di MKP untuk 
+meyakinkan calon pembeli mengenai efektivitas produk dalam mengurangi rework 
+administratif dan meningkatkan kejelasan peran lintas unit. 
+3. 
+Standarisasi Produk: Mentransformasi metodologi internal menjadi kerangka kerja 
+yang dapat direplikasi (scalable) untuk berbagai industri, mulai dari sektor publik hingga 
+korporasi besar. 
+4. 
+Penetrasi Pasar B2B: Mengidentifikasi segmen pasar yang paling membutuhkan solusi 
+ini, terutama organisasi yang sedang atau akan menghadapi restrukturisasi besar-
+besaran, seperti klaster-klaster BUMN yang sedang melakukan penggabungan 
+(merger).3 
+
+---PAGE BREAK---
+ 
+3 
+ 
+1.3 
+Ruang Lingkup 
+Ruang lingkup pengembangan produk ini difokuskan untuk menghadirkan layanan yang 
+komprehensif dalam transformasi proses bisnis dan tata kelola perusahaan, sehingga 
+dapat digunakan oleh organisasi dengan berbagai tingkat kematangan proses. Komponen 
+layanan yang dikomersialisasikan mencakup: 
+1) Jasa Audit Arsitektur Proses: Evaluasi mendalam terhadap tingkat kompleksitas 
+dan kerentanan proses bisnis klien saat ini terhadap perubahan organisasi. 
+2) Jasa Desain Arsitektur Proses Adaptif: Layanan desain ulang alur proses 
+menggunakan paradigma function-based dan notasi BPMN 2.0 yang selaras 
+dengan kerangka kerja APQC (Level 1-4). 
+3) Penyediaan Toolkits Tata Kelola: Paket template Role Mapping Matrix, pedoman 
+penulisan Rich Task (embedded attributes), dan kamus fungsi bisnis standar 
+yang siap pakai. 
+4) Layanan Implementasi Decoupling Layer: Konsultasi teknis untuk memisahkan 
+logika proses dari ketergantungan struktur organisasi, termasuk integrasi dengan 
+sistem IT atau platform BPM yang sudah ada (seperti Camunda, Bizagi, atau 
+Signavio).7 
+5) Program Pelatihan dan Sertifikasi Internal: Peningkatan kapabilitas tim internal 
+klien dalam mengelola dan memelihara arsitektur proses berbasis fungsi secara 
+mandiri. 
+Produk ini tidak dimaksudkan sebagai pengganti perangkat lunak BPM atau platform tata 
+kelola, melainkan sebagai lapisan metodologi, strategi, dan governance framework yang 
+memastikan implementasi teknologi klien berjalan optimal dan tidak terhambat oleh desain 
+proses yang tidak selaras dengan fungsi organisasi.. 
+1.4 
+Metodologi 
+Pengembangan produk komersial ini akan menggunakan pendekatan hibrida antara 
+Lean Startup dan Design Thinking guna meminimalkan risiko pasar dan memastikan 
+kesesuaian produk dengan kebutuhan pelanggan (product-market fit). 
+ 
+
+---PAGE BREAK---
+ 
+4 
+ 
+Fase 
+Aktivitas Utama 
+Output 
+Empathize & Define 
+Melakukan wawancara BPO 
+MKP dan praktisi BPM untuk 
+memvalidasi titik sakit terkait 
+restrukturisasi dan 
+kompleksitas dokumen.10 
+Identifikasi profil 
+pelanggan dan daftar fitur 
+kritis produk. 
+Ideate & Build (MVP) 
+Mengemas metodologi MKP 
+menjadi modul jasa konsultasi 
+yang modular. 
+Mengembangkan "Minimum 
+Viable Product" (MVP) berupa 
+paket audit dan desain proses 
+untuk satu departemen 
+percontohan.12 
+Prototipe layanan jasa dan 
+toolkits awal. 
+Measure & Test 
+Melakukan uji coba (pilot 
+project) pada klien eksternal 
+terpilih atau anak perusahaan 
+MKP. Mengukur efisiensi 
+waktu pembaruan dokumen 
+pasca-restrukturisasi buatan.14 
+Data validasi efektivitas 
+dan testimoni pelanggan. 
+Learn & Iterate 
+Menganalisis hambatan dalam 
+pembacaan notasi BPMN oleh 
+non-teknis dan 
+menyederhanakan visualisasi 
+jika diperlukan. Menyesuaikan 
+strategi harga berdasarkan 
+respon pasar.16 
+Produk final yang telah 
+disempurnakan. 
+
+---PAGE BREAK---
+ 
+5 
+ 
+Scale Up 
+Peluncuran penuh ke pasar 
+B2B melalui saluran distribusi 
+yang telah ditetapkan, 
+didukung oleh pendaftaran 
+HAKI dan sertifikasi tenaga 
+ahli.18 
+Ekspansi pangsa pasar dan 
+pertumbuhan revenue 
+stream. 
+Tabel 2 Metodologi Pengembangan Produk 
+ 
+Gambar 4 Flow-Chart Process Business Improvement 
+ 
+
+---PAGE BREAK---
+ 
+6 
+ 
+BAB II  
+KAJIAN LITERATUR 
+ 
+2.1. Konsep Proses Bisnis dalam Organisasi 
+Business Process Management (BPM) merupakan disiplin manajemen yang mengintegrasikan 
+strategi dan fokus organisasi dengan harapan dan kebutuhan pelanggan melalui desain alur kerja yang 
+terstruktur.20 Secara historis, BPM sering kali disalahpahami hanya sebagai dokumentasi Standar 
+Operasional Prosedur (SOP) atau digitalisasi alur kerja. Namun, di era transformasi digital 2025, BPM 
+telah berevolusi menjadi alat navigasi strategis yang memungkinkan perusahaan untuk melakukan 
+Continuous Business Transformation.21 
+Laporan tren global menunjukkan bahwa adopsi teknologi seperti Hyperautomation, AI-driven 
+process mining, dan platform low-code/no-code semakin mendominasi pasar BPM.1 Pasar BPM global 
+sendiri diproyeksikan mencapai nilai USD 37,8 miliar pada tahun 2033 dengan pertumbuhan tahunan 
+(CAGR) sekitar 8,93%.24 Di Indonesia, pasar ini tumbuh pesat seiring dengan meningkatnya kesadaran 
+korporasi akan pentingnya efisiensi operasional dan transparansi tata kelola, terutama dengan 
+diperkuatnya 
+regulasi 
+mengenai 
+Tata 
+Kelola 
+Perusahaan 
+yang 
+Baik 
+(Good 
+Corporate 
+Governance/GCG).25 
+2.2. Standar APQC Process Classification Framework (PCF) 
+APQC Process Classification Framework (PCF) adalah taksonomi proses bisnis yang 
+paling banyak digunakan di dunia, yang memungkinkan organisasi untuk berbicara dalam 
+"bahasa proses" yang sama di seluruh unit bisnis dan bahkan lintas industri.27 Framework ini 
+mengelompokkan aktivitas bisnis ke dalam 13 kategori utama, yang mencakup 6 area 
+operasional (seperti Supply Chain dan Product Development) serta 7 area pendukung (seperti 
+HR, Finance, dan IT).6 
+● 
+Level 1 (Category): Merepresentasikan domain bisnis tingkat tertinggi. 
+● 
+Level 2 (Process Group): Pengelompokan aktivitas yang lebih spesifik di bawah 
+kategori. 
+● 
+Level 3 (Process): Serangkaian aktivitas yang memiliki input dan output yang jelas. 
+● 
+Level 4 (Activity): Langkah-langkah operasional yang dilakukan untuk menyelesaikan 
+suatu proses.6 
+Penyederhanaan dari 7 level (tradisi lama MKP) menjadi 4 level (standar APQC) terbukti 
+secara literatur meningkatkan keterbacaan (readability) dan mengurangi redundansi 
+
+---PAGE BREAK---
+ 
+7 
+ 
+informasi, karena detail teknis yang dulunya berada di level 5-7 (IK/Manual) kini ditanamkan 
+sebagai atribut pada level 4 (Activity).2 
+ 
+2.3. Notasi BPMN 2.0 (Business Process Model and Notation) 
+BPMN 2.0 adalah standar internasional untuk pemodelan proses bisnis yang dikelola 
+oleh Object Management Group (OMG). Keunggulan utama BPMN dibandingkan flowchart 
+tradisional adalah kemampuannya untuk menjembatani kesenjangan komunikasi antara 
+analis bisnis dan pengembang sistem informasi melalui simbol-simbol yang memiliki 
+semantik teknis yang kuat.31 
+Elemen inti BPMN 2.0 meliputi: 
+● 
+Events (Lingkaran): Menandakan dimulainya, terhentinya, atau terjadinya sesuatu 
+dalam proses (Start, Intermediate, End events). 
+● 
+Activities (Persegi panjang bersudut tumpul): Pekerjaan yang dilakukan, yang dapat 
+berupa Task sederhana atau Sub-process yang kompleks. 
+● 
+Gateways (Belah ketupat): Titik keputusan yang mengontrol percabangan atau 
+penggabungan alur (Exclusive, Parallel, Inclusive gateways). 
+● 
+Swimlanes (Pools & Lanes): Mewakili partisipan atau unit kerja yang bertanggung 
+jawab atas aktivitas tertentu.33 
+Dalam metodologi function-based, penggunaan "Lanes" diubah dari merepresentasikan 
+jabatan struktural menjadi merepresentasikan fungsi bisnis yang relatif statis, sehingga model 
+diagram tetap valid meskipun terjadi rotasi jabatan.2 
+2.4. Pendekatan Perbaikan Proses Bisnis 
+Decoupling (pemisahan) adalah konsep teoritis yang berasal dari sosiologi institusional, 
+yang dipopulerkan oleh Meyer dan Rowan (1977), untuk menjelaskan bagaimana organisasi 
+memisahkan struktur formal mereka dari aktivitas operasional harian guna menyeimbangkan 
+tekanan eksternal untuk legitimasi dengan efisiensi teknis internal.36 
+Dalam konteks manajemen proses adaptif, decoupling diterapkan untuk memutus rantai 
+ketergantungan langsung antara alur kerja dengan hierarki jabatan. Literatur terbaru mengenai 
+"Means-Ends Decoupling" menyoroti bahwa banyak organisasi gagal mencapai tujuannya 
+karena terlalu kaku dalam mengikuti prosedur formal yang sudah tidak relevan dengan 
+dinamika lapangan.4 Inovasi MKP menjawab tantangan ini dengan menciptakan "Decoupling 
+Layer" berupa Role Mapping Matrix. Secara teoritis, ini memungkinkan organisasi untuk 
+
+---PAGE BREAK---
+ 
+8 
+ 
+mempertahankan "Technical Core" (logika proses) yang stabil sambil tetap memiliki 
+"Institutional Flexibility" (struktur organisasi yang berubah-ubah).2 
+2.5. Konsep Desain Proses Berbasis Fungsi (Function-Based Process) 
+Desain proses berbasis fungsi merupakan pendekatan yang menempatkan fungsi kerja 
+sebagai elemen utama dalam perancangan proses bisnis, bukan jabatan atau struktur 
+organisasi. Dalam pendekatan ini, proses bisnis dirancang berdasarkan alur kerja dan fungsi 
+yang harus dijalankan, sehingga tetap relevan meskipun terjadi perubahan struktur organisasi. 
+Pendekatan berbasis fungsi memberikan beberapa keunggulan, antara lain: 
+1. Meningkatkan stabilitas proses bisnis terhadap perubahan organisasi. 
+2. Mengurangi ketergantungan proses terhadap jabatan tertentu. 
+3. Meningkatkan fleksibilitas dan adaptabilitas proses. 
+4. Menyederhanakan arsitektur proses bisnis. 
+5. Mengurangi kebutuhan revisi dokumen proses. 
+Pendekatan ini menjadi dasar dalam perancangan ulang arsitektur proses bisnis di PT Mitra 
+Karya Prima (MKP). 
+2.6. Relevansi Kajian Literatur terhadap Karya Inovasi 
+Kajian literatur ini memberikan landasan konseptual bagi perancangan ulang arsitektur 
+proses bisnis di PT Mitra Karya Prima (MKP). Konsep proses bisnis, arsitektur proses, 
+dinamika organisasi, pendekatan perbaikan proses, serta desain proses berbasis fungsi 
+menjadi dasar dalam merumuskan solusi inovatif yang diusulkan. Dengan landasan tersebut, 
+karya inovasi ini diarahkan untuk menghasilkan desain arsitektur proses bisnis yang lebih 
+sederhana, stabil, dan adaptif terhadap perubahan organisasi, tanpa mengurangi efektivitas 
+tata kelola perusahaan. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+9 
+ 
+BAB III  
+PEMBAHASAN INOVASI 
+ 
+3.1 
+Identifikasi Masalah 
+Evaluasi terhadap pengelolaan Proses Bisnis Manajemen (PBM) di PT Mitra Karya 
+Prima (MKP) menunjukkan bahwa desain arsitektur proses yang digunakan selama ini masih 
+berbasis jabatan (position-based process), dengan struktur bertingkat hingga enam sampai 
+tujuh level. Pendekatan tersebut menyebabkan tingginya ketergantungan antara alur proses 
+dan struktur organisasi, sehingga setiap perubahan nomenklatur jabatan atau restrukturisasi 
+unit kerja berdampak langsung pada kebutuhan revisi dokumen proses, SOP, serta instruksi 
+kerja secara masif. 
+ 
+Gambar 5 RCA & DMAIC 
+Struktur dokumentasi yang terlalu dalam (over-engineered documentation) memicu 
+fragmentasi informasi, redundansi dokumen, serta menurunnya keterbacaan proses secara 
+end-to-end. Detail operasional dan kontrol risiko tersebar di berbagai dokumen terpisah, 
+sehingga proses bisnis belum sepenuhnya berfungsi sebagai instrumen pengendalian tata 
+kelola yang stabil dan adaptif. Dalam kondisi tersebut, perubahan organisasi tidak hanya 
+menimbulkan dampak struktural, tetapi juga menciptakan biaya tata kelola berulang 
+(governance rework cost) yang bersifat non-value added. 
+
+---PAGE BREAK---
+ 
+10 
+ 
+Berdasarkan estimasi internal dan praktik benchmarking organisasi dengan kompleksitas 
+serupa, satu kali restrukturisasi dapat memicu revisi puluhan hingga ratusan dokumen proses. 
+Dengan asumsi maksimal 13 kategori terdampak, dengan rata-rata terdapat 10 dokumen 
+perkategori dengan waktu revisi 5 hari dengan enam jam kerja per hari, sehingga total 30 jam 
+per dokumen, serta biaya tenaga kerja Rp250.000 per jam, maka biaya langsung per siklus 
+restrukturisasi dapat mencapai sekitar Rp975 juta. Jika restrukturisasi terjadi dua kali dalam 
+periode tiga tahun, maka biaya kumulatif dapat melampaui Rp 1,9 miliar, belum termasuk biaya 
+tidak langsung berupa keterlambatan pengambilan keputusan, risiko inkonsistensi kontrol, 
+serta potensi temuan audit akibat ketidakselarasan antara struktur dan proses. Fenomena 
+tersebut tidak hanya terjadi di MKP, tetapi juga relevan dalam konteks nasional. Gelombang 
+restrukturisasi BUMN, pembentukan holding–subholding, serta integrasi pasca-merger dalam 
+beberapa tahun terakhir telah melibatkan puluhan hingga ratusan entitas dengan kompleksitas 
+proses tinggi. Tanpa arsitektur proses yang resilien, harmonisasi organisasi berisiko 
+menciptakan tumpang tindih kewenangan, duplikasi aktivitas, serta governance misalignment 
+yang menggerus produktivitas dan memperlambat realisasi sinergi pasca-merger. Biaya 
+tersembunyi (hidden governance cost) ini sering kali tidak tercatat secara eksplisit, namun 
+berdampak sistemik terhadap efektivitas tata kelola dan efisiensi operasional. Kesenjangan 
+antara kebutuhan restrukturisasi organisasi dan ketersediaan arsitektur proses yang stabil 
+menciptakan peluang strategis di pasar jasa tata kelola. Firma konsultasi global umumnya 
+berfokus pada strategi korporat tingkat tinggi, sementara platform perangkat lunak BPM lebih 
+menitikberatkan pada otomasi proses. 
+ 
+Gambar 6 Model Process Jabatan-Based 
+
+---PAGE BREAK---
+ 
+11 
+ 
+Masalah Utama 
+Deskripsi Teknis 
+Dampak Operasional 
+Position-Based Process 
+Dependency 
+Aktivitas dikaitkan langsung 
+dengan nama jabatan atau 
+unit organisasi spesifik di 
+dalam diagram alur.2 
+Setiap restrukturisasi atau 
+perubahan nomenklatur 
+memicu revisi dokumen 
+massal, menciptakan 
+beban kerja administratif 
+non-value added.2 
+Over-Engineering 
+Documentation 
+Struktur dokumentasi yang 
+terlalu dalam (hingga 7 level) 
+menyebabkan informasi 
+terfragmentasi ke banyak 
+dokumen terpisah (PBM, SOP, 
+IK).2 
+Sulitnya mendapatkan 
+pandangan proses secara 
+end-to-end, redundansi 
+data, dan risiko 
+ketidaksinkronan antar 
+versi dokumen.2 
+Non-Resilient Process Design 
+Tidak adanya pemisahan 
+antara logika bisnis dengan 
+struktur eksekusi.2 
+Organisasi menjadi lamban 
+(sluggish) dalam merespon 
+perubahan pasar karena 
+setiap penyesuaian 
+struktural "dibayar mahal" 
+dengan pekerjaan 
+dokumentasi ulang.2 
+Informasi Tersebar 
+(Fragmentation) 
+Detail teknis, aturan kerja, dan 
+kontrol risiko berada di 
+dokumen instruksi kerja yang 
+sering kali terlepas dari alur 
+proses utama.2 
+Lemahnya efektivitas 
+kontrol risiko karena 
+petugas lapangan hanya 
+fokus pada langkah teknis 
+tanpa memahami konteks 
+risiko proses secara utuh.2 
+Tabel 3 Teknis dan Dampak 
+Dengan demikian, permasalahan utama yang dihadapi bukan sekadar kompleksitas 
+dokumentasi atau ketergantungan pada jabatan, melainkan ketiadaan model arsitektur proses 
+yang mampu memisahkan logika bisnis dari struktur organisasi secara sistemik. Problem ini 
+bersifat berulang, berdampak finansial, dan relevan secara luas pada organisasi yang 
+mengalami restrukturisasi atau merger. Oleh karena itu, penyelesaian yang ditawarkan tidak 
+hanya bertujuan memperbaiki efisiensi internal, tetapi juga menjawab kebutuhan pasar 
+
+---PAGE BREAK---
+ 
+12 
+ 
+terhadap layanan Governance Architecture yang mampu menurunkan governance rework cost 
+serta meningkatkan ketahanan proses terhadap perubahan organisasi. 
+3.2 
+Mengumpulkan Referensi  
+Pasar konsultasi manajemen proses di Indonesia dihuni oleh berbagai pemain, mulai dari 
+firma global hingga konsultan lokal spesialis. Memahami posisi kompetitor sangat penting 
+untuk menetapkan strategi diferensiasi produk MKP. 
+1. Global Management Consulting (Big Four: PwC, Deloitte, EY, KPMG): 
+○ Kekuatan: Memiliki metodologi restrukturisasi korporat yang sangat kuat, akses ke tingkat 
+C-level, dan reputasi global yang tak tertandingi.5 
+○ Kelemahan: Biaya layanan sangat tinggi (premium), sering kali memberikan rekomendasi 
+strategis tingkat tinggi namun kurang dalam detail implementasi teknis BPMN yang dapat 
+langsung dijalankan oleh sistem.17 
+2. GML Performance Consulting: 
+○ Kekuatan: Fokus pada Strategy Execution dan Balanced Scorecard, memiliki 
+pengalaman luas di industri Indonesia, dan menawarkan sertifikasi profesi.40 
+○ Kelemahan: Pendekatan proses sering kali dikaitkan dengan KPI dan Human Capital, 
+namun belum secara eksplisit mempromosikan paradigma decoupling yang murni teknis 
+arsitektural proses.42 
+3. Proxsis Consulting Group: 
+○ Kekuatan: Firma lokal terbesar dengan spesialisasi kuat di GRC (Governance, Risk, and 
+Compliance) dan standarisasi ISO. Memiliki ekosistem pelatihan yang sangat besar.43 
+○ Kelemahan: Fokus utama sering kali pada kepatuhan (compliance) terhadap standar 
+eksternal, sehingga fleksibilitas desain proses untuk restrukturisasi internal mungkin 
+belum menjadi modul utama yang dipasarkan secara agresif.45 
+4. Platform SaaS BPM (Camunda, Bizagi, Signavio): 
+○ Kekuatan: Menyediakan mesin eksekusi proses yang canggih, mendukung standardisasi 
+BPMN 2.0 secara penuh, dan memungkinkan automasi low-code.7 
+○ Kelemahan: Tanpa metodologi arsitektur yang benar, implementasi tool ini justru bisa 
+mempermanenkan proses yang buruk (bad process automation). MKP dapat 
+memposisikan diri sebagai mitra implementasi metodologi bagi pengguna tool-tool ini.9 
+Diferensiasi MKP: Menawarkan solusi hibrida—metodologi konsultasi kelas dunia 
+(APQC/BPMN) dengan pendekatan lokal yang praktis (Decoupling Layer) yang telah teruji 
+menyelesaikan masalah restrukturisasi kronis di BUMN.2 Selain itu, dikaji pula kerangka 
+klasifikasi proses bisnis yang bersifat universal, seperti Process Classification Framework 
+
+---PAGE BREAK---
+ 
+13 
+ 
+(PCF), sebagai acuan dalam merancang proses bisnis yang berbasis fungsi. 
+ 
+Gambar 7 APQC Process Architecture 
+Secara praktis, referensi diperoleh dari kondisi eksisting pengelolaan proses bisnis di PT MKP, 
+khususnya struktur Proses Bisnis Manajemen (PBM) yang terdiri dari tujuh level proses, 
+praktik desain proses berbasis jabatan, serta dinamika perubahan struktur organisasi yang 
+berdampak pada relevansi dokumen proses bisnis. Referensi praktis ini digunakan untuk 
+memastikan bahwa solusi yang dirancang memiliki keterkaitan langsung dengan kebutuhan 
+dan karakteristik organisasi. Hasil pengumpulan referensi tersebut menjadi landasan dalam 
+merancang desain arsitektur proses bisnis yang lebih sederhana, stabil, dan adaptif terhadap 
+perubahan organisasi. 
+3.3 
+Potensi Pasar 
+Untuk mengidentifikasi potensi pasar, dapat dilihat pada gambar berikut mengenai 
+TAM, SAM, dan SOM: 
+ 
+ 
+Kebutuhan nasional yang luas dan lintas-sektor untuk perbaikan 
+proses bisnis akibat restrukturisasi, digitalisasi, dan perubahan 
+Segmen organisasi yang secara langsung terdampak regulasi 
+dan perubahan struktur, seperti BUMN restrukturisasi dan 
+instansi pemerintah yang wajib memenuhi standar SPBE/PBM. 
+Klien yang paling mungkin diperoleh MKP karena kesesuaian 
+kebutuhan, kedekatan portofolio, dan kemampuan eksekusi MKP—
+terutama perusahaan energi/manpower dan beberapa BUMN yang 
+sudah memiliki rencana transformasi. 
+
+---PAGE BREAK---
+ 
+14 
+ 
+ 
+Gambar 8 Tam Sam Som 
+3.3.1 
+TAM (Total Addressed Market) 
+Total Addressable Market (TAM) merepresentasikan potensi pasar maksimum 
+yang dapat dilayani oleh layanan Governance Architecture Consulting berbasis 
+Function-Based BPMN Redesign apabila seluruh segmen yang relevan berhasil 
+digarap Identifikasi TAM dilakukan dengan memetakan tiga kelompok organisasi 
+yang secara struktural memiliki kebutuhan tinggi terhadap redesign atau harmonisasi 
+proses bisnis, yaitu: 
+o Anak Perusahaan BUMN memiliki ± 800 subsidiaries akan tetapi yang berkaitan 
+langsung dengan “Process Heavy+Services/operational” rata-rata sekisar 120 
+perusahaan: 
+o All in = 30% - 36 
+o Ala Carte = 50% - 60 
+o Custom = 20% - 24 
+Dengan estimasi Harga: 
+o All-In: Rp. 450 juta 
+o Ala Carte: Rp. 50 juta 
+o Custom: Rp 600 juta 
+Maka Potensi Psar dari Segmen ini adalah: 
+(36 × 450 juta) + (60 × 50 juta) + (24 × 600 juta) 
+= Rp16,2 M + Rp3 M + Rp14,4 M 
+= Rp33,6 Miliar 
+o Swasta Mid-Large yang di-targetkan adalah yang memiliki proses kompleks 
+terkait dengan governance seperti energi, tambang, O&M dll ±150 perusahaan 
+di Indonesia 
+o All in = 20% - 30 
+o Ala Carte = 60% - 90 
+o Custom = 20% - 30 
+Dengan struktur harga yang sama, maka potensi segmen ini adalah: 
+(30 × 450 juta) + (90 × 50 juta) + (30 × 600 juta) 
+= Rp13,5 M + Rp4,5 M + Rp18 M 
+
+---PAGE BREAK---
+ 
+15 
+ 
+= Rp36 Miliar 
+o Merger-Company kurang lebih ada sekisar 30-40 perusahaan di Indonesia yang 
+berdiri di tiap tahun-nya sehingga kita ambil angka 40 perusahaan dalam 
+konteks ini. 
+o All-in = 25% - 10 
+o Ala Carte = 15% - 6 
+o Custom = 60% - 24 
+Potensi Pasar: 
+(10 × 450 juta) + (6 × 50 juta) + (24 × 600 juta) 
+= Rp4,5 M + Rp0,3 M + Rp14,4 M 
+= Rp19,2 Miliar 
+Maka Peluang business dapat di List kan sebagai berikut: 
+Anak Perusahaan BUMN 
+Layanan 
+Unit 
+Harga (RP) 
+Total (M) 
+All-In 
+36 
+450.000.000 
+16.2  
+Ala-Carte 
+60 
+50.000.000 
+3  
+Custom 
+24 
+600.000.000 
+14.4  
+Tabel 4 Daftar perkiraan perusahaan BUMN 
+Swasta Mid-Large 
+Layanan 
+Unit 
+Harga (RP) 
+Total (M) 
+All-In 
+30 
+450.000.000 
+13.5  
+Ala-Carte 
+90 
+50.000.000 
+4.5  
+Custom 
+30 
+600.000.000 
+18  
+Tabel 5 Daftar Perkiraan Perusahaan Swasta 
+Merge Company 
+Layanan 
+Unit 
+Harga (RP) 
+Total (M) 
+All-In 
+10 
+450.000.000 
+4.5  
+Ala-Carte 
+6 
+50.000.000 
+0.3  
+
+---PAGE BREAK---
+ 
+16 
+ 
+Custom 
+24 
+600.000.000 
+14.4  
+Tabel 6 Daftar Perkiraan Perusahaan Merge 
+Maka Estimasi Total: 
+33.6 + 36 + 19.2 = Rp. 88.8 Milliar 
+3.3.2 
+SAM (Serviceable Addressable/Available Market) 
+SAM MKP di fokuskan pada organisasi yang memiliki kebutuhan Proses Bisnis 
+terhadap perbaikan dan harmonisasi proses dalam 1–3 tahun ke depan. Berdasarkan 
+Peluang yand di dapat, SAM mencakup: 
+o Kapasitas Tim Internal 
+o Akses Jaringan dan Relasi Bisnis 
+o Tingkat Urgensi Restrukturasi 
+o Ketersediaan Anggaran Transformasi 
+Dari TAM Sebesar Rp.88,8 milliar, dilakukan penyaringan sebagai berikut: 
+1. Anak Perusahaan BUMN (± 20 entitas) 
+Subsidiaries yang sedang menjalankan SPBE, integrasi layanan, atau penataan 
+ulang fungsi. Kelompok ini dipilih berdasarkan urgensi transformasi dan 
+ketersediaan anggaran. 
+2. Perusahaan Swasta Mid–Large (± 15 entitas) 
+Organisasi swasta yang sedang melakukan perubahan struktur, ekspansi, atau 
+audit tata kelola sehingga membutuhkan penataan proses secara cepat dan 
+terukur. 
+1. Merger Companies (± 5 entitas) 
+Seluruh organisasi yang sedang menjalani merger atau integrasi bisnis, karena 
+proses harmonisasi struktur dan fungsi merupakan kebutuhan kritis. 
+Dengan demikian, total SAM Peluang MKP untuk melakukan bisnis tersebut menjadi 
+± 40 organisasi, yaitu segmen pasar yang dapat di target oleh PT MKP. 
+• 
+Average Value: 400jt (estimasi Rata-Rata 50M – 600M) 
+• 
+Market Size: 40 x 400 = 16 Miliar 
+ 
+ 
+
+---PAGE BREAK---
+ 
+17 
+ 
+3.3.3 
+SOM (Serviceable Obtainable Market) 
+SOM merepresentasikan segmen pasar yang paling realistis untuk digarap 
+dalam 12 bulan pertama, berdasarkan kapasitas tim, akses jaringan, dan tingkat 
+kesesuaian kebutuhan klien terhadap layanan Function-Based BPMN Redesign. 
+Pada tahap awal, fokus diarahkan pada dua perusahaan yang sudah memiliki 
+kebutuhan tinggi akan perbaikan proses dan memiliki potensi kerja sama yang dapat 
+dicapai secara langsung. 
+• 
+PT Haleyora Powerindo (HPI) 
+PT Haleyora Powerindo (HPI) adalah anak Perusahaan PT PLN 
+Electricity Services merupakan Perusahaan alih daya yang bergerak di 
+bidang Pengamanan, Industrial Cleaning, Building Management, 
+Layanan Operasi dan Pemeliharaan (Ophar) pada jaringan transmisi 
+tegangan menengah, tegangan rendah dan jaringan distribusi tenaga 
+listrik., Haleyora Powerindo memiliki daya beli yang stabil dan secara 
+historis aktif melakukan proyek transformasi internal. 
+• 
+PT Paguntaka Cahaya 
+PT Paguntaka Cahaya Nusantara merupakan anak perusahaan dari PT. 
+PLN Nusa Daya yang didirikan pada tanggal 8 Desember 2017, yang 
+memiliki peran sebagai Pengelola Jasa Tenaga Kerja (Workforce 
+Management) 
+Bidang 
+Ketenagalistrikan 
+dan 
+Jasa 
+Penunjang 
+Ketenagalistrikan lainnya yang Unggul dan Terpercaya. Akses pasar ke 
+perusahaan tersebut relatif lebih sederhana dibandingkan BUMN besar, 
+sehingga peluang win-rate lebih tinggi. 
+Untuk memperkirakan SOM, digunakan harga rata-rata proyek agar estimasi tetap 
+konservatif dan realistis: 
+• 
+Paket All-In: Rp 450.000.000 
+• 
+Paket Per-Kategori: Rp 50.000.000 
+• 
+Paket Custom: Rp 600.000.000 
+Rata-Rata Nilai Proyek : Rp. 400.000.000 
+2 Perusahaan x 400.000.000 = Rp. 800.000.000 /Tahun 
+Dengan Strategi Pertumbuhan bertahap: 
+• 
+Tahun 1: 2 klien (Rp800 juta) 
+• 
+Tahun 2: 4 klien (Rp1,6 milliar) 
+
+---PAGE BREAK---
+ 
+18 
+ 
+• 
+Tahun 3: 6 klien (Rp.2,4 miliar) 
+Berdasarkan analisis kondisi ekonomi dan regulasi di Indonesia tahun 2024-2025, terdapat 
+tiga segmen pasar utama yang memiliki kebutuhan mendesak akan inovasi ini: 
+● Segmen 1: BUMN dalam Transisi Restrukturisasi: 
+○ Konteks: Pemerintah Indonesia sedang melakukan konsolidasi besar-besaran melalui 
+pembentukan Holding dan Sub-Holding (misalnya di sektor energi, logistik, dan 
+infrastruktur).3 
+○ Peluang: Mandat restrukturisasi mencakup 114 entitas dengan nilai aset mencapai USD 
+172 miliar.5 MKP dapat menawarkan jasa desain proses pasca-merger yang stabil, 
+sehingga integrasi organisasi tidak mengganggu layanan publik atau operasional bisnis. 
+● Segmen 2: Sektor Publik dan Kementerian/Lembaga: 
+○ Konteks: Dorongan reformasi birokrasi dan implementasi Sistem Pemerintahan Berbasis 
+Elektronik (SPBE) mewajibkan instansi pemerintah memiliki peta proses bisnis yang 
+selaras dengan fungsi organisasi, bukan sekadar jabatan.47 
+○ Peluang: Kebutuhan akan audit PBM dan penyusunan SOP makro-mikro yang lebih 
+ramping untuk meningkatkan indeks pelayanan publik.47 
+● Segmen 3: Startup Growth Stage & Perusahaan Dinamis: 
+○ Konteks: Perusahaan rintisan yang tumbuh cepat sering kali melakukan perubahan 
+struktur setiap 6-12 bulan seiring dengan putaran pendanaan atau pivot bisnis.10 
+○ Peluang: Kebutuhan akan kerangka kerja tata kelola yang tidak menghambat kelincahan 
+(agility) namun tetap menjaga standarisasi kualitas layanan.1 
+ 
+3.4 
+Pestle Analysis 
+Analisis PESTLE digunakan untuk mengidentifikasi faktor eksternal yang dapat 
+mempengaruhi penerapan desain arsitektur proses bisnis pada PT Mitra Karya Prima. 
+
+---PAGE BREAK---
+ 
+19 
+ 
+ 
+Gambar 9 Pestle Analysis 
+Melalui analisis PESTLE, dapat disimpulkan bahwa dinamika faktor eksternal menuntut desain 
+proses bisnis yang lebih stabil, fleksibel, dan tidak terlalu bergantung pada struktur organisasi. 
+Penggunaan SPARK yang nilai nya sangat mahal menuntut perushaan untuk mencari 
+alternatif yang dapat di gunakan untuk menutupi kekurangan tersebut, tidak hanya menutupi 
+kekurangan tetapi juga dapat dijadikan sebagai contoh bahwa alternatif ini sangat dapat 
+membantu mengurangi biaya yang dibutuhkan oleh SPARK itu sendiri. Tujuan lain ialah untuk 
+meningkatkan digitalisasi ter-realisasi sesuai dengan tujuan perusahaan yaitu paperless 
+environment atau kondisi tanpa lagi menggunakan dokumen kertas Oleh karena itu, perbaikan 
+arsitektur proses bisnis menjadi kebutuhan strategis untuk meningkatkan ketangguhan dan 
+efektivitas pengelolaan proses di perusahaan. 
+3.5 
+Porters 5 Force Analysis 
+Memetakan kekuatan persaingan membantu MKP dalam menentukan strategi harga 
+dan posisi tawar di pasar. 
+1. Ancaman Pendatang Baru (Moderat): Meskipun banyak konsultan independen, 
+membangun kredibilitas untuk menangani proyek strategis di BUMN memerlukan portofolio 
+yang solid dan sertifikasi resmi. Hambatan masuk (barrier to entry) cukup tinggi karena 
+faktor kepercayaan dan rekam jejak.5 
+2. Kekuatan Tawar Pembeli (Tinggi): Pembeli B2B (terutama pengadaan di instansi 
+pemerintah dan BUMN) memiliki kekuatan tawar yang besar melalui proses tender. Mereka 
+sangat sensitif terhadap harga dan menuntut bukti nyata ROI (Return on Investment).2 
+3. Kekuatan Tawar Pemasok (Rendah): Pemasok dalam industri ini adalah penyedia 
+
+---PAGE BREAK---
+ 
+20 
+ 
+perangkat lunak pemodelan (misal: Microsoft Visio, Signavio, Camunda) dan tenaga ahli 
+konsultan. Dengan banyaknya pilihan perangkat lunak dan talenta yang kompeten di pasar 
+Indonesia, MKP tidak memiliki ketergantungan kritis pada satu pemasok.7 
+4. Ancaman Produk Substitusi (Moderat): Produk substitusi meliputi perangkat lunak 
+Process Mining yang memetakan proses secara otomatis dari log sistem tanpa perlu 
+konsultan desain. Namun, mesin belum bisa melakukan perancangan ulang arsitektur 
+(redesign) yang melibatkan aspek manusia dan budaya organisasi.21 
+5. Rivalitas di Antara Pesaing Eksisting (Tinggi): Persaingan dengan firma Big Four dan 
+firma lokal besar seperti GML atau Proxsis sangat ketat. Strategi MKP harus fokus pada 
+spesialisasi "Process Resiliency for Restructuring" yang belum menjadi fokus utama 
+pesaing lain.2 
+ 
+3.6 
+Business Canvas 
+Business Model Canvas digunakan untuk memetakan pelaku di sisi demand dan supply, 
+struktur biaya dan pendapatan serta aktivitas aktivtias bisnis. Berikut Business Canvas untuk 
+Pengembangan Proses Bisnis: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 10 Business Model Canvas 
+1. Arsitektur proses 
+bisnis yang stabil 
+terhadap 
+restrukturisasi 
+(Decoupling Layer).2 
+2. Efisiensi Dokumentasi 
+hingga 40% 
+3. Integrasi Kontrol 
+Risiko Langsung ke 
+dalam alur kerja 
+4. ROI teruji Paybaack 
+Period < 1 tahun 
+1. PLN Group  
+2. Perusahaan 
+Swasta Mid 
+Range 
+3. Perusahaan 
+Merger 
+1. Konsultasi 
+Kolaboratif 
+2. Komunitas 
+Praktisi BPM 
+Adaptif 
+3. Pemeliharaan 
+Tata Kelola 
+1. Penjualan 
+langsung 
+(direct sales) ke 
+Unit 
+2. LinkedIn 
+melalui webinar 
+1. Audit Proses 
+2. Desain Ulang 
+3. Workshop 
+Fungsi 
+4. Implementasi 
+Role Mapping 
+Matrix 
+1. Penyedia 
+Software BPM 
+2. Lembaga 
+Sertifikasi 
+3. Asosiasi 
+Industri (Misal 
+FHCI BUMN) 
+1. Metodologi 
+Function Based 
+2. Konsultan Ahli 
+3. Repository data 
+Benchmark 
+(APQC) 
+1. Biaya Jasa Konsultasi Proyek (Rp.100-500 jt+) 
+2. Penjualan Perangkat Tata Kelola (Toolkits) 
+3. Biaya Pelatihan Sertifikasi Internal 
+4. Lisensi Metodologi Tahunan 
+1. Gaji Analisis 
+2. Biaya Pemasaran B2B 
+3. Biaya Lisensi Standar APQC 
+4. Biaya R&D Metodologi Berkelanjutan 
+
+---PAGE BREAK---
+ 
+21 
+ 
+3.7 
+Analisa SWOT 
+Analisis SWOT digunakan untuk memetakan faktor internal dan eksternal yang 
+memengaruhi inisiatif perbaikan arsitektur proses bisnis di PT Mitra Karya Prima. Analisis ini 
+bertujuan untuk menilai kekuatan dan kelemahan internal dari desain proses yang diusulkan, 
+serta peluang dan ancaman eksternal yang dapat memengaruhi keberhasilan implementasi 
+perubahan proses bisnis. 
+ 
+● Strengths (Kekuatan): 
+○ Proven Success: Metodologi telah diuji di internal MKP dengan hasil nyata (Penghematan 
+Rp321jt/tahun).2 
+○ Resiliency Layer: Memiliki teknik decoupling (Role Mapping Matrix) yang unik dan belum 
+banyak diadopsi oleh konsultan lokal lain.2 
+○ Standar Global: Mengacu pada best practices internasional (APQC & BPMN 2.0) namun 
+disesuaikan dengan konteks birokrasi Indonesia.6 
+○ Efisiensi Dokumentasi: Mampu memangkas lapisan dokumen yang memberatkan 
+organisasi dari 7 level menjadi 4 level.2 
+● Weaknesses (Kelemahan): 
+○ Brand Awareness: MKP secara tradisional dikenal sebagai perusahaan outsourcing, perlu 
+upaya branding besar untuk dipandang sebagai "Jasa Tata Kelola".2 
+○ Kapasitas Ahli: Ketergantungan pada beberapa individu kunci pembuat inovasi, 
+memerlukan program transfer knowledge internal yang masif. 
+● Opportunities (Peluang): 
+○ BUMN Merger Wave: Rencana merger Pelindo-Pelni-ASDP dan klaster-klaster lainnya 
+membutuhkan penyelarasan proses bisnis skala besar.3 
+○ Regulasi GRC & TI: Peraturan Menteri BUMN No. PER-2/MBU/03/2023 mewajibkan 
+penerapan tata kelola TI dan manajemen risiko yang terintegrasi, di mana BPM adalah 
+fondasinya.26 
+○ Pasar Startup: Meningkatnya kebutuhan startup untuk memiliki "Standard of Excellence" 
+agar bisa scaling dengan rapi.1 
+● Threats (Ancaman): 
+○ Dominasi Firma Global: Klien korporat besar mungkin masih memilih firma Big Four demi 
+alasan gengsi atau "legitimasi" dewan direksi.5 
+○ Resistensi Perubahan: Budaya kerja lama yang nyaman dengan SOP tekstual naratif 
+mungkin menolak transisi ke diagram visual BPMN.24 
+○ Automasi Mandiri: Klien mungkin mencoba membangun sendiri sistem prosesnya 
+
+---PAGE BREAK---
+ 
+22 
+ 
+menggunakan platform low-code tanpa pendampingan konsultan.53 
+ 
+Berdasarkan analisis SWOT tersebut, dapat disimpulkan bahwa inisiatif penyederhanaan 
+struktur proses dan perubahan paradigma aktor dari berbasis jabatan menjadi berbasis fungsi 
+memiliki potensi yang kuat untuk meningkatkan efisiensi dan kelincahan organisasi, meskipun 
+memerlukan pengelolaan perubahan (change management) yang terencana untuk 
+meminimalkan risiko implementasi. 
+ 
+3.8 
+Analisa TO-WS 
+Analisis TOWS digunakan sebagai pengembangan strategis dari hasil evaluasi SWOT 
+yang telah dilakukan sebelumnya. Jika SWOT hanya memetakan faktor internal (Strengths, 
+Weaknesses) dan eksternal (Opportunities, Threats), maka TOWS melangkah lebih jauh 
+dengan 
+menghasilkan 
+strategi 
+praktis 
+berdasarkan 
+kombinasi 
+keempat 
+faktor 
+tersebut.berikut rumusan arah komersial dalam rangka menerapkan inovasi ini sebagai salah 
+satu peluang usaha di PT Mitra Karya Primaa yaitu: 
+ 
+1. Memaksimalkan kekuatan internal untuk menangkap peluang pasar (SO 
+Strategies). 
+2. Mengurangi kelemahan internal dengan memanfaatkan peluang eksternal (WO 
+Strategies). 
+3. Menggunakan keunggulan perusahaan untuk mengantisipasi ancaman kompetitif 
+(ST Strategies). 
+4. Meminimalkan risiko kelemahan dan ancaman melalui strategi defensif (WT 
+Strategies). 
+Dengan pendekatan ini, MKP dapat menyusun rencana eksekusi yang lebih realistis, terarah, 
+dan selaras dengan dinamika pasar jasa tata kelola dan transformasi proses bisnis di 
+Indonesia, dengan beberapa point sebagai berikut: 
+
+---PAGE BREAK---
+ 
+23 
+ 
+ 
+Gambar 11 SWOT & TO-WS 
+3.9 
+Implementasi 
+Implementasi inovasi Function-Based BPMN Redesign dilaksanakan melalui tahapan 
+bertahap yang dirancang untuk memastikan keselarasan desain, penguatan kepemilikan 
+internal, serta keberlanjutan penerapan di lingkungan perusahaan. Pendekatan ini 
+menekankan perbaikan desain arsitektur proses secara sistemik, bukan perubahan prosedural 
+sesaat. 
+3.9.1 Memetaan dan Pembagian Proses Operasi dan Supporting 
+Pada tahap implementasi, dilakukan pemetaan dan pengelompokan proses bisnis ke 
+dalam dua kelompok utama, yaitu proses operasional serta proses manajemen dan 
+pendukung (management and supporting processes). Pemetaan ini dilakukan untuk 
+membangun arsitektur proses berbasis fungsi yang lebih jelas, terstruktur, dan tidak 
+bergantung pada struktur organisasi. 
+
+---PAGE BREAK---
+ 
+24 
+ 
+7. Pengembangan dan Pengelolaan SDM
+7.1 Menentukan 
+Kebijakan dan Strategi 
+Human Capital
+7.2 Mengelola Proses 
+Seleksi dan Rekrutmen
+7.3 Mengelola 
+Penempatan dan 
+Pengembangan 
+Karyawan
+7.4 Hubungan 
+Industrial
+7.5 Mengelola 
+Kompensasi dan 
+Manfaat
+7.6 Mengelola 
+Informasi Data 
+Karyawan
+3.2 Mengelola 
+Pemasaran
+5.1 Mengelola 
+Sumber Daya
+1.2 Menyusun RKAP
+2 Pengembangan 
+Produk
+1.1 Menyusun RJPP
+3.3 Mengelola 
+Penjualan
+M-D Base
+C
+C
+C
+2 Pengembangan
+Produk
+12 Pengelolaan
+Stakeholder
+9.4 Mengelola Proses
+Penggajian
+9.5 Mengelola Hutang 
+dan Reimburse 
+9.1 Perencanaan Keuangan 
+dan Manajemen Akuntansi
+10.2 Mengelola Fasilitas Kerja 
+dan Mobilisasi personel 
+M-Recruit
+6.2 Mengelola 
+Kepuasan Pelanggan
+D
+B
+D
+D
+5.2 Persiapan 
+Penyampaian Produk
+1.2 Menyusun RKAP
+1.3 Mengelola 
+Strategi Perusahaan
+D
+3.3 Mengelola 
+Penjualan
+B
+A
+A
+A
+6.3 Mengelola 
+Keluhan Pelanggan
+Hubungan Karyawan
+B
+5.1 Mengelola 
+Sumber Daya
+E
+E
+MPP
+HC Roadmap 
+HPP
+ 
+Gambar 12 Level 1 ke 2 Process Business 
+3.9.2 Membuat Level 2 ke 3 
+Tahap selanjutnya dalam implementasi model proses bisnis adalah penurunan struktur 
+dari Level 2 ke Level 3. Level 3 dirancang untuk merepresentasikan proses pada tingkat 
+operasional utama (operational process layer), yaitu proses yang secara langsung 
+menggambarkan alur kerja lintas fungsi dalam pelaksanaan aktivitas bisnis. 
+Level 1 
+Level 2 
+
+---PAGE BREAK---
+ 
+25 
+ 
+7.6 Mengelola Informasi Data Karyawan
+7.6.1 Mengelola 
+Informasi Data 
+Karyawan
+7.5 Mengelola 
+Kompensasi dan Manfaat
+7.6.2 Mengelola Sistem 
+Presensi
+7.6.3 Mengelola Sistem 
+Pengukuran Kepuasan 
+dan Keterikatan 
+Karyawan
+2 Pengembangan 
+Produk
+7.2.3 Melaksanakan 
+Seleksi Pelamar
+7.3.2 Mengelola Penilaian 
+Kinerja Karyawan
+7.4.2 Kelola Keluhan dan 
+Pengaduan Karyawan
+3.2.3 Penyusunan 
+SIH
+10.2 Mengelola Fasilitas Kerja 
+dan Mobilisasi personel 
+7.2.3 Melaksanakan 
+Seleksi Pelamar
+7.3.2 Mengelola Penilaian 
+Kinerja Karyawan
+7.3.3 Mengelola Penilaian 
+Kinerja Karyawan
+9.4.1 Mengelola Perhitungan Jam Kerja 
+dan Penghasilan Tambahan
+7.3.1 Mengelola Orientasi 
+Karyawan
+ 
+Gambar 13 Level 2 ke 3 Process Business 
+3.9.3 Membuat Level 3 ke 4 
+Tahap terakhir dalam perancangan arsitektur proses bisnis adalah penurunan struktur 
+dari Level 3 ke Level 4. Level 4 dirancang untuk merepresentasikan detail aktivitas 
+operasional yang sebelumnya dipisahkan ke dalam dokumen SOP dan Instruksi Kerja. 
+Dalam model baru, detail operasional tersebut tidak lagi berdiri sebagai dokumen 
+terpisah, tetapi diintegrasikan langsung ke dalam model proses melalui konsep rich task 
+dan embedded attributes. Pada Level 4, setiap aktivitas pada Level 3 diperkaya dengan 
+informasi operasional yang relevan, seperti tujuan aktivitas, aturan kerja, input dan 
+output, indikator kinerja, risiko, kontrol, serta keterkaitan dengan formulir atau sistem 
+pendukung. Model proses tidak lagi bergantung pada keberadaan SOP dan Instruksi 
+Kerja yang terpisah, sehingga jumlah dokumen dapat dikurangi tanpa menghilangkan 
+substansi pengendalian dan panduan kerja. 
+Level 2 
+Level 3 
+
+---PAGE BREAK---
+ 
+26 
+ 
+Semua Entitas
+Manajer Administrasi 
+Sumber Daya Manusia
+Fungsi Administrasi 
+Sumber Daya Manusia
+Fungsi Verifikasi 
+Administratif
+Admin Unit
+Aplikasi
+Kegiatan
+Output
+Keterangan
+Diagram Alur Proses
+7.6.2 Mengelola Sistem Presensi
+2 Mengonfigurasi Work 
+Location
+Sesuai ?
+Target
+4 Mengumpulkan dan 
+Koreksi Data Presensi 
+Harian Unit
+6 Review Data Sistem 
+Presensi
+Tidak
+Iya
+7 Menyediakan Laporan 
+Kehadiran
+1 Mengkonfigurasi 
+Jadwal Kerja
+5 Mengumpulkan dan 
+Koreksi Data Presensi 
+Harian Kantor Pusat
+3 Mendaftar Device 
+Presensi
+Jadwal Kerja
+Shift & Daily
+Koordinat
+Presensi
+Device Presensi
+Teregistrasi
+Draf Data Presensi
+Harian
+Data Laporan
+Presensi
+1 Hari
+1 Hari
+2 Hari
+2 Hari
+1 Hari
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+Aplikasi
+MKP Presensi
+R.3.5 Untuk unit kerja yang 
+tidak memiliki Admin proses 
+dilakukan oleh kantor pusat
+R.1 Untuk unit kerja yang tidak 
+memiliki Admin proses 
+dilakukan oleh kantor pusat
+ 
+Gambar 14 Level 3 ke 4 Process Business 
+3.9.4 Penjelasan Fungsi dalam Model Proses Bisnis 
+Pada model proses bisnis berbasis fungsi, setiap aktivitas tidak lagi dikaitkan dengan 
+jabatan atau unit organisasi tertentu, melainkan dengan fungsi bisnis yang bersifat lebih 
+stabil. Fungsi didefinisikan sebagai peran logis yang harus dijalankan dalam suatu 
+proses untuk mencapai tujuan bisnis, terlepas dari siapa atau unit mana yang 
+melaksanakannya. Dalam implementasi ini, fungsi digunakan sebagai dasar untuk 
+mengelompokkan aktivitas proses pada setiap level. Pendekatan ini memungkinkan 
+desain proses bisnis tetap konsisten meskipun terjadi perubahan struktur organisasi, 
+karena yang berubah hanyalah pemetaan peran, bukan struktur proses itu sendiri. 
+ 
+Gambar 15 Fungsi Based Actor 
+ 
+ 
+Level 3 
+Level 4 
+
+---PAGE BREAK---
+ 
+27 
+ 
+3.9.5 Komparasi Efektifitas 
+Pada model proses bisnis dapat di komparasikan dari sebelum dan setelah inovasi untuk 
+menggantikan system SOP dan IK yang dipisahkan, untuk menghilangkan ambiguitas 
+pern dan fungsi di setiap level, berikut table perbandingannya: 
+ 
+ 
+Gambar 16 Chart Before after Improvement 
+Aspek 
+Kondisi Sebelum Inovasi 
+(Before) 
+Kondisi Setelah Inovasi 
+(After) 
+Paradigma desain 
+proses 
+Berbasis jabatan (position-based 
+process) 
+Berbasis fungsi (function-based 
+process) 
+Aktor proses 
+Jabatan struktural spesifik 
+Fungsi bisnis yang stabil 
+Ketergantungan 
+pada struktur 
+organisasi 
+Tinggi, proses berubah saat 
+struktur berubah 
+Rendah, dipisahkan melalui role 
+mapping 
+Jumlah level proses 
+6–7 level (PBM–SOP–IK) 
+4 level inti (strategic–
+operational) 
+Kejelasan batas 
+strategis vs 
+operasional 
+Tidak tegas, sering tumpang 
+tindih 
+Tegas: L1–L2 strategis, L3–L4 
+operasional 
+Cara penurunan level Linear dan dokumen-sentris 
+Hirarkis dan arsitektural 
+Media representasi 
+proses 
+Tabel aktivitas dan narasi tekstual 
+Diagram BPMN 2.0 berbasis alur 
+Keterbacaan alur 
+end-to-end 
+Rendah, tersebar di banyak 
+dokumen 
+Tinggi, terlihat dalam satu 
+model 
+
+---PAGE BREAK---
+ 
+28 
+ 
+Aspek 
+Kondisi Sebelum Inovasi 
+(Before) 
+Kondisi Setelah Inovasi 
+(After) 
+Pengelolaan SOP & 
+IK 
+Wajib dan terpisah (Level 6–7) 
+Opsional, hanya bila diperlukan 
+Detail operasional 
+Tersebar di SOP/IK terpisah 
+Tertanam sebagai embedded 
+attributes 
+Kemudahan 
+pemahaman 
+pengguna 
+Bergantung interpretasi individu 
+Visual, konsisten, dan seragam 
+Fungsi sebagai alat 
+kerja 
+Terbatas sebagai dokumen 
+kepatuhan 
+Aktif sebagai panduan 
+operasional 
+Fungsi sebagai 
+kontrol risiko 
+Implisit dan terpisah 
+Terintegrasi dalam alur proses 
+Ketahanan terhadap 
+perubahan 
+organisasi 
+Rendah, cepat usang 
+Tinggi, stabil dan adaptif 
+Beban pemeliharaan 
+dokumen 
+Tinggi dan berulang 
+Rendah dan terkendali 
+Tabel 7 Kondisi Sebelum dan Sesudah Penerapan Redisigning BPMN 
+3.9.6 Tahapan Product Development dari MVP Hingga Launch 
+Pengembangan produk akan dilakukan melalui pendekatan bertahap guna memitigasi 
+risiko kegagalan pasar. 
+1. Fase 1: Standardisasi Metodologi & Pendaftaran HAKI (Bulan 1-2): 
+○ Mengonversi dokumen inovasi internal menjadi modul jasa konsultasi yang komersial. 
+○ Mendaftarkan hak cipta atas "Role Mapping Matrix Framework" dan "4-Level Resilient 
+BPMN Architecture" ke Direktorat Jenderal Kekayaan Intelektual (DJKI).18 
+○ Penyusunan kamus "Aktor Fungsi Standar" untuk industri jasa dan manufaktur. 
+2. Fase 2: Minimum Viable Product (MVP) & Pilot Project (Bulan 3-5): 
+○ Meluncurkan paket layanan "BPM Resiliency Audit" sebagai entry point dengan harga 
+kompetitif. 
+○ Melakukan pilot project pada satu klien strategis (misal: anak perusahaan BUMN atau 
+mitra outsourcing MKP).10 
+○ Mengumpulkan data performa sebelum vs sesudah redesign untuk memperkuat 
+testimoni. 
+3. Fase 3: Kapabilitas Internal & Sertifikasi (Bulan 6-7): 
+○ Mendaftarkan konsultan MKP untuk mendapatkan sertifikasi BNSP bidang Business 
+Requirement Analysis dan Manajemen SDM (Penyusunan SOP).19 
+○ Membangun repository digital untuk seluruh aset metodologi guna mempermudah 
+replikasi proyek. 
+
+---PAGE BREAK---
+ 
+29 
+ 
+4. Fase 4: Peluncuran Pasar & Ekspansi Saluran (Bulan 8+): 
+○ B2B Marketing Campaign melalui event-event manajemen risiko dan tata kelola 
+korporat.56 
+○ Membuka kemitraan sebagai implementation partner dengan vendor teknologi BPM 
+seperti Bizagi atau Camunda.9 
+○ Evaluasi feedback pasar secara berkala melalui loop "Build-Measure-Learn".11 
+3.10 Go To Market Strategy 
+Strategi GTM MKP difokuskan pada penyampaian nilai (value delivery) dan edukasi pasar. 
+● Pricing Strategy (Paket Harga): 
+○ Tier 1: Audit & Discovery (Entry): Rp50jt - Rp100jt. Output: Laporan kesenjangan 
+arsitektur dan peta jalan perbaikan. 
+○ Tier 2: Core Redesign (Standard): Rp150jt - Rp350jt. Output: Redesign hingga 50 proses 
+kunci menggunakan standar 4-level dan Role Mapping Matrix.17 
+○ Tier 3: Enterprise Transformation (Premium): >Rp500jt. Output: Arsitektur proses 
+korporat menyeluruh, integrasi GRC, dan pelatihan sertifikasi internal.17 
+● Saluran Distribusi (Distribution Channels): 
+○ Direct Sales: Tim Business Development yang fokus pada C-level dan Head of GRC di 
+BUMN/Perusahaan Besar.55 
+○ Strategic Alliances: Menjadi "metodologi eksklusif" bagi partner IT integrator yang sedang 
+melakukan digitalisasi sistem ERP atau BPM.9 
+○ Digital Content Marketing: Publikasi rutin studi kasus "Man-Hour Savings" di LinkedIn dan 
+portal industri untuk membangun otoritas pemikiran (thought leadership).42 
+● Kampanye Pemasaran (Marketing Campaign): 
+○ Tema: "Built to Change: Arsitektur Proses Bisnis yang Tak Lekang oleh 
+Restrukturisasi." 
+○ Aktivitas: Webinar gratis mengenai "Cara Mengelola Proses Bisnis saat Merger", distribusi 
+White Paper ROI inovasi MKP, dan partisipasi dalam Indonesia Management Consulting 
+Expo.56 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+30 
+ 
+BAB IV  
+MANFAAT INOVASI  
+ 
+4.1 
+Manfaat Inovasi Terhadap Korporat (PT Mitra Karya Prima) 
+Inovasi Function-Based BPMN Redesign tidak hanya menghasilkan efisiensi internal, 
+tetapi juga membuka sumber pendapatan baru melalui pembentukan layanan Governance 
+Architecture Consulting. Model ini mengurangi ketergantungan MKP pada bisnis outsourcing 
+yang bermargin tipis dan sangat kompetitif, serta menggeser positioning perusahaan menjadi 
+mitra tata kelola (governance partner) yang merancang arsitektur proses resilien terhadap 
+restrukturisasi. Pendapatan diperoleh melalui proyek redesign (All-In, Per-Kategori, Custom), 
+lisensi toolkit metodologi, pelatihan kapabilitas internal, serta layanan advisory tahunan 
+berbasis retainer. Struktur ini menciptakan kombinasi revenue satu kali dan recurring revenue 
+yang lebih stabil dan scalable, sekaligus meningkatkan brand equity MKP sebagai center of 
+excellence dalam manajemen proses adaptif. 
+Dari sisi finansial, manfaat internal menunjukkan efisiensi tahunan sebesar ±Rp321 juta 
+dengan estimasi payback period sekitar satu tahun implementasi. Secara eksternal, dengan 
+asumsi recurring revenue mencapai Rp5 miliar per tahun dan margin rata-rata 40%, unit 
+Governance Architecture Consulting berpotensi menghasilkan EBITDA sekitar Rp2 miliar, 
+yang dalam praktik valuasi jasa konsultasi dapat dikapitalisasi pada kisaran 3–5 kali EBITDA. 
+Dengan demikian, inovasi ini tidak hanya meningkatkan efisiensi operasional, tetapi juga 
+membentuk lini bisnis baru berbasis intellectual capital yang berkelanjutan dan meningkatkan 
+nilai perusahaan secara strategis.Manfaat utama inovasi bagi korporasi meliputi: 
+1. Revenue Stream Baru dan Diversifikasi: 
+○ Mengurangi ketergantungan pada pendapatan dari bisnis outsourcing murni yang 
+memiliki margin tipis dan persaingan harga yang ketat. 
+○ Layanan konsultasi memiliki margin keuntungan yang jauh lebih tinggi dan menciptakan 
+keterikatan jangka panjang (stickiness) dengan klien melalui kontrak retainer tata kelola.17 
+2. Peningkatan Brand Equity sebagai Pionir BPM Adaptif: 
+○ MKP akan dikenal sebagai perusahaan yang tidak hanya "menjalankan" operasional, 
+tetapi juga "merancang" cara kerja terbaik. 
+○ Meningkatkan nilai tawar perusahaan di mata pemegang saham (Holding PLN/EPI) 
+sebagai pusat keunggulan (center of excellence) dalam manajemen proses.40 
+ 
+
+---PAGE BREAK---
+ 
+31 
+ 
+3. Efisiensi Berkelanjutan dan Perbaikan Internal: 
+○ Dengan terus menyempurnakan metodologi ini untuk pasar eksternal, MKP secara 
+otomatis terus memperbarui standar kerjanya sendiri. 
+○ Penerapan internal yang terus berlanjut memastikan MKP tetap lincah dalam 
+menghadapi tantangan industri energi dan kelistrikan di masa depan.2 
+4. Akses ke Pasar yang Lebih Luas: 
+○ Metodologi ini membuka pintu bagi MKP untuk masuk ke industri lain di luar sektor 
+energi, seperti perbankan, manufaktur, dan layanan kesehatan yang semuanya 
+membutuhkan stabilitas proses bisnis.5 
+5. Governance Architecture Consulting Framework 
+Berisi: 
+1. Value Proposition 
+2. Revenue Model 
+3. Different Map 
+4. ROI Simulation Models 
+Contoh ROI Simulation: 
+Jika: 
+• 
+Perusahaan revisi dokumen 3x dalam 5 tahun 
+• 
+Cost revisi rata-rata 200 juta per restrukturisasi 
+• 
+Inovasi ini mengurangi 70% 
+Maka: ROI < 1 tahun 
+6. From Internal Innovation to Commercial Governance Platform 
+Dari permasalahan yang muncul di PT Mitra Karya Prima, peluang tersebut dapat di jadikan 
+acuan untuk memunculkan ide baru yang menguntungkan. Terutama untuk perusahaan jasa 
+seperti PT Mitra Karya Prima, hal ini dapat membuka pasar baru yang luas dan dapat 
+dikembangkan yang peluang nya tidak hanya di BUMN saja melainkan bahkan dapat masuk ke 
+pasar internasional karena standard sudah menggunakan best practice dari APQC yang sudah 
+terbukti digunakan di banyak negara. Berikut visualisasi sederhana menggambarkan rencana 
+inovasi ini: 
+
+---PAGE BREAK---
+ 
+32 
+ 
+ 
+Gambar 17 Visualisasi Rencana Proses Business sebagai peluang bisnis 
+4.2 
+Manfaat Finansial Secara Umum 
+Dampak finansial dari inovasi ini diperoleh terutama melalui efisiensi tidak langsung (indirect 
+financial benefits) yang bersumber dari stabilitas dan kesederhanaan proses, bukan dari 
+pemotongan biaya secara instan. 
+4.2.1 Struktur Biaya 
+Biaya atas Inovasi ini bersifat beban operasional yang digunakan untuk jasa 
+konsultansi guna melakukan asistensi dan mapping penguatan metodologi proses 
+bisnis, serta dukungan implementasi awal. 
+Komponen 
+Nilai 
+Keterangan 
+All in Kategori 
+450.000.000 
+Level 1 – 13 
+Per-Kategori  
+50.000.000 
+Satu Kategori 
+Custom 
+600.000.000 
+Kategori Tertentu 
+Tabel 8 Struktur Biaya 
+4.2.2 Manfaat Finansial 
+4.2.2.1 Man-Hours Saving akibat Reduksi Revisi Dokumen Proses 
+Sebelum inovasi, perubahan struktur organisasi secara berkala mengharuskan 
+perusahaan melakukan revisi dokumen PBM, prosedur, SOP, dan instruksi kerja di 
+berbagai unit. Aktivitas ini melibatkan koordinasi lintas fungsi, penyesuaian aktor 
+jabatan, serta klarifikasi ulang alur proses. 
+
+---PAGE BREAK---
+ 
+33 
+ 
+Dengan desain proses berbasis fungsi, perubahan struktural tidak lagi berdampak 
+langsung pada dokumen proses. Berdasarkan asumsi moderat: 
+• 
+Asumsi UMK Per-bulan/ 120 jam  
+• 
+Setiap perubahan sebelumnya menyerap kurang lebih 100.000/jam 
+Total efisiensi waktu kerja yang dihindari: 
+12.000 × 120 jam = 100.000/jam 
+Dengan asumsi biaya rata-rata jam kerja administratif sebesar Rp100.000 per jam, 
+maka nilai efisiensi tahunan mencapai: 
+240 jam (jumlah Jam sebelum) × Rp100.000 = Rp24.000.000 per tahun 
+4.2.2.2 Productivity Gain dari Kejelasan Alur dan Peran Fungsional 
+Kejelasan alur proses dan penggunaan aktor berbasis fungsi mengurangi waktu 
+klarifikasi, koreksi, dan rework pada proses lintas unit. Dengan asumsi moderat: 
+• 
+Penghematan waktu rata-rata 15 menit per hari per pegawai yang terlibat 
+dalam proses lintas fungsi 
+• 
+Jumlah pegawai terdampak langsung: 90 pegawai (Asumsi) 
+• 
+Hari kerja efektif: 220 hari per tahun 
+Akumulasi waktu kerja efektif tambahan: 
+0,25 jam × 220 hari × 90 pegawai = 4.950 jam per tahun 
+Dengan asumsi biaya rata-rata jam kerja sebesar Rp60.000 per jam, maka nilai 
+produktivitas tambahan mencapai: 
+4.950 jam × Rp60.000 = Rp297.000.000 per tahun 
+Produktivitas tambahan ini tidak dimanfaatkan sebagai dasar pengurangan tenaga 
+kerja, melainkan sebagai peningkatan kapasitas organisasi untuk mempercepat 
+penyelesaian pekerjaan, meningkatkan kualitas output, dan memperkuat layanan 
+internal. 
+
+---PAGE BREAK---
+ 
+34 
+ 
+4.2.2.3 Cost Avoidance Sebagai Dampak Turunan 
+Efisiensi jam kerja dan peningkatan produktivitas tersebut secara agregat 
+berkontribusi pada cost avoidance, yaitu penghindaran biaya akibat rework 
+berulang, miskomunikasi lintas fungsi, serta ketergantungan pada aktivitas 
+administratif non–value added. Biaya-biaya ini sebelumnya tidak tercatat secara 
+eksplisit, namun secara akumulatif membebani efektivitas operasional perusahaan. 
+Kesimpulan Dampak Finansial 
+Berdasarkan pendekatan kuantitatif, inovasi Function-Based BPMN Redesign 
+menghasilkan estimasi manfaat finansial sekitar: 
+No 
+Manfaat 
+NIlai 
+1 
+Man-Hours Saving akibat Reduksi Revisi Dokumen 
+Proses 
+24.000.000 
+2 
+Productivity Gain dari Kejelasan Alur dan Peran 
+Fungsional 
+297.000.000 
+ 
+Total Manfaat pertahun 
+321.000.000 
+Tabel 9 Dampak Finansial Ide 
+Pendekatan yang digunakan untuk mengetahui apakah inovasi memiliki manfaat 
+lebih besar dari biaya melalui Payback Analysis, atau PBP (Payback Period) 
+a) Estimasi Efisiensi Tahunan 
+: Rp. 321.000.000 
+b) Estimasi Payback Period 
+: ±1 tahun implementasi 
+4.2.2.4 Return of Investment (ROI) Bagi Calon Pembeli 
+Salah satu senjata utama dalam pemasaran B2B adalah bukti finansial. 
+Berdasarkan data empiris dari inovasi MKP, kita dapat memproyeksikan 
+keuntungan bagi calon pembeli. 
+Analisis Biaya-Manfaat (Package A – All In): 
+● Total Biaya Investasi (Initial Investment): Rp450.000.000 (Mencakup biaya 
+konsultasi, workshop, dan dokumentasi awal).2 
+● Estimasi Manfaat Tahunan (Annual Benefits): Rp321.000.000. Manfaat ini 
+berasal dari: 
+○ Man-Hours Saving: Penghematan jam kerja administratif akibat reduksi 
+revisi dokumen sebesar Rp24.000.000/tahun.2 
+
+---PAGE BREAK---
+ 
+35 
+ 
+○ Productivity Gain: Kejelasan alur dan peran fungsional yang meningkatkan 
+kapasitas kerja senilai Rp297.000.000/tahun.2 
+Perhitungan ROI: 
+Penggunaan LaTeX untuk akurasi formula: 
+ 
+ 
+ 
+ 
+ 
+ 
+Analisis Biaya-Manfaat (Package B – Per-Kategori): 
+● Total Biaya Investasi (Initial Investment): Rp50.000.000 (Mencakup biaya 
+konsultasi, workshop, dan dokumentasi awal).2 
+● Estimasi Manfaat Tahunan (Annual Benefits): Rp321.000.000. Manfaat ini 
+berasal dari: 
+○ Man-Hours Saving: Penghematan jam kerja administratif akibat reduksi 
+revisi dokumen sebesar Rp24.000.000/tahun.2 
+○ Productivity Gain: Kejelasan alur dan peran fungsional yang meningkatkan 
+kapasitas kerja senilai Rp297.000.000/tahun.2 
+Perhitungan ROI: 
+Penggunaan LaTeX untuk akurasi formula: 
+ 
+ 
+ 
+ 
+ 
+ 
+Analisis Biaya-Manfaat (Package C – Custom): 
+● Total Biaya Investasi (Initial Investment): Rp600.000.000 (Mencakup biaya 
+konsultasi, workshop, dan dokumentasi awal).2 
+● Estimasi Manfaat Tahunan (Annual Benefits): Rp321.000.000. Manfaat ini 
+
+---PAGE BREAK---
+ 
+36 
+ 
+berasal dari: 
+○ Man-Hours Saving: Penghematan jam kerja administratif akibat reduksi 
+revisi dokumen sebesar Rp24.000.000/tahun.2 
+○ Productivity Gain: Kejelasan alur dan peran fungsional yang meningkatkan 
+kapasitas kerja senilai Rp297.000.000/tahun.2 
+Perhitungan ROI: 
+Penggunaan LaTeX untuk akurasi formula: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Perhitungan Payback Period: 
+ 
+Dengan ROI tersebut pada tahun pertama dan masa pengembalian modalnya, 
+proposisi nilai produk MKP sangat superior dibandingkan investasi perangkat lunak 
+atau pelatihan konvensional lainnya. Calon pembeli akan melihat ini bukan sebagai 
+pengeluaran (cost), melainkan sebagai investasi strategis yang mendanai dirinya 
+sendiri dalam waktu singkat.2 
+4.3 
+Manfaat Non Finansial 
+Berikut adalah manfaat Non-Finansial yang didapat pada inovasi ini dapat dilihat pada 
+list dibawah. 
+• Stabilitas Proses Bisnis 
+Proses tidak lagi bergantung pada struktur jabatan, sehingga tetap relevan meskipun 
+terjadi perubahan organisasi, rotasi personel, atau penyesuaian kebijakan. 
+• Peningkatan Tata Kelola dan Kesiapan Audit 
+
+---PAGE BREAK---
+ 
+37 
+ 
+Proses yang lebih ringkas dan terstandar memudahkan audit internal, mengurangi 
+kebutuhan klarifikasi, serta meningkatkan konsistensi antara dokumen dan praktik di 
+lapangan. 
+• Penguatan Kontrol Risiko Strategis 
+Proses bisnis berfungsi lebih efektif sebagai alat mitigasi risiko operasional dan strategis, 
+sejalan dengan prinsip ISO 31000 dan kerangka APQC. 
+• Kejelasan Peran dan Koordinasi Lintas Fungsi 
+Pendekatan berbasis fungsi memperjelas tanggung jawab antar aktivitas, mengurangi 
+potensi dispute process, dan meningkatkan kolaborasi lintas unit kerja. 
+• Kesiapan Transformasi dan Digitalisasi Proses 
+Desain proses yang jelas dan terstruktur menjadi fondasi yang kuat untuk 
+pengembangan sistem informasi dan inisiatif digitalisasi di masa depan. 
+ 
+ 
+
+---PAGE BREAK---
+ 
+38 
+ 
+BAB V  
+KESIMPULAN DAN SARAN 
+ 
+5.1 
+Kesimpulan 
+Berdasarkan riset mendalam, analisis pasar, dan data empiris dari internal PT Mitra 
+Karya Prima, produk "Function-Based BPMN Redesign" memiliki tingkat kelayakan yang 
+sangat tinggi untuk dilepas ke pasar eksternal (B2B). Berikut adalah kesimpulan utama 
+mengenai kelayakan produk ini: 
+1. 
+Relevansi Pasar: Solusi ini menjawab titik sakit (pain point) paling kritis yang dialami 
+organisasi besar di Indonesia saat ini, yaitu ketidakefektifan pengelolaan proses bisnis 
+akibat dinamika restrukturisasi yang tinggi, terutama di lingkungan BUMN dan instansi 
+pemerintah.3 
+2. 
+Keunggulan Metodologis: Penggunaan paradigma function-based dan teknik 
+decoupling melalui Role Mapping Matrix memberikan pembeda yang nyata (unique 
+selling proposition) dibandingkan konsultan tradisional yang masih menggunakan 
+pendekatan berbasis jabatan (position-based).2 
+3. 
+Kelayakan Finansial: ROI sebesar 261% dan payback period kurang dari 4 bulan 
+adalah bukti kuat bahwa produk ini memberikan nilai ekonomi yang konkret dan terukur 
+bagi klien.2 
+4. 
+Kesiapan Komersialisasi: Dengan struktur 4-level yang mengacu pada standar 
+APQC dan penggunaan notasi BPMN 2.0, inovasi ini sudah berada pada jalur standar 
+industri global yang memudahkan integrasi dengan teknologi digital masa depan 
+(Hyperautomation/AI).1 
+Secara keseluruhan, komersialisasi inovasi ini akan memberikan keuntungan ganda: 
+pendapatan baru (revenue stream) bagi MKP dan peningkatan efisiensi bagi ekosistem 
+bisnis di Indonesia. 
+5.2 
+Saran 
+Guna memastikan keberhasilan peluncuran produk dan keberlanjutan bisnis, MKP 
+disarankan untuk melakukan langkah-langkah strategis berikut dalam jangka pendek (0-6 
+bulan): 
+● 
+Pendaftaran HAKI & Hak Cipta: Segera melakukan pendaftaran merek dan hak cipta 
+atas metodologi, template matriks, dan materi pelatihan ke DJKI guna melindungi aset 
+intelektual perusahaan dari plagiarisme pesaing.18 
+
+---PAGE BREAK---
+ 
+39 
+ 
+● 
+Sertifikasi Konsultan Senior: Menginvestasikan pelatihan dan uji kompetensi bagi tim 
+pengembang produk agar memiliki sertifikasi resmi BNSP (Business Requirement 
+Analysis) dan internasional (CBPP dari ABPMP) untuk meningkatkan kredibilitas di 
+hadapan klien korporat.19 
+● 
+Penyusunan White Paper & Studi Kasus: Mengemas data keberhasilan di MKP 
+menjadi dokumen teknis (White Paper) yang persuasif dan mempublikasikannya di 
+platform profesional seperti LinkedIn atau jurnal manajemen untuk membangun "thought 
+leadership".42 
+● 
+Pengembangan 
+"Content-as-a-Service": 
+Mempertimbangkan 
+pengembangan 
+platform digital sederhana di mana klien dapat berlangganan template proses standar 
+APQC yang sudah disesuaikan MKP, sehingga menciptakan pendapatan berulang 
+(recurring revenue) selain dari jasa konsultasi proyek. 
+● 
+Fokus pada "Low-Hanging Fruit": Memulai penetrasi pasar dengan mengincar BUMN 
+yang sudah masuk dalam daftar rencana merger 2025 (seperti Pelni, ASDP, dan klaster 
+Karya) karena mereka memiliki urgensi tertinggi untuk merapikan arsitektur prosesnya.3 
+Dengan mengeksekusi langkah-langkah ini secara disiplin, PT Mitra Karya Prima akan 
+bertransformasi dari penyedia jasa operasional menjadi mitra strategis dalam desain 
+organisasi modern yang tangguh dan adaptif. 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+40 
+ 
+DAFTAR PUSTAKA 
+ 
+1. DUMAS, Marlon; LA ROSA, Marcello; MENDLING, Jan; REIJERS, Hajo A. Fundamentals 
+of Business Process Management. 2nd ed., Springer, 2018. 
+2. Emerald.com. (1998, 01 September). Business Process Management: a review and 
+evaluation. Diakses pada tanggal 12 Desember 2025, dari Business process 
+management: a review and evaluation | Business Process Management Journal | Emerald 
+Publishing 
+3. MAHENDRAWATHI. Business Process Management: Konsep dan Aplikasi. Yogyakarta: 
+Andi, 2018. 
+4. MC CORMACK, Kevin P.; JOHNSTON, Jeremy; SHANKAR, Ramesh. Business Process 
+Management: The Third Wave. Meghan-Kiffer Press, 2009. 
+5. Sciencedirect.com. (2019, 19 Juni). Applications of Business governance and the Unified 
+BPM Cycle. Diakses pada Tanggal 12 Desember 2025, dari Applications of business 
+governance and the Unified BPM Cycle in public credit recovery activities - ScienceDirect 
+6. Sciencedirect.com. (2019, 19 Juni). The adaptation of business process management . 
+Diakses pada Tanggal 15 Desember 2025, dari The adaptation of business process 
+management maturity models to the context of the knowledge economy - ScienceDirect 
+7. sciencedirect.com. (2009, 09 September). The Critical Success Factors of Business Process 
+Management. Diakses pada Tanggal 15 Desember 2025, dari The critical success factors of 
+business process management - ScienceDirect 
+8. Springer.com (2018, 24 Maret). Introduction to Business Process Management. 
+Diakses pada tanggal 11 December 2025, dari Introduction to Business Process 
+Management | Springer Nature Link (formerly SpringerLink) 
+9. Tandfonline.com (2011, 11 Februari) Business Process Management as Competitive 
+Advantage. Diakses padad tanggal 11 December 2025, dari Business process management 
+as competitive advantage: a review and empirical study: Total Quality Management & 
+Business Excellence: Vol 17, No 1 
+10. VOM BROCKE, Jan; ROSEMANN, Michael (eds.). Handbook on Business Process 
+Management 1: Introduction, Methods, and Information Systems. Springer, 2010. 
+11. BPM Trends: What's next for Business Process Management in 2025, diakses Januari 30, 
+2026, https://www.primebpm.com/bpm-trends-whats-next-for-business-process-
+management-in-2025 
+12. inovasi PBM.pdf 
+13. Daftar Sejumlah BUMN yang Berpeluang Merger di 2025 - Tempo.co, diakses Januari 30, 
+
+---PAGE BREAK---
+ 
+41 
+ 
+2026, https://www.tempo.co/ekonomi/daftar-sejumlah-bumn-yang-berpeluang-merger-di-
+2025-1189445 
+14. From Policy-Practice to Means-Ends Decoupling in Organizations: A Systematic Review 
+and Paths for Future Research - Érudit, diakses Januari 30, 2026, 
+https://www.erudit.org/en/journals/mi/2022-v26-n1-mi06945/1088440ar.pdf 
+15. Indonesia Management Consulting Services Market Size, Share ..., diakses Januari 30, 
+2026, https://www.mordorintelligence.com/industry-reports/indonesia-management-
+consulting-services-market 
+16. Part Three: Frameworks and End-to-End Processes - BPTrends, diakses Januari 30, 2026, 
+https://bptrends.info/part-three-frameworks-and-end-to-end-processes/ 
+17. Camunda, Bizagi and ProcessMaker BPM | Simplify automation solutions, diakses Januari 
+30, 2026, https://www.simplify.rs/en/solution/business-process-management-solutions/ 
+18. Partners | Camunda, diakses Januari 30, 2026, https://camunda.com/partners/ 
+19. Open Source BPM: camunda forks Activiti - SAP Signavio, diakses Januari 30, 2026, 
+https://www.signavio.com/news/open-source-bpm-camunda-forks-activiti-2/ 
+20. What Is the Lean Startup Methodology? - University Lab Partners, diakses Januari 30, 
+2026, https://www.universitylabpartners.org/blog/what-is-lean-startup-methodology 
+21. What is the lean startup methodology? How to apply it? - Creo Incubator, diakses Januari 
+30, 2026, https://www.creoincubator.com/blog/lean-startup-methodology 
+22. Lean Startup Methodology: A Practical Guide, diakses Januari 30, 2026, 
+https://gloriumtech.com/lean-startup-methodology-a-guide-to-smarter-faster-growth/ 
+23. Lean Startup Methodology - The Hartford, diakses Januari 30, 2026, 
+https://www.thehartford.com/business-insurance/strategy/how-to-start-a-business/lean-
+startup-methodology 
+24. Lean Startup: How the lean method works - svaerm, diakses Januari 30, 2026, 
+https://svaerm.com/en/blog/lean-startup-method/ 
+25. Lean Startup Methodology: A Guide for Entrepreneurs - Modeliks, diakses Januari 30, 
+2026, https://www.modeliks.com/resources/business-plans/lean-startup-methodology 
+26. What is the Lean Startup Methodology? - Viima, diakses Januari 30, 2026, 
+https://www.viima.com/blog/lean-startup 
+27. Evaluasi Biaya Jasa Manajemen Bisnis di Indonesia 2025 - CEO Suite, diakses Januari 30, 
+2026, https://ceosuite.co.id/biaya-jasa-manajemen-bisnis-di-indonesia/ 
+28. Pendaftaran HKI | Legalize IDN, diakses Januari 30, 2026, 
+https://legalize.co.id/service/pendaftaran-hki.html 
+29. BNSP Certification Program - PQM Consultants, diakses Januari 30, 2026, 
+
+---PAGE BREAK---
+ 
+42 
+ 
+https://pqm.co.id/bnsp-certification-program/ 
+30. ABPMP International, diakses Januari 30, 2026, https://www.abpmp.org/ 
+31. 20 Ground-breaking BPM Trends for 2026 - Cflow, diakses Januari 30, 2026, 
+https://www.cflowapps.com/bpm-trends/ 
+32. 7 Cara Manajemen Proses Bisnis (BPM) Memperkuat Fondasi GRC Perusahaan, diakses 
+Januari 30, 2026, https://grc-indonesia.com/artikel/7-cara-manajemen-proses-bisnis-bpm-
+memperkuat-fondasi-grc-perusahaan/ 
+33. Business Process Management Trends for 2024 - BOC Group, diakses Januari 30, 2026, 
+https://www.boc-group.com/en/blog/bpm/business-process-management-trends-for-2024/ 
+34. Business Process Management Market Size & Outlook 2033 - IMARC Group, diakses 
+Januari 30, 2026, https://www.imarcgroup.com/business-process-management-market 
+35. Indonesia Business Process Management Market Size, 2033, diakses Januari 30, 2026, 
+https://www.imarcgroup.com/indonesia-business-process-management-market 
+36. Pedoman Tata Kelola dan Kegiatan Korporasi Signifikan Badan Usaha Milik Negara - 
+Permen BUMN No. PER-2/MBU/03/2023 Tahun 2023, diakses Januari 30, 2026, 
+https://peraturan.bpk.go.id/Details/264291/permen-bumn-no-per-2mbu032023-tahun-2023 
+37. APQC's Process Classification Framework® (PCF) Frequently Asked Questions, diakses 
+Januari 30, 2026, https://www.apqc.org/process-frameworks/pcf-faqs 
+38. Process Frameworks - APQC, diakses Januari 30, 2026, https://www.apqc.org/process-
+frameworks 
+39. Introduction to APQC's Process Classification Framework (PCF), diakses Januari 30, 2026, 
+https://www.apqc.org/resource-library/resource-listing/introduction-apqcs-process-
+classification-framework-pcf 
+40. Leveraging APQC's Process Classification Framework (PCF) for More Effective Processes, 
+diakses Januari 30, 2026, https://www.apqc.org/resource-library/resource-listing/leveraging-
+apqcs-process-classification-framework-pcf-more 
+41. Business Process Model and Notation (BPMN) | Microsoft Visio, diakses Januari 30, 2026, 
+https://www.microsoft.com/id-id/microsoft-365/visio/business-process-modeling-notation 
+42. Business Process Model and Notation - Wikipedia, diakses Januari 30, 2026, 
+https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation 
+43. BPMN 2.0 modeling, rules and symbols simply explained - GBTEC, diakses Januari 30, 
+2026, https://www.gbtec.com/wiki/process-management/bpmn/ 
+44. BPMN Notation (2025): Complete Guide to Symbols, Examples, and Process Modeling, 
+diakses Januari 30, 2026, https://www.heflo.com/blog/bpmn-notation 
+45. BPMN 2.0 Symbols - A complete guide with examples. - Camunda, diakses Januari 30, 
+
+---PAGE BREAK---
+ 
+43 
+ 
+2026, https://camunda.com/bpmn/reference/ 
+46. Organizational Decoupling Processes and Causes | UKEssays.com, diakses Januari 30, 
+2026, https://www.ukessays.com/essays/criminology/define-organizational-decoupling-as-
+separating-formal-structure-criminology-essay.php 
+47. Rethinking Organizational Decoupling: Fields, Power Struggles, and Work Routines, 
+diakses Januari 30, 2026, 
+https://www.researchgate.net/publication/282511039_Rethinking_Organizational_Decoupli
+ng_Fields_Power_Struggles_and_Work_Routines 
+48. Is Decoupling Becoming Decoupled from Institutional Theory? A Commentary on Wijen, 
+diakses Januari 30, 2026, 
+https://www.researchgate.net/publication/276890691_Is_Decoupling_Becoming_Decoupled
+_from_Institutional_Theory_A_Commentary_on_Wijen 
+49. Business process mapping: A guide | Mural, diakses Januari 30, 2026, 
+https://www.mural.co/blog/business-process-mapping 
+50. About US - ONE GML, diakses Januari 30, 2026, https://www.gmlperformance.com/about-
+us 
+51. ONE GML | Agile Execution of your Transformation, diakses Januari 30, 2026, 
+https://www.gmlperformance.com/ 
+52. Adhocracy Culture | Strategy Execution Consultant - ONE GML, diakses Januari 30, 2026, 
+https://www.gmlperformance.com/services/adhocracy-culture 
+53. Proxsis Consulting, diakses Januari 30, 2026, https://strategy.proxsisgroup.com/ 
+54. Proxsis Universe, diakses Januari 30, 2026, https://proxsisgroup.com/proxsis-universe/ 
+55. Business Process Management - Proxsis Academy, diakses Januari 30, 2026, 
+https://academy.proxsisgroup.com/courses/business-process-management/ 
+56. Bizagi to Camunda – Business Process Management & Mapping Tools - Capital BPM, 
+diakses Januari 30, 2026, https://capbpm.com/bizagi-to-camunda/ 
+57. TRENDS IN PUBLIC SERVICE RESEARCH IN INDONESIA: A SYSTEMATIC 
+LITERATURE REVIEW | Jurnal Administrasi Negara - Jurnal STIA LAN Makassar, diakses 
+Januari 30, 2026, 
+https://journal.stialanmakassar.ac.id/index.php/jurnal_administrasi_negara/article/view/3420 
+58. Pemerintah Tegaskan Pentingnya GRC, Wujudkan Ekonomi Inklusif dan Berkelanjutan - 
+Kementerian Koordinator Bidang Perekonomian Republik Indonesia, diakses Januari 30, 
+2026, https://www.ekon.go.id/publikasi/detail/6552/pemerintah-tegaskan-pentingnya-grc-
+wujudkan-ekonomi-inklusif-dan-berkelanjutan 
+59. Creating a Lean Startup: How Consulting Firms Help Founders Optimize Resources, 
+
+---PAGE BREAK---
+ 
+44 
+ 
+diakses Januari 30, 2026, https://blewminds.com/musings/squad-musings/creating-a-lean-
+startup-how-consulting-firms-help-founders-optimize-resources/ 
+60. files_1673252092.pdf - Kementerian BUMN, diakses Januari 30, 2026, 
+https://www.bumn.go.id/storage/kontenlaporan/files/files_1673252092.pdf 
+61. Indonesia Business Process Outsourcing Services Market Report 2031 - Mordor 
+Intelligence, diakses Januari 30, 2026, https://www.mordorintelligence.com/industry-
+reports/indonesia-business-process-outsourcing-services-market 
+62. (PDF) The Phenomenon of BUMN Employee Recruıtment In Indonesıa: Advanced 
+Development of Talent Management Research Trends 2018 – 2021 and Career 
+Development - ResearchGate, diakses Januari 30, 2026, 
+https://www.researchgate.net/publication/374528263_The_Phenomenon_of_BUMN_Emplo
+yee_Recruitment_In_Indonesia_Advanced_Development_of_Talent_Management_Resear
+ch_Trends_2018_-_2021_and_Career_Development 
+63. BPM Solution for 2025: Trends and Updates | Rootstack, diakses Januari 30, 2026, 
+https://rootstack.com/en/blog/bpm-solution-2025-trends-and-updates 
+64. Don't miss these BPM trends of 2024 - GBTEC, diakses Januari 30, 2026, 
+https://www.gbtec.com/whitepaper/bpm-trends/ 
+65. Indonesia - B2B Lead Generation & Sales Partner - Konsyg, diakses Januari 30, 2026, 
+https://konsyg.com/id/ 
+66. 10 Best B2B Marketing Channels To Drive Growth In 2025 - Fame.so, diakses Januari 30, 
+2026, https://www.fame.so/post/best-b2b-marketing-channels 
+67. Business Requirement Analysis Sertifikat Profesi BNSP - Lembaga Sertifikasi Resmi, 
+diakses Januari 30, 2026, https://bnsp.net/sertifikat-bnsp/business-requirement-analysis 
+68. Organization Overview - ABPMP International, diakses Januari 30, 2026, 
+https://www.abpmp.org/page/About-Us 
+69. Babak Baru Tata Kelola Digital BUMN - Veda Praxis, diakses Januari 30, 2026, 
+https://vedapraxis.com/document/ebook/babak-baru-tata-kelola-digital-bumn-
+1719279650.pdf 
+70. Indonesian organization digital innovation: the influence of business process management 
+capabilities - Universitas Indonesia, diakses Januari 30, 2026, 
+https://scholar.ui.ac.id/en/publications/indonesian-organization-digital-innovation-the-
+influence-of-busin/ 
+71. [Tutorial] Cara Daftar Merek Dagang di HAKI (Hak Kekayaan Intelektual) - Jubelio, diakses 
+Januari 30, 2026, https://jubelio.com/tutorial-cara-daftar-merek-dagang-di-haki-hak-
+kekayaan-intelektual/ 
+
+---PAGE BREAK---
+ 
+45 
+ 
+72. 10 Strategies for Successful B2B Expansion to Indonesia, diakses Januari 30, 2026, 
+https://kejoragasbumi.com/the-importance-of-b2b-expansion-to-indonesia/ 
+73. Top 14 B2B Lead Generation Companies in Indonesia (2025) - ensun, diakses Januari 30, 
+2026, https://ensun.io/search/b2b-lead-generation/indonesia 
+74. Merek - Direktorat Jenderal Kekayaan Intelektual - Kementerian Hukum R.I., diakses 
+Januari 30, 2026, https://dgip.go.id/menu-utama/merek/syarat-prosedur 
+75. Erick Ungkap 7 BUMN yang Masih Merugi, Restrukturisasi Jadi Solusi - 
+SuaraPemerintah.ID, diakses Januari 30, 2026, https://suarapemerintah.id/2024/11/erick-
+ungkap-7-bumn-yang-masih-merugi-restrukturisasi-jadi-solusi/ 
+76. Deretan BUMN Rugi dan Sakit Bakal Masuk Danantara, Ada Garuda hingga Kimia Farma - 
+Korporasi Katadata.co.id, diakses Januari 30, 2026, 
+https://katadata.co.id/finansial/korporasi/67c8bc4b504ab/deretan-bumn-rugi-dan-sakit-
+bakal-masuk-danantara-ada-garuda-hingga-kimia-farma 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+46 
+ 
+BIODATA 
+Inovator I 
+ 
+Nama 
+Hardi Surya Pratama 
+Jabatan 
+Kepala Bidang Kinerja Risiko dan Kepatuhan 
+Unit 
+PT MKP (Kantor Pusat) 
+No Tlp Aktif 
+08111193656 
+Email Aktif 
+hardispratama@gmail.com 
+Bidang 
+Keahlian 
+Performance Management, Risk 
+Management, Strategic Management 
+Inovator II 
+ 
+Nama 
+Sultanunnadif 
+Jabatan 
+Staf Bidang Kinerja Risiko dan Kepatuhan 
+Unit 
+PT MKP (Kantor Pusat) 
+No Tlp Aktif 
+082132117786 
+Email Aktif 
+Sultanunnadif@gmail.com 
+Bidang 
+Keahlian 
+Business 
+Process 
+Management, 
+Risk 
+Management 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+47 
+ 
+LAMPIRAN 
+Analisa Risiko 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+---PAGE BREAK---
+ 
+48 
+ 
+ 
+Sebelum & Sesudah 
+
+---PAGE BREAK---

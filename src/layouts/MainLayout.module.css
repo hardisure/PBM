@@ -275,13 +275,17 @@
 .content-area {
     flex: 1;
     min-width: 0;
+    width: 100%;
 }
 
 .insight-panel-wrapper {
-    width: 260px;
-    flex-shrink: 0;
-    padding-top: 24px;
-    padding-right: 20px;
+    position: fixed;
+    right: 16px;
+    top: calc(var(--nav-h) + 24px);
+    width: 240px;
+    max-height: calc(100vh - var(--nav-h) - 48px);
+    overflow-y: auto;
+    z-index: 800;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.4s ease;

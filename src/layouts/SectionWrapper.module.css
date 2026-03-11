@@ -6,8 +6,41 @@
     background: var(--bg-primary);
 }
 
+.section-dark::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background: radial-gradient(ellipse at 90% 20%, rgba(0, 119, 182, 0.02) 0%, transparent 60%);
+    pointer-events: none;
+}
+
 .section-darker {
     background: var(--bg-secondary);
+}
+
+.section-darker::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    background: radial-gradient(ellipse at 10% 80%, rgba(0, 180, 216, 0.02) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.section-darker::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 50%;
+    background: radial-gradient(ellipse at 100% 100%, rgba(0, 119, 182, 0.015) 0%, transparent 60%);
+    pointer-events: none;
 }
 
 .section-highlight {
